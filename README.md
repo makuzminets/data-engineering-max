@@ -8,4 +8,4 @@ This project contains resources, scripts, and documentation related to data engi
 
 ## Author
 
-- **Kuzminets Maksim** — Analyst
+- **Kuzminets Maksim** — Data Engineer
