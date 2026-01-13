@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: fct_transactions
+    description: Fact table with transactions enriched with fraud features and risk scores
+    columns:
+      - name: transaction_id
+        description: Unique transaction identifier
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_users')
+              field: user_id
+      - name: risk_tier
+        description: Transaction risk tier
+        tests:
+          - accepted_values:
+              values: ['low', 'medium', 'high']
+
+  - name: fct_fraud_events
+    description: Fact table with confirmed and detected fraud cases
+    columns:
+      - name: fraud_event_id
+        description: Unique fraud event identifier
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_users
+    description: Dimension table with user risk profiles
+    columns:
+      - name: user_id
+        description: Unique user identifier
+        tests:
+          - unique
+          - not_null
+      - name: risk_tier
+        tests:
+          - accepted_values:
+              values: ['low', 'medium', 'high']
+      - name: user_segment
+        tests:
+          - accepted_values:
+              values: ['fraudster', 'high_risk', 'suspicious_new', 'trusted', 'standard']
+
+  - name: dim_devices
+    description: Dimension table with device trust scores
+    columns:
+      - name: device_id
+        description: Unique device identifier
+        tests:
+          - unique
+          - not_null
+      - name: trust_tier
+        tests:
+          - accepted_values:
+              values: ['trusted', 'suspicious', 'untrusted', 'unknown']

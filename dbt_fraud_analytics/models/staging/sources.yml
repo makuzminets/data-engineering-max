@@ -1,0 +1,46 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw data sources for fraud analytics
+    database: "{{ env_var('DBT_DATABASE', 'analytics') }}"
+    schema: raw
+    
+    tables:
+      - name: transactions
+        description: Raw transaction data
+        columns:
+          - name: transaction_id
+            description: Unique transaction identifier
+          - name: user_id
+            description: User who made the transaction
+          - name: amount
+            description: Transaction amount
+          - name: created_at
+            description: Transaction timestamp
+
+      - name: users
+        description: Raw user data
+        columns:
+          - name: user_id
+            description: Unique user identifier
+          - name: email
+            description: User email (hashed)
+          - name: created_at
+            description: Account creation timestamp
+
+      - name: devices
+        description: Raw device data
+        columns:
+          - name: device_id
+            description: Unique device identifier
+          - name: device_fingerprint
+            description: Device fingerprint hash
+
+      - name: fraud_labels
+        description: Fraud labels and outcomes
+        columns:
+          - name: fraud_event_id
+            description: Unique fraud event identifier
+          - name: transaction_id
+            description: Related transaction

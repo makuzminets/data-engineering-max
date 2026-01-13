@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: stg_transactions
+    description: Staged transactions - cleaned and standardized
+    columns:
+      - name: transaction_id
+        description: Unique transaction identifier
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        description: User who made the transaction
+        tests:
+          - not_null
+      - name: amount
+        description: Transaction amount
+        tests:
+          - not_null
+      - name: status
+        description: Transaction status
+        tests:
+          - accepted_values:
+              values: ['pending', 'completed', 'failed', 'cancelled']
+
+  - name: stg_users
+    description: Staged users - cleaned and standardized
+    columns:
+      - name: user_id
+        description: Unique user identifier
+        tests:
+          - unique
+          - not_null
+      - name: account_status
+        description: Current account status
+        tests:
+          - accepted_values:
+              values: ['active', 'suspended', 'banned', 'deleted']
+
+  - name: stg_devices
+    description: Staged devices - device fingerprints
+    columns:
+      - name: device_id
+        description: Unique device identifier
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_fraud_labels
+    description: Staged fraud labels - ground truth
+    columns:
+      - name: fraud_event_id
+        description: Unique fraud event identifier
+        tests:
+          - unique
+          - not_null
+      - name: fraud_type
+        description: Type of fraud
+        tests:
+          - accepted_values:
+              values: ['chargeback', 'account_takeover', 'synthetic_identity', 'friendly_fraud', 'card_testing']
