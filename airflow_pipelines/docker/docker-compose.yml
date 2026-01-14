@@ -1,0 +1,160 @@
+# Docker Compose for Local Airflow Development
+# =============================================
+# Provides a complete local Airflow environment for:
+# - DAG development and testing
+# - Integration testing with databases
+# - Demo and portfolio purposes
+
+version: '3.8'
+
+x-airflow-common: &airflow-common
+  image: apache/airflow:2.7.0-python3.10
+  environment: &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__WEBSERVER__SECRET_KEY: 'your-secret-key-change-in-production'
+    AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'
+    # OpenLineage config (optional)
+    OPENLINEAGE_URL: http://marquez:5000
+    OPENLINEAGE_NAMESPACE: airflow-local
+    # GCP credentials (mount your service account)
+    GOOGLE_APPLICATION_CREDENTIALS: /opt/airflow/secrets/gcp-credentials.json
+  volumes:
+    # Mount DAGs from all projects
+    - ../postgres_bigquery_sync/dags:/opt/airflow/dags/postgres_bigquery_sync
+    - ../api_warehouse_sync/dags:/opt/airflow/dags/api_warehouse_sync
+    - ../gdpr_anonymization/dags:/opt/airflow/dags/gdpr_anonymization
+    - ../ecommerce_analytics/dags:/opt/airflow/dags/ecommerce_analytics
+    - ../monthly_snapshots/dags:/opt/airflow/dags/monthly_snapshots
+    - ../clickhouse_sync/dags:/opt/airflow/dags/clickhouse_sync
+    - ../data_quality/dags:/opt/airflow/dags/data_quality
+    - ../alerting/dags:/opt/airflow/dags/alerting
+    - ../backfill_manager/dags:/opt/airflow/dags/backfill_manager
+    - ../data_lineage/dags:/opt/airflow/dags/data_lineage
+    # Mount includes as plugins
+    - ../postgres_bigquery_sync/includes:/opt/airflow/plugins/postgres_bigquery_sync/includes
+    - ../api_warehouse_sync/includes:/opt/airflow/plugins/api_warehouse_sync/includes
+    - ../gdpr_anonymization/includes:/opt/airflow/plugins/gdpr_anonymization/includes
+    - ../ecommerce_analytics/includes:/opt/airflow/plugins/ecommerce_analytics/includes
+    - ../monthly_snapshots/includes:/opt/airflow/plugins/monthly_snapshots/includes
+    - ../clickhouse_sync/includes:/opt/airflow/plugins/clickhouse_sync/includes
+    - ../data_quality/includes:/opt/airflow/plugins/data_quality/includes
+    - ../alerting/includes:/opt/airflow/plugins/alerting/includes
+    - ../backfill_manager/includes:/opt/airflow/plugins/backfill_manager/includes
+    - ../data_lineage/includes:/opt/airflow/plugins/data_lineage/includes
+    # Logs
+    - ./logs:/opt/airflow/logs
+    # Secrets (create this directory and add your credentials)
+    - ./secrets:/opt/airflow/secrets:ro
+  depends_on:
+    postgres:
+      condition: service_healthy
+  networks:
+    - airflow-network
+
+services:
+  # PostgreSQL for Airflow metadata
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    networks:
+      - airflow-network
+
+  # Airflow Webserver
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: always
+
+  # Airflow Scheduler
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", 'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: always
+
+  # Airflow Init (runs once to set up DB and admin user)
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db init
+        airflow users create \
+          --username admin \
+          --password admin \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@example.com || true
+        echo "Airflow initialized successfully!"
+    restart: "no"
+
+  # PostgreSQL for source data (simulates production DB)
+  source-postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: source
+      POSTGRES_PASSWORD: source
+      POSTGRES_DB: source_db
+    volumes:
+      - ./init-scripts:/docker-entrypoint-initdb.d:ro
+      - source-postgres-volume:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    networks:
+      - airflow-network
+
+  # ClickHouse for OLAP (optional)
+  clickhouse:
+    image: clickhouse/clickhouse-server:23.8
+    ports:
+      - "8123:8123"  # HTTP
+      - "9000:9000"  # Native
+    volumes:
+      - clickhouse-volume:/var/lib/clickhouse
+    networks:
+      - airflow-network
+
+  # Marquez for data lineage visualization (optional)
+  marquez:
+    image: marquezproject/marquez:0.41.0
+    ports:
+      - "5000:5000"  # API
+      - "5001:5001"  # UI
+    environment:
+      MARQUEZ_CONFIG: /usr/src/app/config.yml
+    networks:
+      - airflow-network
+
+volumes:
+  postgres-db-volume:
+  source-postgres-volume:
+  clickhouse-volume:
+
+networks:
+  airflow-network:
+    driver: bridge
