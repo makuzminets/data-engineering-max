@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Airflow
+logs/
+*.log
+
+# Docker
+docker/logs/
+docker/secrets/
+
+# IDE
+.idea/
+.vscode/
+*.swp

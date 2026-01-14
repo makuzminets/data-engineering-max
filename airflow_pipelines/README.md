@@ -2,6 +2,10 @@
 
 A collection of production-grade Apache Airflow DAGs demonstrating real-world data engineering patterns. Each project showcases battle-tested solutions for common ETL challenges.
 
+## 📸 Airflow DAGs
+
+![DAGs List](assets/dag_list.png)
+
 ## 🏗️ Architecture
 
 ```mermaid
