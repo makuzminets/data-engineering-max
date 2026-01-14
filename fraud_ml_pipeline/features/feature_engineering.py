@@ -144,7 +144,7 @@ class FeatureEngineer:
         # User agent analysis
         df['is_bot_user_agent'] = df['user_agent'].apply(self._is_bot_user_agent).astype(int)
         df['is_mobile'] = df['user_agent'].apply(
-            lambda x: 1 if any(m in x.lower() for m in ['iphone', 'android', 'mobile']) else 0
+            lambda x: 1 if isinstance(x, str) and any(m in x.lower() for m in ['iphone', 'android', 'mobile']) else 0
         )
         df['has_empty_user_agent'] = (df['user_agent'] == '').astype(int)
         
@@ -329,8 +329,10 @@ class FeatureEngineer:
         return entropy
     
     @staticmethod
-    def _is_bot_user_agent(user_agent: str) -> bool:
+    def _is_bot_user_agent(user_agent) -> bool:
         """Check if user agent indicates a bot."""
+        if not user_agent or not isinstance(user_agent, str):
+            return False
         bot_indicators = [
             'bot', 'crawler', 'spider', 'scraper',
             'python-requests', 'curl', 'wget', 'selenium',
