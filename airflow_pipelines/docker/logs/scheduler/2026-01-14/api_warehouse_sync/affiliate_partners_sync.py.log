@@ -1,0 +1,280 @@
+[2026-01-14T05:18:44.528+0000] {processor.py:157} INFO - Started process (PID=210) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:18:44.529+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:18:44.530+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:44.529+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:18:44.540+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:44.538+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:18:44.541+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:18:44.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.062 seconds
+[2026-01-14T05:19:15.056+0000] {processor.py:157} INFO - Started process (PID=272) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:19:15.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:19:15.057+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:15.057+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:19:15.060+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:15.059+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:15.060+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:19:15.073+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.019 seconds
+[2026-01-14T05:19:45.861+0000] {processor.py:157} INFO - Started process (PID=334) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:19:45.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:19:45.862+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:45.862+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:19:45.865+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:45.864+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:45.865+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:19:45.879+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.020 seconds
+[2026-01-14T05:20:16.389+0000] {processor.py:157} INFO - Started process (PID=396) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:20:16.390+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:20:16.391+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:16.390+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:20:16.393+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:16.393+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:16.393+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:20:16.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.021 seconds
+[2026-01-14T05:20:46.938+0000] {processor.py:157} INFO - Started process (PID=458) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:20:46.939+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:20:46.939+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:46.939+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:20:46.942+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:46.941+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:46.942+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:20:46.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.020 seconds
+[2026-01-14T05:21:17.559+0000] {processor.py:157} INFO - Started process (PID=520) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:21:17.560+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:21:17.560+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:17.560+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:21:17.563+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:17.562+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:17.563+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:21:17.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.021 seconds
+[2026-01-14T05:21:48.147+0000] {processor.py:157} INFO - Started process (PID=582) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:21:48.148+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:21:48.148+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:48.148+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:21:48.151+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:48.150+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:48.151+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:21:48.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.020 seconds
+[2026-01-14T05:22:18.731+0000] {processor.py:157} INFO - Started process (PID=644) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:22:18.731+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:22:18.732+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:18.732+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:22:18.734+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:18.734+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:18.734+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:22:18.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.020 seconds
+[2026-01-14T05:22:49.259+0000] {processor.py:157} INFO - Started process (PID=706) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:22:49.260+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:22:49.260+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:49.260+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:22:49.263+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:49.263+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:49.263+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:22:49.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.020 seconds
+[2026-01-14T05:23:19.842+0000] {processor.py:157} INFO - Started process (PID=768) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:23:19.843+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:23:19.844+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:19.843+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:23:19.846+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:19.846+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:19.846+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:23:19.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.021 seconds
+[2026-01-14T05:23:50.410+0000] {processor.py:157} INFO - Started process (PID=830) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:23:50.411+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:23:50.411+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:50.411+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:23:50.414+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:50.414+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:50.415+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:23:50.433+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.026 seconds
+[2026-01-14T05:24:20.915+0000] {processor.py:157} INFO - Started process (PID=892) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:24:20.916+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:24:20.916+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:20.916+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:24:20.919+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:20.918+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:20.919+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:24:20.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.020 seconds
+[2026-01-14T05:24:51.481+0000] {processor.py:157} INFO - Started process (PID=954) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:24:51.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:24:51.482+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:51.482+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:24:51.485+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:51.484+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:51.485+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:24:51.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.020 seconds
+[2026-01-14T05:25:22.277+0000] {processor.py:157} INFO - Started process (PID=1016) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:25:22.277+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:25:22.277+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:22.277+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:25:22.280+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:22.279+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:22.280+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:25:22.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.018 seconds
+[2026-01-14T05:25:52.733+0000] {processor.py:157} INFO - Started process (PID=1078) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:25:52.734+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:25:52.734+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:52.734+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:25:52.736+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:52.736+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:52.737+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:25:52.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.018 seconds
+[2026-01-14T05:26:23.226+0000] {processor.py:157} INFO - Started process (PID=1140) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:26:23.227+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:26:23.227+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:23.227+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:26:23.230+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:23.229+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:23.230+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:26:23.242+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.018 seconds
+[2026-01-14T05:26:53.704+0000] {processor.py:157} INFO - Started process (PID=1202) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:26:53.705+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:26:53.706+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:53.705+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:26:53.708+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:53.707+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:53.708+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:26:53.720+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.017 seconds
+[2026-01-14T05:27:24.176+0000] {processor.py:157} INFO - Started process (PID=1264) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:27:24.176+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:27:24.177+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:24.177+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:27:24.179+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:24.179+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:24.180+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:27:24.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.020 seconds
+[2026-01-14T05:27:45.255+0000] {processor.py:157} INFO - Started process (PID=210) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:27:45.256+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:27:45.256+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.256+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:27:45.258+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.258+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:45.259+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:27:45.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.019 seconds
+[2026-01-14T05:28:15.672+0000] {processor.py:157} INFO - Started process (PID=270) to work on /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:28:15.673+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:28:15.673+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.673+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:28:15.675+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.674+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py", line 18, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:28:15.675+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py
+[2026-01-14T05:28:15.685+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/affiliate_partners_sync.py took 0.014 seconds

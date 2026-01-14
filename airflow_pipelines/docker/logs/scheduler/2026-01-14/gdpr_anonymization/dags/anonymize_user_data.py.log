@@ -1,0 +1,112 @@
+[2026-01-14T05:28:50.658+0000] {processor.py:157} INFO - Started process (PID=220) to work on /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:28:50.659+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py for tasks to queue
+[2026-01-14T05:28:50.659+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:50.659+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:28:50.661+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:50.661+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py", line 19, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2026-01-14T05:28:50.662+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:28:50.675+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py took 0.018 seconds
+[2026-01-14T05:29:21.223+0000] {processor.py:157} INFO - Started process (PID=289) to work on /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:29:21.224+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py for tasks to queue
+[2026-01-14T05:29:21.226+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:21.226+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:29:21.229+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:21.229+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py", line 19, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2026-01-14T05:29:21.230+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:29:21.256+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py took 0.036 seconds
+[2026-01-14T05:29:51.798+0000] {processor.py:157} INFO - Started process (PID=361) to work on /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:29:51.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py for tasks to queue
+[2026-01-14T05:29:51.800+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:51.800+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:29:51.803+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:51.802+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py", line 19, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2026-01-14T05:29:51.803+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:29:51.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py took 0.018 seconds
+[2026-01-14T05:30:22.380+0000] {processor.py:157} INFO - Started process (PID=444) to work on /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:30:22.381+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py for tasks to queue
+[2026-01-14T05:30:22.382+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:22.382+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:30:22.385+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:22.384+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py", line 19, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2026-01-14T05:30:22.385+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:30:22.398+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py took 0.021 seconds
+[2026-01-14T05:30:52.965+0000] {processor.py:157} INFO - Started process (PID=516) to work on /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:30:52.965+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py for tasks to queue
+[2026-01-14T05:30:52.967+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:52.967+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:30:52.969+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:52.969+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py", line 19, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2026-01-14T05:30:52.969+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:30:52.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py took 0.017 seconds
+[2026-01-14T05:31:23.451+0000] {processor.py:157} INFO - Started process (PID=588) to work on /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:31:23.451+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py for tasks to queue
+[2026-01-14T05:31:23.452+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:23.452+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:31:23.455+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:23.454+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py", line 19, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2026-01-14T05:31:23.455+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:31:23.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py took 0.017 seconds
+[2026-01-14T05:31:53.908+0000] {processor.py:157} INFO - Started process (PID=661) to work on /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:31:53.909+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py for tasks to queue
+[2026-01-14T05:31:53.910+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:53.910+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:31:53.913+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:53.912+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py", line 19, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2026-01-14T05:31:53.918+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:31:53.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py took 0.022 seconds
+[2026-01-14T05:32:24.530+0000] {processor.py:157} INFO - Started process (PID=733) to work on /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:32:24.531+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py for tasks to queue
+[2026-01-14T05:32:24.532+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:24.532+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:32:24.535+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:24.534+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py", line 19, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2026-01-14T05:32:24.535+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py
+[2026-01-14T05:32:24.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gdpr_anonymization/dags/anonymize_user_data.py took 0.019 seconds

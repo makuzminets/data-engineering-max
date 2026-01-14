@@ -1,0 +1,56 @@
+[2026-01-14T05:28:50.379+0000] {processor.py:157} INFO - Started process (PID=214) to work on /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:28:50.380+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:28:50.380+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:50.380+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:28:51.161+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ecommerce_sending_stats_30d']) retrieved from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:28:51.170+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:51.169+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:28:51.181+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:51.181+0000] {dag.py:3677} INFO - Setting next_dagrun for ecommerce_sending_stats_30d to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:28:51.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py took 0.902 seconds
+[2026-01-14T05:29:22.290+0000] {processor.py:157} INFO - Started process (PID=296) to work on /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:29:22.291+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:29:22.295+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:22.294+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:29:22.308+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ecommerce_sending_stats_30d']) retrieved from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:29:22.326+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:22.326+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:29:22.342+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:22.342+0000] {dag.py:3677} INFO - Setting next_dagrun for ecommerce_sending_stats_30d to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:29:22.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py took 0.070 seconds
+[2026-01-14T05:29:52.832+0000] {processor.py:157} INFO - Started process (PID=368) to work on /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:29:52.834+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:29:52.836+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:52.836+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:29:52.846+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ecommerce_sending_stats_30d']) retrieved from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:29:52.862+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:52.862+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:29:52.875+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:52.874+0000] {dag.py:3677} INFO - Setting next_dagrun for ecommerce_sending_stats_30d to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:29:52.883+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py took 0.056 seconds
+[2026-01-14T05:30:23.400+0000] {processor.py:157} INFO - Started process (PID=451) to work on /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:30:23.401+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:30:23.404+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:23.403+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:30:23.415+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ecommerce_sending_stats_30d']) retrieved from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:30:23.445+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:23.445+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:30:23.465+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:23.465+0000] {dag.py:3677} INFO - Setting next_dagrun for ecommerce_sending_stats_30d to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:30:23.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py took 0.089 seconds
+[2026-01-14T05:30:53.973+0000] {processor.py:157} INFO - Started process (PID=523) to work on /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:30:53.974+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:30:53.975+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:53.975+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:30:53.983+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ecommerce_sending_stats_30d']) retrieved from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:30:53.995+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:53.995+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:30:54.007+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:54.007+0000] {dag.py:3677} INFO - Setting next_dagrun for ecommerce_sending_stats_30d to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:30:54.015+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py took 0.045 seconds
+[2026-01-14T05:31:24.475+0000] {processor.py:157} INFO - Started process (PID=595) to work on /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:31:24.477+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:31:24.481+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:24.480+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:31:24.493+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ecommerce_sending_stats_30d']) retrieved from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:31:24.513+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:24.513+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:31:24.528+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:24.528+0000] {dag.py:3677} INFO - Setting next_dagrun for ecommerce_sending_stats_30d to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:31:24.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py took 0.067 seconds
+[2026-01-14T05:31:54.960+0000] {processor.py:157} INFO - Started process (PID=668) to work on /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:31:54.961+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:31:54.965+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:54.965+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:31:54.978+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ecommerce_sending_stats_30d']) retrieved from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:31:54.999+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:54.998+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:31:55.014+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:55.014+0000] {dag.py:3677} INFO - Setting next_dagrun for ecommerce_sending_stats_30d to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:31:55.023+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py took 0.068 seconds
+[2026-01-14T05:32:25.566+0000] {processor.py:157} INFO - Started process (PID=740) to work on /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:32:25.571+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:32:25.576+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:25.575+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:32:25.591+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ecommerce_sending_stats_30d']) retrieved from /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py
+[2026-01-14T05:32:25.622+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:25.622+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:32:25.643+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:25.643+0000] {dag.py:3677} INFO - Setting next_dagrun for ecommerce_sending_stats_30d to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:32:25.656+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/dags/sending_stats_30d.py took 0.099 seconds

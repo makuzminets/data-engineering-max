@@ -21,29 +21,20 @@ x-airflow-common: &airflow-common
     OPENLINEAGE_NAMESPACE: airflow-local
     # GCP credentials (mount your service account)
     GOOGLE_APPLICATION_CREDENTIALS: /opt/airflow/secrets/gcp-credentials.json
+    # Python path for includes
+    PYTHONPATH: /opt/airflow/dags/postgres_bigquery_sync:/opt/airflow/dags/api_warehouse_sync:/opt/airflow/dags/gdpr_anonymization:/opt/airflow/dags/ecommerce_analytics:/opt/airflow/dags/monthly_snapshots:/opt/airflow/dags/clickhouse_sync:/opt/airflow/dags/data_quality:/opt/airflow/dags/alerting:/opt/airflow/dags/backfill_manager:/opt/airflow/dags/data_lineage
   volumes:
-    # Mount DAGs from all projects
-    - ../postgres_bigquery_sync/dags:/opt/airflow/dags/postgres_bigquery_sync
-    - ../api_warehouse_sync/dags:/opt/airflow/dags/api_warehouse_sync
-    - ../gdpr_anonymization/dags:/opt/airflow/dags/gdpr_anonymization
-    - ../ecommerce_analytics/dags:/opt/airflow/dags/ecommerce_analytics
-    - ../monthly_snapshots/dags:/opt/airflow/dags/monthly_snapshots
-    - ../clickhouse_sync/dags:/opt/airflow/dags/clickhouse_sync
-    - ../data_quality/dags:/opt/airflow/dags/data_quality
-    - ../alerting/dags:/opt/airflow/dags/alerting
-    - ../backfill_manager/dags:/opt/airflow/dags/backfill_manager
-    - ../data_lineage/dags:/opt/airflow/dags/data_lineage
-    # Mount includes as plugins
-    - ../postgres_bigquery_sync/includes:/opt/airflow/plugins/postgres_bigquery_sync/includes
-    - ../api_warehouse_sync/includes:/opt/airflow/plugins/api_warehouse_sync/includes
-    - ../gdpr_anonymization/includes:/opt/airflow/plugins/gdpr_anonymization/includes
-    - ../ecommerce_analytics/includes:/opt/airflow/plugins/ecommerce_analytics/includes
-    - ../monthly_snapshots/includes:/opt/airflow/plugins/monthly_snapshots/includes
-    - ../clickhouse_sync/includes:/opt/airflow/plugins/clickhouse_sync/includes
-    - ../data_quality/includes:/opt/airflow/plugins/data_quality/includes
-    - ../alerting/includes:/opt/airflow/plugins/alerting/includes
-    - ../backfill_manager/includes:/opt/airflow/plugins/backfill_manager/includes
-    - ../data_lineage/includes:/opt/airflow/plugins/data_lineage/includes
+    # Mount entire project folders (DAGs + includes together)
+    - ../postgres_bigquery_sync:/opt/airflow/dags/postgres_bigquery_sync
+    - ../api_warehouse_sync:/opt/airflow/dags/api_warehouse_sync
+    - ../gdpr_anonymization:/opt/airflow/dags/gdpr_anonymization
+    - ../ecommerce_analytics:/opt/airflow/dags/ecommerce_analytics
+    - ../monthly_snapshots:/opt/airflow/dags/monthly_snapshots
+    - ../clickhouse_sync:/opt/airflow/dags/clickhouse_sync
+    - ../data_quality:/opt/airflow/dags/data_quality
+    - ../alerting:/opt/airflow/dags/alerting
+    - ../backfill_manager:/opt/airflow/dags/backfill_manager
+    - ../data_lineage:/opt/airflow/dags/data_lineage
     # Logs
     - ./logs:/opt/airflow/logs
     # Secrets (create this directory and add your credentials)

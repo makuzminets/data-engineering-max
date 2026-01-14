@@ -1,0 +1,280 @@
+[2026-01-14T05:18:43.840+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:18:43.980+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:18:43.987+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:43.981+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:18:44.325+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:44.323+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:18:44.326+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:18:44.500+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.703 seconds
+[2026-01-14T05:19:15.015+0000] {processor.py:157} INFO - Started process (PID=262) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:19:15.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:19:15.017+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:15.017+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:19:15.022+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:15.021+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:15.022+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:19:15.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.031 seconds
+[2026-01-14T05:19:45.822+0000] {processor.py:157} INFO - Started process (PID=324) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:19:45.823+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:19:45.824+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:45.824+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:19:45.828+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:45.827+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:45.829+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:19:45.847+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.029 seconds
+[2026-01-14T05:20:16.343+0000] {processor.py:157} INFO - Started process (PID=386) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:20:16.347+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:20:16.348+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:16.347+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:20:16.352+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:16.351+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:16.352+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:20:16.374+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.036 seconds
+[2026-01-14T05:20:46.896+0000] {processor.py:157} INFO - Started process (PID=448) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:20:46.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:20:46.898+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:46.898+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:20:46.903+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:46.901+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:46.903+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:20:46.923+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.033 seconds
+[2026-01-14T05:21:17.514+0000] {processor.py:157} INFO - Started process (PID=510) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:21:17.516+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:21:17.517+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:17.517+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:21:17.521+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:17.520+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:17.521+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:21:17.542+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.032 seconds
+[2026-01-14T05:21:48.109+0000] {processor.py:157} INFO - Started process (PID=572) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:21:48.110+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:21:48.110+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:48.110+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:21:48.114+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:48.113+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:48.114+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:21:48.130+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.024 seconds
+[2026-01-14T05:22:18.688+0000] {processor.py:157} INFO - Started process (PID=634) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:22:18.690+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:22:18.691+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:18.691+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:22:18.696+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:18.695+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:18.696+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:22:18.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.033 seconds
+[2026-01-14T05:22:49.221+0000] {processor.py:157} INFO - Started process (PID=696) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:22:49.223+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:22:49.223+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:49.223+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:22:49.227+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:49.227+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:49.228+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:22:49.245+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.028 seconds
+[2026-01-14T05:23:19.801+0000] {processor.py:157} INFO - Started process (PID=758) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:23:19.803+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:23:19.804+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:19.804+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:23:19.809+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:19.808+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:19.809+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:23:19.827+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.030 seconds
+[2026-01-14T05:23:50.364+0000] {processor.py:157} INFO - Started process (PID=820) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:23:50.365+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:23:50.366+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:50.366+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:23:50.370+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:50.369+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:50.370+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:23:50.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.029 seconds
+[2026-01-14T05:24:20.877+0000] {processor.py:157} INFO - Started process (PID=882) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:24:20.879+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:24:20.880+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:20.880+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:24:20.884+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:20.883+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:20.884+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:24:20.901+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.028 seconds
+[2026-01-14T05:24:51.436+0000] {processor.py:157} INFO - Started process (PID=944) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:24:51.437+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:24:51.438+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:51.438+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:24:51.443+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:51.442+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:51.443+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:24:51.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.034 seconds
+[2026-01-14T05:25:22.230+0000] {processor.py:157} INFO - Started process (PID=1006) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:25:22.231+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:25:22.232+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:22.232+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:25:22.237+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:22.236+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:22.238+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:25:22.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.037 seconds
+[2026-01-14T05:25:52.687+0000] {processor.py:157} INFO - Started process (PID=1068) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:25:52.689+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:25:52.690+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:52.690+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:25:52.695+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:52.694+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:52.696+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:25:52.718+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.036 seconds
+[2026-01-14T05:26:23.183+0000] {processor.py:157} INFO - Started process (PID=1130) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:26:23.184+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:26:23.185+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:23.185+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:26:23.189+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:23.188+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:23.189+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:26:23.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.031 seconds
+[2026-01-14T05:26:53.657+0000] {processor.py:157} INFO - Started process (PID=1192) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:26:53.659+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:26:53.660+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:53.660+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:26:53.665+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:53.664+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:53.666+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:26:53.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.037 seconds
+[2026-01-14T05:27:24.137+0000] {processor.py:157} INFO - Started process (PID=1254) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:27:24.138+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:27:24.139+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:24.139+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:27:24.142+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:24.141+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:24.142+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:27:24.161+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.026 seconds
+[2026-01-14T05:27:45.203+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:27:45.203+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:27:45.204+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.204+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:27:45.205+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.205+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:45.206+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:27:45.217+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.016 seconds
+[2026-01-14T05:28:15.645+0000] {processor.py:157} INFO - Started process (PID=260) to work on /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:28:15.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py for tasks to queue
+[2026-01-14T05:28:15.646+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.645+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:28:15.647+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.647+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py", line 19, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:28:15.647+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py
+[2026-01-14T05:28:15.658+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ecommerce_analytics/sending_stats_30d.py took 0.014 seconds

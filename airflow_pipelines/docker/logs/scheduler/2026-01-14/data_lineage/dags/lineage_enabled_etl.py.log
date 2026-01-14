@@ -1,0 +1,112 @@
+[2026-01-14T05:28:47.845+0000] {processor.py:157} INFO - Started process (PID=167) to work on /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:28:47.845+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py for tasks to queue
+[2026-01-14T05:28:47.846+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:47.846+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:28:49.151+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:49.150+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py", line 22, in <module>
+    from includes.lineage_utils import (
+ModuleNotFoundError: No module named 'includes.lineage_utils'
+[2026-01-14T05:28:49.151+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:28:49.163+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py took 1.320 seconds
+[2026-01-14T05:29:19.999+0000] {processor.py:157} INFO - Started process (PID=249) to work on /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:29:20.001+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py for tasks to queue
+[2026-01-14T05:29:20.004+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:20.003+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:29:20.011+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:20.010+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py", line 22, in <module>
+    from includes.lineage_utils import (
+ModuleNotFoundError: No module named 'includes.lineage_utils'
+[2026-01-14T05:29:20.011+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:29:20.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py took 0.041 seconds
+[2026-01-14T05:29:50.612+0000] {processor.py:157} INFO - Started process (PID=321) to work on /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:29:50.613+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py for tasks to queue
+[2026-01-14T05:29:50.615+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:50.614+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:29:50.618+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:50.617+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py", line 22, in <module>
+    from includes.lineage_utils import (
+ModuleNotFoundError: No module named 'includes.lineage_utils'
+[2026-01-14T05:29:50.619+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:29:50.633+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py took 0.023 seconds
+[2026-01-14T05:30:21.180+0000] {processor.py:157} INFO - Started process (PID=404) to work on /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:30:21.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py for tasks to queue
+[2026-01-14T05:30:21.183+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:21.183+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:30:21.189+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:21.188+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py", line 22, in <module>
+    from includes.lineage_utils import (
+ModuleNotFoundError: No module named 'includes.lineage_utils'
+[2026-01-14T05:30:21.189+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:30:21.209+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py took 0.032 seconds
+[2026-01-14T05:30:51.766+0000] {processor.py:157} INFO - Started process (PID=476) to work on /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:30:51.767+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py for tasks to queue
+[2026-01-14T05:30:51.770+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:51.770+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:30:51.777+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:51.776+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py", line 22, in <module>
+    from includes.lineage_utils import (
+ModuleNotFoundError: No module named 'includes.lineage_utils'
+[2026-01-14T05:30:51.777+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:30:51.797+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py took 0.036 seconds
+[2026-01-14T05:31:22.276+0000] {processor.py:157} INFO - Started process (PID=548) to work on /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:31:22.277+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py for tasks to queue
+[2026-01-14T05:31:22.280+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:22.279+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:31:22.285+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:22.284+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py", line 22, in <module>
+    from includes.lineage_utils import (
+ModuleNotFoundError: No module named 'includes.lineage_utils'
+[2026-01-14T05:31:22.285+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:31:22.303+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py took 0.030 seconds
+[2026-01-14T05:31:52.759+0000] {processor.py:157} INFO - Started process (PID=621) to work on /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:31:52.760+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py for tasks to queue
+[2026-01-14T05:31:52.761+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:52.761+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:31:52.765+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:52.764+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py", line 22, in <module>
+    from includes.lineage_utils import (
+ModuleNotFoundError: No module named 'includes.lineage_utils'
+[2026-01-14T05:31:52.765+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:31:52.779+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py took 0.023 seconds
+[2026-01-14T05:32:23.314+0000] {processor.py:157} INFO - Started process (PID=693) to work on /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:32:23.316+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py for tasks to queue
+[2026-01-14T05:32:23.319+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:23.319+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:32:23.328+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:23.327+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py", line 22, in <module>
+    from includes.lineage_utils import (
+ModuleNotFoundError: No module named 'includes.lineage_utils'
+[2026-01-14T05:32:23.329+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py
+[2026-01-14T05:32:23.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lineage/dags/lineage_enabled_etl.py took 0.044 seconds

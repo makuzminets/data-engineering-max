@@ -1,0 +1,280 @@
+[2026-01-14T05:18:43.311+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:18:43.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:18:43.312+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:43.312+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:18:43.327+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:43.326+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:18:43.327+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:18:43.448+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.141 seconds
+[2026-01-14T05:19:13.919+0000] {processor.py:157} INFO - Started process (PID=242) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:19:13.920+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:19:13.920+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:13.920+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:19:13.923+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:13.922+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:13.923+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:19:13.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.024 seconds
+[2026-01-14T05:19:44.585+0000] {processor.py:157} INFO - Started process (PID=304) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:19:44.586+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:19:44.587+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:44.586+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:19:44.589+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:44.589+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:44.589+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:19:44.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.154 seconds
+[2026-01-14T05:20:15.235+0000] {processor.py:157} INFO - Started process (PID=366) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:20:15.236+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:20:15.236+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:15.236+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:20:15.239+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:15.239+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:15.239+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:20:15.258+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.025 seconds
+[2026-01-14T05:20:45.794+0000] {processor.py:157} INFO - Started process (PID=428) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:20:45.795+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:20:45.796+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:45.795+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:20:45.798+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:45.797+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:45.798+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:20:45.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.023 seconds
+[2026-01-14T05:21:16.410+0000] {processor.py:157} INFO - Started process (PID=490) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:21:16.411+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:21:16.411+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:16.411+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:21:16.414+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:16.413+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:16.414+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:21:16.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.021 seconds
+[2026-01-14T05:21:47.024+0000] {processor.py:157} INFO - Started process (PID=552) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:21:47.024+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:21:47.025+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:47.025+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:21:47.028+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:47.027+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:47.028+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:21:47.045+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.023 seconds
+[2026-01-14T05:22:17.600+0000] {processor.py:157} INFO - Started process (PID=614) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:22:17.601+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:22:17.601+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:17.601+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:22:17.604+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:17.603+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:17.604+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:22:17.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.021 seconds
+[2026-01-14T05:22:48.125+0000] {processor.py:157} INFO - Started process (PID=676) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:22:48.126+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:22:48.126+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:48.126+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:22:48.129+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:48.128+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:48.129+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:22:48.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.021 seconds
+[2026-01-14T05:23:18.710+0000] {processor.py:157} INFO - Started process (PID=738) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:23:18.710+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:23:18.711+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:18.711+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:23:18.714+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:18.713+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:18.714+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:23:18.729+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.022 seconds
+[2026-01-14T05:23:49.268+0000] {processor.py:157} INFO - Started process (PID=800) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:23:49.269+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:23:49.269+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:49.269+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:23:49.272+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:49.271+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:49.272+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:23:49.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.023 seconds
+[2026-01-14T05:24:19.779+0000] {processor.py:157} INFO - Started process (PID=862) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:24:19.780+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:24:19.780+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:19.780+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:24:19.783+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:19.782+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:19.783+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:24:19.799+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.022 seconds
+[2026-01-14T05:24:50.350+0000] {processor.py:157} INFO - Started process (PID=924) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:24:50.351+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:24:50.351+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:50.351+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:24:50.354+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:50.353+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:50.354+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:24:50.370+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.022 seconds
+[2026-01-14T05:25:21.146+0000] {processor.py:157} INFO - Started process (PID=986) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:25:21.146+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:25:21.147+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:21.146+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:25:21.149+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:21.148+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:21.149+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:25:21.160+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.016 seconds
+[2026-01-14T05:25:51.616+0000] {processor.py:157} INFO - Started process (PID=1048) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:25:51.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:25:51.617+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:51.617+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:25:51.619+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:51.618+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:51.619+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:25:51.631+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.016 seconds
+[2026-01-14T05:26:22.107+0000] {processor.py:157} INFO - Started process (PID=1110) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:26:22.108+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:26:22.108+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:22.108+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:26:22.110+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:22.110+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:22.110+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:26:22.123+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.017 seconds
+[2026-01-14T05:26:52.580+0000] {processor.py:157} INFO - Started process (PID=1172) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:26:52.580+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:26:52.581+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:52.581+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:26:52.583+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:52.582+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:52.583+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:26:52.594+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.016 seconds
+[2026-01-14T05:27:23.043+0000] {processor.py:157} INFO - Started process (PID=1232) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:27:23.044+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:27:23.044+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:23.044+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:27:23.047+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:23.047+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:23.047+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:27:23.061+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.020 seconds
+[2026-01-14T05:27:45.137+0000] {processor.py:157} INFO - Started process (PID=180) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:27:45.138+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:27:45.138+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.138+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:27:45.141+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.140+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:45.141+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:27:45.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.021 seconds
+[2026-01-14T05:28:15.591+0000] {processor.py:157} INFO - Started process (PID=242) to work on /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:28:15.591+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/pipeline_alerting.py for tasks to queue
+[2026-01-14T05:28:15.591+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.591+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:28:15.593+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.593+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/alerting/pipeline_alerting.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/alerting/pipeline_alerting.py", line 21, in <module>
+    from includes.slack_alerts import SlackAlertCallback
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:28:15.593+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/pipeline_alerting.py
+[2026-01-14T05:28:15.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/pipeline_alerting.py took 0.016 seconds

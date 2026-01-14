@@ -1,0 +1,112 @@
+[2026-01-14T05:28:49.635+0000] {processor.py:157} INFO - Started process (PID=196) to work on /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:28:49.635+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_quality/dags/data_quality_checks.py for tasks to queue
+[2026-01-14T05:28:49.636+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:49.636+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:28:50.099+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:50.098+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality/dags/data_quality_checks.py", line 22, in <module>
+    from includes.expectations import DataQualityValidator
+ModuleNotFoundError: No module named 'includes.expectations'
+[2026-01-14T05:28:50.099+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:28:50.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_quality/dags/data_quality_checks.py took 0.476 seconds
+[2026-01-14T05:29:20.148+0000] {processor.py:157} INFO - Started process (PID=274) to work on /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:29:20.149+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_quality/dags/data_quality_checks.py for tasks to queue
+[2026-01-14T05:29:20.150+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:20.150+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:29:20.153+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:20.153+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality/dags/data_quality_checks.py", line 22, in <module>
+    from includes.expectations import DataQualityValidator
+ModuleNotFoundError: No module named 'includes.expectations'
+[2026-01-14T05:29:20.153+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:29:20.163+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_quality/dags/data_quality_checks.py took 0.017 seconds
+[2026-01-14T05:29:50.718+0000] {processor.py:157} INFO - Started process (PID=348) to work on /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:29:50.718+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_quality/dags/data_quality_checks.py for tasks to queue
+[2026-01-14T05:29:50.719+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:50.719+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:29:50.721+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:50.721+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality/dags/data_quality_checks.py", line 22, in <module>
+    from includes.expectations import DataQualityValidator
+ModuleNotFoundError: No module named 'includes.expectations'
+[2026-01-14T05:29:50.722+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:29:50.731+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_quality/dags/data_quality_checks.py took 0.015 seconds
+[2026-01-14T05:30:21.289+0000] {processor.py:157} INFO - Started process (PID=431) to work on /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:30:21.290+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_quality/dags/data_quality_checks.py for tasks to queue
+[2026-01-14T05:30:21.291+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:21.291+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:30:21.293+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:21.293+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality/dags/data_quality_checks.py", line 22, in <module>
+    from includes.expectations import DataQualityValidator
+ModuleNotFoundError: No module named 'includes.expectations'
+[2026-01-14T05:30:21.293+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:30:21.303+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_quality/dags/data_quality_checks.py took 0.015 seconds
+[2026-01-14T05:30:51.868+0000] {processor.py:157} INFO - Started process (PID=501) to work on /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:30:51.869+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_quality/dags/data_quality_checks.py for tasks to queue
+[2026-01-14T05:30:51.870+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:51.870+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:30:51.873+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:51.872+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality/dags/data_quality_checks.py", line 22, in <module>
+    from includes.expectations import DataQualityValidator
+ModuleNotFoundError: No module named 'includes.expectations'
+[2026-01-14T05:30:51.873+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:30:51.883+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_quality/dags/data_quality_checks.py took 0.016 seconds
+[2026-01-14T05:31:22.400+0000] {processor.py:157} INFO - Started process (PID=575) to work on /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:31:22.400+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_quality/dags/data_quality_checks.py for tasks to queue
+[2026-01-14T05:31:22.402+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:22.401+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:31:22.404+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:22.404+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality/dags/data_quality_checks.py", line 22, in <module>
+    from includes.expectations import DataQualityValidator
+ModuleNotFoundError: No module named 'includes.expectations'
+[2026-01-14T05:31:22.404+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:31:22.416+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_quality/dags/data_quality_checks.py took 0.018 seconds
+[2026-01-14T05:31:52.858+0000] {processor.py:157} INFO - Started process (PID=648) to work on /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:31:52.859+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_quality/dags/data_quality_checks.py for tasks to queue
+[2026-01-14T05:31:52.860+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:52.860+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:31:52.862+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:52.862+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality/dags/data_quality_checks.py", line 22, in <module>
+    from includes.expectations import DataQualityValidator
+ModuleNotFoundError: No module named 'includes.expectations'
+[2026-01-14T05:31:52.862+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:31:52.873+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_quality/dags/data_quality_checks.py took 0.016 seconds
+[2026-01-14T05:32:23.442+0000] {processor.py:157} INFO - Started process (PID=720) to work on /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:32:23.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_quality/dags/data_quality_checks.py for tasks to queue
+[2026-01-14T05:32:23.444+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:23.444+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:32:23.447+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:23.446+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality/dags/data_quality_checks.py", line 22, in <module>
+    from includes.expectations import DataQualityValidator
+ModuleNotFoundError: No module named 'includes.expectations'
+[2026-01-14T05:32:23.447+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality/dags/data_quality_checks.py
+[2026-01-14T05:32:23.461+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_quality/dags/data_quality_checks.py took 0.020 seconds

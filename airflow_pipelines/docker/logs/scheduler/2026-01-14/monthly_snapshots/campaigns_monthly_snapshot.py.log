@@ -1,0 +1,280 @@
+[2026-01-14T05:18:43.628+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:18:43.629+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:18:43.631+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:43.629+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:18:43.646+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:43.645+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:18:43.647+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:18:43.789+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.166 seconds
+[2026-01-14T05:19:13.987+0000] {processor.py:157} INFO - Started process (PID=257) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:19:13.987+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:19:13.987+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:13.987+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:19:13.990+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:13.989+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:13.990+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:19:14.004+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.019 seconds
+[2026-01-14T05:19:44.766+0000] {processor.py:157} INFO - Started process (PID=317) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:19:44.767+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:19:44.768+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:44.767+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:19:44.770+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:44.770+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:44.771+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:19:44.784+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.020 seconds
+[2026-01-14T05:20:15.311+0000] {processor.py:157} INFO - Started process (PID=381) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:20:15.312+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:20:15.312+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:15.312+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:20:15.315+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:15.314+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:15.315+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:20:15.330+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.021 seconds
+[2026-01-14T05:20:45.865+0000] {processor.py:157} INFO - Started process (PID=443) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:20:45.866+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:20:45.866+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:45.866+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:20:45.869+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:45.868+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:45.869+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:20:45.884+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.021 seconds
+[2026-01-14T05:21:16.477+0000] {processor.py:157} INFO - Started process (PID=505) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:21:16.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:21:16.478+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:16.478+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:21:16.481+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:16.480+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:16.481+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:21:16.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.024 seconds
+[2026-01-14T05:21:47.096+0000] {processor.py:157} INFO - Started process (PID=567) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:21:47.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:21:47.097+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:47.097+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:21:47.100+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:47.099+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:47.100+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:21:47.115+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.021 seconds
+[2026-01-14T05:22:17.665+0000] {processor.py:157} INFO - Started process (PID=629) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:22:17.665+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:22:17.666+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:17.666+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:22:17.668+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:17.668+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:17.668+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:22:17.683+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.020 seconds
+[2026-01-14T05:22:48.190+0000] {processor.py:157} INFO - Started process (PID=691) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:22:48.191+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:22:48.191+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:48.191+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:22:48.194+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:48.193+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:48.194+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:22:48.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.020 seconds
+[2026-01-14T05:23:18.776+0000] {processor.py:157} INFO - Started process (PID=753) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:23:18.777+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:23:18.778+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:18.777+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:23:18.780+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:18.779+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:18.780+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:23:18.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.020 seconds
+[2026-01-14T05:23:49.337+0000] {processor.py:157} INFO - Started process (PID=815) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:23:49.338+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:23:49.338+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:49.338+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:23:49.341+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:49.340+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:49.341+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:23:49.355+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.020 seconds
+[2026-01-14T05:24:19.846+0000] {processor.py:157} INFO - Started process (PID=877) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:24:19.846+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:24:19.847+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:19.847+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:24:19.849+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:19.849+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:19.850+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:24:19.863+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.020 seconds
+[2026-01-14T05:24:50.416+0000] {processor.py:157} INFO - Started process (PID=939) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:24:50.417+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:24:50.417+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:50.417+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:24:50.420+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:50.419+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:50.420+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:24:50.435+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.021 seconds
+[2026-01-14T05:25:21.198+0000] {processor.py:157} INFO - Started process (PID=1001) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:25:21.199+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:25:21.199+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:21.199+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:25:21.201+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:21.200+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:21.201+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:25:21.218+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.022 seconds
+[2026-01-14T05:25:51.664+0000] {processor.py:157} INFO - Started process (PID=1063) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:25:51.665+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:25:51.665+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:51.665+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:25:51.667+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:51.667+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:51.667+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:25:51.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.014 seconds
+[2026-01-14T05:26:22.141+0000] {processor.py:157} INFO - Started process (PID=1123) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:26:22.141+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:26:22.142+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:22.141+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:26:22.143+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:22.143+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:22.143+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:26:22.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.015 seconds
+[2026-01-14T05:26:52.631+0000] {processor.py:157} INFO - Started process (PID=1187) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:26:52.631+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:26:52.632+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:52.631+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:26:52.633+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:52.633+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:52.633+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:26:52.644+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.015 seconds
+[2026-01-14T05:27:23.109+0000] {processor.py:157} INFO - Started process (PID=1247) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:27:23.110+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:27:23.110+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:23.110+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:27:23.112+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:23.112+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:23.112+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:27:23.126+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.019 seconds
+[2026-01-14T05:27:45.199+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:27:45.200+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:27:45.200+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.200+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:27:45.202+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.202+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:45.202+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:27:45.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.017 seconds
+[2026-01-14T05:28:15.642+0000] {processor.py:157} INFO - Started process (PID=257) to work on /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:28:15.643+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:28:15.643+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.643+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:28:15.645+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.645+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py", line 20, in <module>
+    from includes.connections import get_postgres_connection, get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:28:15.645+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py
+[2026-01-14T05:28:15.656+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/campaigns_monthly_snapshot.py took 0.016 seconds

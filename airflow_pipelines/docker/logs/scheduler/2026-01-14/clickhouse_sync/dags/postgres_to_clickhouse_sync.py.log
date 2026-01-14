@@ -1,0 +1,112 @@
+[2026-01-14T05:28:49.879+0000] {processor.py:157} INFO - Started process (PID=202) to work on /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:28:49.880+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py for tasks to queue
+[2026-01-14T05:28:49.881+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:49.880+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:28:50.348+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:50.347+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py", line 21, in <module>
+    from includes.connections import (
+ImportError: cannot import name 'get_clickhouse_connection' from 'includes.connections' (/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py)
+[2026-01-14T05:28:50.348+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:28:50.359+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py took 0.482 seconds
+[2026-01-14T05:29:21.175+0000] {processor.py:157} INFO - Started process (PID=281) to work on /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:29:21.176+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py for tasks to queue
+[2026-01-14T05:29:21.178+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:21.178+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:29:21.184+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:21.183+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py", line 21, in <module>
+    from includes.connections import (
+ImportError: cannot import name 'get_clickhouse_connection' from 'includes.connections' (/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py)
+[2026-01-14T05:29:21.184+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:29:21.206+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py took 0.036 seconds
+[2026-01-14T05:29:51.752+0000] {processor.py:157} INFO - Started process (PID=353) to work on /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:29:51.754+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py for tasks to queue
+[2026-01-14T05:29:51.757+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:51.757+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:29:51.762+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:51.761+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py", line 21, in <module>
+    from includes.connections import (
+ImportError: cannot import name 'get_clickhouse_connection' from 'includes.connections' (/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py)
+[2026-01-14T05:29:51.762+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:29:51.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py took 0.035 seconds
+[2026-01-14T05:30:22.325+0000] {processor.py:157} INFO - Started process (PID=436) to work on /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:30:22.327+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py for tasks to queue
+[2026-01-14T05:30:22.331+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:22.330+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:30:22.338+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:22.337+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py", line 21, in <module>
+    from includes.connections import (
+ImportError: cannot import name 'get_clickhouse_connection' from 'includes.connections' (/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py)
+[2026-01-14T05:30:22.339+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:30:22.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py took 0.045 seconds
+[2026-01-14T05:30:52.921+0000] {processor.py:157} INFO - Started process (PID=508) to work on /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:30:52.923+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py for tasks to queue
+[2026-01-14T05:30:52.926+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:52.926+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:30:52.932+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:52.931+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py", line 21, in <module>
+    from includes.connections import (
+ImportError: cannot import name 'get_clickhouse_connection' from 'includes.connections' (/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py)
+[2026-01-14T05:30:52.932+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:30:52.950+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py took 0.034 seconds
+[2026-01-14T05:31:23.414+0000] {processor.py:157} INFO - Started process (PID=580) to work on /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:31:23.415+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py for tasks to queue
+[2026-01-14T05:31:23.417+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:23.416+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:31:23.420+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:23.420+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py", line 21, in <module>
+    from includes.connections import (
+ImportError: cannot import name 'get_clickhouse_connection' from 'includes.connections' (/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py)
+[2026-01-14T05:31:23.421+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:31:23.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py took 0.026 seconds
+[2026-01-14T05:31:53.874+0000] {processor.py:157} INFO - Started process (PID=653) to work on /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:31:53.874+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py for tasks to queue
+[2026-01-14T05:31:53.876+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:53.876+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:31:53.879+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:53.878+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py", line 21, in <module>
+    from includes.connections import (
+ImportError: cannot import name 'get_clickhouse_connection' from 'includes.connections' (/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py)
+[2026-01-14T05:31:53.879+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:31:53.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py took 0.024 seconds
+[2026-01-14T05:32:24.483+0000] {processor.py:157} INFO - Started process (PID=725) to work on /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:32:24.486+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py for tasks to queue
+[2026-01-14T05:32:24.488+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:24.488+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:32:24.495+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:24.494+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py", line 21, in <module>
+    from includes.connections import (
+ImportError: cannot import name 'get_clickhouse_connection' from 'includes.connections' (/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py)
+[2026-01-14T05:32:24.495+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py
+[2026-01-14T05:32:24.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clickhouse_sync/dags/postgres_to_clickhouse_sync.py took 0.034 seconds

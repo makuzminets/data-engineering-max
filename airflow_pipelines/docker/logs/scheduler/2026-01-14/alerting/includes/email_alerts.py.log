@@ -1,0 +1,40 @@
+[2026-01-14T05:28:49.240+0000] {processor.py:157} INFO - Started process (PID=179) to work on /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:28:49.240+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/includes/email_alerts.py for tasks to queue
+[2026-01-14T05:28:49.241+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:49.241+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:28:49.243+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:28:49.252+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/includes/email_alerts.py took 0.014 seconds
+[2026-01-14T05:29:20.094+0000] {processor.py:157} INFO - Started process (PID=261) to work on /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:29:20.095+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/includes/email_alerts.py for tasks to queue
+[2026-01-14T05:29:20.096+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:20.096+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:29:20.098+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:29:20.106+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/includes/email_alerts.py took 0.014 seconds
+[2026-01-14T05:29:50.673+0000] {processor.py:157} INFO - Started process (PID=333) to work on /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:29:50.674+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/includes/email_alerts.py for tasks to queue
+[2026-01-14T05:29:50.675+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:50.675+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:29:50.676+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:29:50.682+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/includes/email_alerts.py took 0.011 seconds
+[2026-01-14T05:30:21.246+0000] {processor.py:157} INFO - Started process (PID=416) to work on /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:30:21.246+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/includes/email_alerts.py for tasks to queue
+[2026-01-14T05:30:21.247+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:21.247+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:30:21.248+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:30:21.255+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/includes/email_alerts.py took 0.011 seconds
+[2026-01-14T05:30:51.837+0000] {processor.py:157} INFO - Started process (PID=488) to work on /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:30:51.837+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/includes/email_alerts.py for tasks to queue
+[2026-01-14T05:30:51.839+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:51.839+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:30:51.841+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:30:51.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/includes/email_alerts.py took 0.014 seconds
+[2026-01-14T05:31:22.351+0000] {processor.py:157} INFO - Started process (PID=560) to work on /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:31:22.352+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/includes/email_alerts.py for tasks to queue
+[2026-01-14T05:31:22.353+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:22.353+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:31:22.354+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:31:22.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/includes/email_alerts.py took 0.011 seconds
+[2026-01-14T05:31:52.815+0000] {processor.py:157} INFO - Started process (PID=633) to work on /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:31:52.815+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/includes/email_alerts.py for tasks to queue
+[2026-01-14T05:31:52.816+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:52.816+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:31:52.817+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:31:52.824+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/includes/email_alerts.py took 0.011 seconds
+[2026-01-14T05:32:23.396+0000] {processor.py:157} INFO - Started process (PID=705) to work on /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:32:23.396+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/alerting/includes/email_alerts.py for tasks to queue
+[2026-01-14T05:32:23.397+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:23.397+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:32:23.399+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/alerting/includes/email_alerts.py
+[2026-01-14T05:32:23.405+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/alerting/includes/email_alerts.py took 0.011 seconds

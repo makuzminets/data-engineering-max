@@ -1,0 +1,56 @@
+[2026-01-14T05:28:50.128+0000] {processor.py:157} INFO - Started process (PID=208) to work on /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:28:50.129+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:28:50.129+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:50.129+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:28:50.608+0000] {processor.py:839} INFO - DAG(s) dict_keys(['campaigns_monthly_snapshot']) retrieved from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:28:50.618+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:50.617+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:28:50.629+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:50.629+0000] {dag.py:3677} INFO - Setting next_dagrun for campaigns_monthly_snapshot to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:28:50.638+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py took 0.512 seconds
+[2026-01-14T05:29:21.184+0000] {processor.py:157} INFO - Started process (PID=284) to work on /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:29:21.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:29:21.188+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:21.188+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:29:21.201+0000] {processor.py:839} INFO - DAG(s) dict_keys(['campaigns_monthly_snapshot']) retrieved from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:29:21.218+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:21.218+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:29:21.232+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:21.232+0000] {dag.py:3677} INFO - Setting next_dagrun for campaigns_monthly_snapshot to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:29:21.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py took 0.070 seconds
+[2026-01-14T05:29:51.760+0000] {processor.py:157} INFO - Started process (PID=356) to work on /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:29:51.761+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:29:51.763+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:51.763+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:29:51.774+0000] {processor.py:839} INFO - DAG(s) dict_keys(['campaigns_monthly_snapshot']) retrieved from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:29:51.791+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:51.790+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:29:51.803+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:51.803+0000] {dag.py:3677} INFO - Setting next_dagrun for campaigns_monthly_snapshot to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:29:51.813+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py took 0.055 seconds
+[2026-01-14T05:30:22.337+0000] {processor.py:157} INFO - Started process (PID=439) to work on /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:30:22.337+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:30:22.341+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:22.340+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:30:22.354+0000] {processor.py:839} INFO - DAG(s) dict_keys(['campaigns_monthly_snapshot']) retrieved from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:30:22.371+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:22.371+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:30:22.386+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:22.386+0000] {dag.py:3677} INFO - Setting next_dagrun for campaigns_monthly_snapshot to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:30:22.397+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py took 0.064 seconds
+[2026-01-14T05:30:52.929+0000] {processor.py:157} INFO - Started process (PID=511) to work on /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:30:52.930+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:30:52.932+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:52.932+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:30:52.942+0000] {processor.py:839} INFO - DAG(s) dict_keys(['campaigns_monthly_snapshot']) retrieved from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:30:52.957+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:52.957+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:30:52.969+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:52.969+0000] {dag.py:3677} INFO - Setting next_dagrun for campaigns_monthly_snapshot to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:30:52.981+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py took 0.055 seconds
+[2026-01-14T05:31:23.418+0000] {processor.py:157} INFO - Started process (PID=583) to work on /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:31:23.419+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:31:23.421+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:23.421+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:31:23.430+0000] {processor.py:839} INFO - DAG(s) dict_keys(['campaigns_monthly_snapshot']) retrieved from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:31:23.445+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:23.444+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:31:23.456+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:23.456+0000] {dag.py:3677} INFO - Setting next_dagrun for campaigns_monthly_snapshot to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:31:23.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py took 0.049 seconds
+[2026-01-14T05:31:53.877+0000] {processor.py:157} INFO - Started process (PID=656) to work on /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:31:53.877+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:31:53.879+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:53.878+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:31:53.885+0000] {processor.py:839} INFO - DAG(s) dict_keys(['campaigns_monthly_snapshot']) retrieved from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:31:53.897+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:53.896+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:31:53.907+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:53.907+0000] {dag.py:3677} INFO - Setting next_dagrun for campaigns_monthly_snapshot to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:31:53.921+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py took 0.047 seconds
+[2026-01-14T05:32:24.492+0000] {processor.py:157} INFO - Started process (PID=728) to work on /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:32:24.493+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py for tasks to queue
+[2026-01-14T05:32:24.495+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:24.495+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:32:24.506+0000] {processor.py:839} INFO - DAG(s) dict_keys(['campaigns_monthly_snapshot']) retrieved from /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py
+[2026-01-14T05:32:24.525+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:24.525+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-01-14T05:32:24.539+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:24.538+0000] {dag.py:3677} INFO - Setting next_dagrun for campaigns_monthly_snapshot to 2026-01-04T00:00:00+00:00, run_after=2026-01-11T00:00:00+00:00
+[2026-01-14T05:32:24.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/monthly_snapshots/dags/campaigns_monthly_snapshot.py took 0.060 seconds

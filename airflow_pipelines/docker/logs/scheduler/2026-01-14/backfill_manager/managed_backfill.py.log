@@ -1,0 +1,280 @@
+[2026-01-14T05:18:43.295+0000] {processor.py:157} INFO - Started process (PID=175) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:18:43.296+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:18:43.296+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:43.296+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:18:43.314+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:18:43.312+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:18:43.315+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:18:43.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.131 seconds
+[2026-01-14T05:19:13.885+0000] {processor.py:157} INFO - Started process (PID=237) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:19:13.885+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:19:13.886+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:13.886+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:19:13.888+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:13.888+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:13.889+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:19:13.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.021 seconds
+[2026-01-14T05:19:44.404+0000] {processor.py:157} INFO - Started process (PID=299) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:19:44.405+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:19:44.405+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:44.405+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:19:44.408+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:19:44.407+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:19:44.408+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:19:44.569+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.167 seconds
+[2026-01-14T05:20:15.203+0000] {processor.py:157} INFO - Started process (PID=361) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:20:15.203+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:20:15.204+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:15.204+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:20:15.207+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:15.206+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:15.207+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:20:15.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.020 seconds
+[2026-01-14T05:20:45.762+0000] {processor.py:157} INFO - Started process (PID=423) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:20:45.762+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:20:45.763+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:45.763+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:20:45.766+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:20:45.765+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:20:45.766+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:20:45.781+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.022 seconds
+[2026-01-14T05:21:16.377+0000] {processor.py:157} INFO - Started process (PID=485) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:21:16.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:21:16.378+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:16.378+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:21:16.381+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:16.380+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:16.381+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:21:16.395+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.020 seconds
+[2026-01-14T05:21:46.988+0000] {processor.py:157} INFO - Started process (PID=547) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:21:46.989+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:21:46.990+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:46.990+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:21:46.992+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:21:46.992+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:21:46.993+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:21:47.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.023 seconds
+[2026-01-14T05:22:17.568+0000] {processor.py:157} INFO - Started process (PID=609) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:22:17.569+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:22:17.570+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:17.569+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:22:17.572+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:17.571+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:17.572+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:22:17.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.020 seconds
+[2026-01-14T05:22:48.092+0000] {processor.py:157} INFO - Started process (PID=671) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:22:48.092+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:22:48.093+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:48.093+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:22:48.096+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:22:48.095+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:22:48.096+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:22:48.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.021 seconds
+[2026-01-14T05:23:18.677+0000] {processor.py:157} INFO - Started process (PID=733) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:23:18.678+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:23:18.678+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:18.678+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:23:18.681+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:18.680+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:18.681+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:23:18.696+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.021 seconds
+[2026-01-14T05:23:49.235+0000] {processor.py:157} INFO - Started process (PID=795) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:23:49.236+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:23:49.237+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:49.237+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:23:49.239+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:23:49.238+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:23:49.239+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:23:49.253+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.020 seconds
+[2026-01-14T05:24:19.747+0000] {processor.py:157} INFO - Started process (PID=857) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:24:19.748+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:24:19.748+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:19.748+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:24:19.751+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:19.750+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:19.751+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:24:19.765+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.021 seconds
+[2026-01-14T05:24:50.319+0000] {processor.py:157} INFO - Started process (PID=919) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:24:50.320+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:24:50.321+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:50.320+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:24:50.324+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:24:50.323+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:24:50.324+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:24:50.337+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.020 seconds
+[2026-01-14T05:25:21.120+0000] {processor.py:157} INFO - Started process (PID=981) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:25:21.121+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:25:21.121+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:21.121+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:25:21.124+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:21.123+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:21.124+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:25:21.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.016 seconds
+[2026-01-14T05:25:51.591+0000] {processor.py:157} INFO - Started process (PID=1043) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:25:51.592+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:25:51.592+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:51.592+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:25:51.594+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:25:51.594+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:25:51.595+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:25:51.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.017 seconds
+[2026-01-14T05:26:22.082+0000] {processor.py:157} INFO - Started process (PID=1105) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:26:22.083+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:26:22.083+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:22.083+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:26:22.085+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:22.084+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:22.085+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:26:22.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.016 seconds
+[2026-01-14T05:26:52.552+0000] {processor.py:157} INFO - Started process (PID=1167) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:26:52.553+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:26:52.553+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:52.553+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:26:52.555+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:26:52.555+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:26:52.556+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:26:52.568+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.018 seconds
+[2026-01-14T05:27:23.041+0000] {processor.py:157} INFO - Started process (PID=1229) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:27:23.041+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:27:23.042+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:23.041+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:27:23.044+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:23.044+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:23.044+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:27:23.059+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.021 seconds
+[2026-01-14T05:27:45.103+0000] {processor.py:157} INFO - Started process (PID=175) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:27:45.103+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:27:45.104+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.104+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:27:45.107+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:27:45.106+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:27:45.107+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:27:45.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.021 seconds
+[2026-01-14T05:28:15.563+0000] {processor.py:157} INFO - Started process (PID=237) to work on /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:28:15.563+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/backfill_manager/managed_backfill.py for tasks to queue
+[2026-01-14T05:28:15.563+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.563+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:28:15.566+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:15.565+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/backfill_manager/managed_backfill.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/backfill_manager/managed_backfill.py", line 22, in <module>
+    from includes.connections import get_bigquery_connection
+ModuleNotFoundError: No module named 'includes'
+[2026-01-14T05:28:15.566+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/backfill_manager/managed_backfill.py
+[2026-01-14T05:28:15.577+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/backfill_manager/managed_backfill.py took 0.016 seconds

@@ -2,6 +2,44 @@
 
 A collection of production-grade Apache Airflow DAGs demonstrating real-world data engineering patterns. Each project showcases battle-tested solutions for common ETL challenges.
 
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+    subgraph Sources
+        PG[(PostgreSQL)]
+        API[REST APIs]
+        S3[(S3/GCS)]
+    end
+    
+    subgraph Airflow["⚙️ Apache Airflow"]
+        direction TB
+        DAG1[postgres_bigquery_sync]
+        DAG2[api_warehouse_sync]
+        DAG3[clickhouse_sync]
+        DAG4[gdpr_anonymization]
+        DAG5[data_quality]
+    end
+    
+    subgraph Destinations
+        BQ[(BigQuery)]
+        CH[(ClickHouse)]
+        SF[(Snowflake)]
+    end
+    
+    subgraph Monitoring
+        Slack[Slack Alerts]
+        Lineage[OpenLineage]
+    end
+    
+    PG --> DAG1 --> BQ
+    PG --> DAG3 --> CH
+    API --> DAG2 --> BQ
+    BQ --> DAG4 --> BQ
+    BQ --> DAG5 --> Slack
+    DAG1 --> Lineage
+```
+
 ## 🎯 Projects Overview
 
 ### ETL Pipelines

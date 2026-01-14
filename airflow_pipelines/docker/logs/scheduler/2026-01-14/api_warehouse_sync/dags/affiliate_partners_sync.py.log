@@ -1,0 +1,112 @@
+[2026-01-14T05:28:50.691+0000] {processor.py:157} INFO - Started process (PID=225) to work on /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:28:50.692+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:28:50.692+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:50.692+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:28:51.522+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:28:51.521+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py", line 19, in <module>
+    from includes.api_client import AffiliateAPIClient
+ModuleNotFoundError: No module named 'includes.api_client'
+[2026-01-14T05:28:51.522+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:28:51.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py took 0.849 seconds
+[2026-01-14T05:29:22.301+0000] {processor.py:157} INFO - Started process (PID=299) to work on /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:29:22.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:29:22.304+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:22.304+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:29:22.310+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:22.309+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py", line 19, in <module>
+    from includes.api_client import AffiliateAPIClient
+ModuleNotFoundError: No module named 'includes.api_client'
+[2026-01-14T05:29:22.310+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:29:22.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py took 0.031 seconds
+[2026-01-14T05:29:52.840+0000] {processor.py:157} INFO - Started process (PID=371) to work on /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:29:52.841+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:29:52.843+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:52.843+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:29:52.846+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:29:52.846+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py", line 19, in <module>
+    from includes.api_client import AffiliateAPIClient
+ModuleNotFoundError: No module named 'includes.api_client'
+[2026-01-14T05:29:52.847+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:29:52.862+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py took 0.025 seconds
+[2026-01-14T05:30:23.407+0000] {processor.py:157} INFO - Started process (PID=454) to work on /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:30:23.408+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:30:23.410+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:23.410+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:30:23.414+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:23.413+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py", line 19, in <module>
+    from includes.api_client import AffiliateAPIClient
+ModuleNotFoundError: No module named 'includes.api_client'
+[2026-01-14T05:30:23.414+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:30:23.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py took 0.052 seconds
+[2026-01-14T05:30:53.977+0000] {processor.py:157} INFO - Started process (PID=526) to work on /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:30:53.978+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:30:53.979+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:53.979+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:30:53.983+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:30:53.982+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py", line 19, in <module>
+    from includes.api_client import AffiliateAPIClient
+ModuleNotFoundError: No module named 'includes.api_client'
+[2026-01-14T05:30:53.983+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:30:53.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py took 0.021 seconds
+[2026-01-14T05:31:24.487+0000] {processor.py:157} INFO - Started process (PID=598) to work on /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:31:24.488+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:31:24.491+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:24.490+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:31:24.496+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:24.495+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py", line 19, in <module>
+    from includes.api_client import AffiliateAPIClient
+ModuleNotFoundError: No module named 'includes.api_client'
+[2026-01-14T05:31:24.496+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:31:24.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py took 0.031 seconds
+[2026-01-14T05:31:54.973+0000] {processor.py:157} INFO - Started process (PID=671) to work on /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:31:54.974+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:31:54.976+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:54.976+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:31:54.980+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:31:54.979+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py", line 19, in <module>
+    from includes.api_client import AffiliateAPIClient
+ModuleNotFoundError: No module named 'includes.api_client'
+[2026-01-14T05:31:54.981+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:31:55.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py took 0.031 seconds
+[2026-01-14T05:32:25.580+0000] {processor.py:157} INFO - Started process (PID=743) to work on /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:32:25.582+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py for tasks to queue
+[2026-01-14T05:32:25.586+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:25.585+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:32:25.592+0000] {logging_mixin.py:151} INFO - [2026-01-14T05:32:25.591+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py", line 19, in <module>
+    from includes.api_client import AffiliateAPIClient
+ModuleNotFoundError: No module named 'includes.api_client'
+[2026-01-14T05:32:25.592+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py
+[2026-01-14T05:32:25.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api_warehouse_sync/dags/affiliate_partners_sync.py took 0.040 seconds

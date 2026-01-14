@@ -1,0 +1,104 @@
+[2026-01-14T05:30:18.692+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_to_bigquery_activity_logs.sync_activity_logs manual__2026-01-14T05:30:16.847664+00:00 [queued]>
+[2026-01-14T05:30:18.696+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_to_bigquery_activity_logs.sync_activity_logs manual__2026-01-14T05:30:16.847664+00:00 [queued]>
+[2026-01-14T05:30:18.696+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-01-14T05:30:18.704+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): sync_activity_logs> on 2026-01-14 05:30:16.847664+00:00
+[2026-01-14T05:30:18.708+0000] {standard_task_runner.py:57} INFO - Started process 397 to run task
+[2026-01-14T05:30:18.711+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'postgres_to_bigquery_activity_logs', 'sync_activity_logs', 'manual__2026-01-14T05:30:16.847664+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/postgres_bigquery_sync/dags/activity_logs_sync.py', '--cfg-path', '/tmp/tmpfav7g19n']
+[2026-01-14T05:30:18.715+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask sync_activity_logs
+[2026-01-14T05:30:18.750+0000] {task_command.py:415} INFO - Running <TaskInstance: postgres_to_bigquery_activity_logs.sync_activity_logs manual__2026-01-14T05:30:16.847664+00:00 [running]> on host 22b09e2db8bb
+[2026-01-14T05:30:18.795+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='postgres_to_bigquery_activity_logs' AIRFLOW_CTX_TASK_ID='sync_activity_logs' AIRFLOW_CTX_EXECUTION_DATE='2026-01-14T05:30:16.847664+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-14T05:30:16.847664+00:00'
+[2026-01-14T05:30:18.806+0000] {adapter.py:119} ERROR - Failed to emit OpenLineage event of id 99c9433f-ba57-3161-b09a-49cf40487442
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0xffff64d162c0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='marquez', port=5000): Max retries exceeded with url: /api/v1/lineage (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff64d162c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/openlineage/plugins/adapter.py", line 117, in emit
+    return self._client.emit(redacted_event)
+  File "/home/airflow/.local/lib/python3.10/site-packages/openlineage/client/client.py", line 103, in emit
+    self.transport.emit(event)
+  File "/home/airflow/.local/lib/python3.10/site-packages/openlineage/client/transport/http.py", line 163, in emit
+    resp = session.post(
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='marquez', port=5000): Max retries exceeded with url: /api/v1/lineage (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff64d162c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2026-01-14T05:30:18.806+0000] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-01-14T05:30:18.811+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/postgres_bigquery_sync/dags/activity_logs_sync.py", line 56, in sync_activity_logs
+    pg_conn = get_postgres_connection()
+  File "/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py", line 114, in get_postgres_connection
+    return PostgresConnection(connection_id)
+  File "/opt/airflow/dags/postgres_bigquery_sync/includes/connections.py", line 19, in __init__
+    self.conn = self.hook.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/postgres/hooks/postgres.py", line 154, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "postgres" (192.168.117.3), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[2026-01-14T05:30:18.812+0000] {utils.py:401} ERROR - 'NoneType' object has no attribute 'isoformat'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/openlineage/utils/utils.py", line 399, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/openlineage/plugins/listener.py", line 145, in on_failure
+    end_time=task_instance.end_date.isoformat(),
+AttributeError: 'NoneType' object has no attribute 'isoformat'
+[2026-01-14T05:30:18.818+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=postgres_to_bigquery_activity_logs, task_id=sync_activity_logs, execution_date=20260114T053016, start_date=20260114T053018, end_date=20260114T053018
+[2026-01-14T05:30:18.825+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 4 for task sync_activity_logs (connection to server at "postgres" (192.168.117.3), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+; 397)
+[2026-01-14T05:30:18.847+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-01-14T05:30:18.855+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
