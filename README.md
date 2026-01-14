@@ -21,6 +21,27 @@
 
 ## 📂 Projects
 
+### 🛡️ [Fraud Detection ML Pipeline](./fraud_ml_pipeline)
+
+Production-grade signup fraud detection with ML — based on experience reducing scam incidents by **70%** at Upwork.
+
+| Component | Description |
+|-----------|-------------|
+| **40+ Features** | Email entropy, behavioral signals, device fingerprints, velocity |
+| **ML Models** | XGBoost & LightGBM with imbalanced data handling |
+| **FastAPI** | Real-time scoring API with risk levels |
+| **Docker** | Ready for production deployment |
+
+```bash
+# Quick start
+docker-compose up -d
+# API at http://localhost:8000/docs
+```
+
+[View Project →](./fraud_ml_pipeline)
+
+---
+
 ### 🔄 [Airflow Data Pipelines](./airflow_pipelines)
 
 Collection of **10 production-grade** Apache Airflow DAGs demonstrating real-world data engineering patterns.
