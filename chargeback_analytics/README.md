@@ -11,27 +11,22 @@ End-to-end solution for payment fraud analytics:
 3. **Streamlit Dashboard** — Interactive monitoring with key metrics
 4. **SQL Queries** — Ready for Looker/Metabase integration
 
-## 📊 Dashboard Preview
+## 📊 Dashboard Screenshots
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  💳 CHARGEBACK ANALYTICS DASHBOARD                              │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  Transactions    Revenue      Chargebacks    Rate      Net Loss │
-│  ┌─────────┐   ┌─────────┐   ┌─────────┐   ┌──────┐   ┌───────┐│
-│  │  50,000 │   │ $1.2M   │   │   850   │   │ 1.7% │   │ $25K  ││
-│  └─────────┘   └─────────┘   └─────────┘   └──────┘   └───────┘│
-│                                                                 │
-│  [═══════════════ Chargeback Rate Trend ════════════════]      │
-│                                                                 │
-│  [By Category]          [By Country]      [By Payment]         │
-│  ████ Fraud 45%         🇺🇸 US 35%         💳 Visa 45%        │
-│  ███ Service 30%        🇳🇬 NG 8%          💳 MC 35%          │
-│  ██ Auth 15%            🇧🇷 BR 7%          💳 Amex 12%        │
-│  █ Processing 10%                                               │
-└─────────────────────────────────────────────────────────────────┘
-```
+### Key Metrics & KPIs
+![Main Dashboard](assets/main.png)
+
+### Chargeback Trends
+![Trends](assets/trends.png)
+
+### Analysis by Category
+![By Category](assets/chargebacks_by_category.png)
+
+### Chargeback Rate by Country
+![By Country](assets/chargebacks_rate_by_country.png)
+
+### Recent Chargebacks Table
+![Recent Chargebacks](assets/recent_chargebacks.png)
 
 ## 📂 Project Structure
 

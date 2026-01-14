@@ -1,0 +1,1061 @@
+chargeback_id,transaction_id,customer_id,transaction_date,chargeback_date,amount,currency,reason_code,reason_category,reason_description,payment_method,country,plan,is_3ds,is_recurring,dispute_filed,dispute_won,resolution_date,status
+cb_000000,tx_00000133,cust_008483,2024-10-20 04:33:00,2024-11-11 04:33:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,True,True,True,,2024-12-18 04:33:00,escalated
+cb_000001,tx_00000181,cust_009569,2024-06-12 06:23:00,2024-07-16 06:23:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,US,starter,True,True,True,,2024-09-24 06:23:00,escalated
+cb_000002,tx_00000224,cust_001976,2024-01-01 06:30:00,2024-02-03 06:30:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,DE,starter,False,True,True,True,2024-03-20 06:30:00,pending
+cb_000003,tx_00000229,cust_005186,2024-09-10 12:07:00,2024-10-19 12:07:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,CA,starter,True,False,True,,2024-11-25 12:07:00,escalated
+cb_000004,tx_00000255,cust_005436,2024-09-09 17:19:00,2024-10-06 17:19:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,False,True,True,,2024-11-11 17:19:00,escalated
+cb_000005,tx_00000345,cust_009706,2024-02-28 15:43:00,2024-03-26 15:43:00,49.98,USD,13.1,service,Merchandise/Services Not Received,visa,US,pro,True,True,True,,2024-06-17 15:43:00,pending
+cb_000006,tx_00000431,cust_004557,2024-05-01 06:37:00,2024-05-26 06:37:00,29.99,USD,4853,service,Cardholder Dispute,visa,UK,pro,False,True,True,True,2024-08-04 06:37:00,escalated
+cb_000007,tx_00000480,cust_007899,2024-09-01 13:25:00,2024-10-04 13:25:00,99.99,USD,4837,fraud,No Cardholder Authorization,mastercard,AU,business,True,True,True,False,2024-12-18 13:25:00,escalated
+cb_000008,tx_00000485,cust_000751,2024-03-17 23:37:00,2024-04-13 23:37:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,starter,True,True,False,True,2024-06-12 23:37:00,resolved
+cb_000009,tx_00000489,cust_009728,2024-02-21 20:39:00,2024-03-18 20:39:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,US,starter,False,True,True,False,2024-06-12 20:39:00,pending
+cb_000010,tx_00000513,cust_008314,2024-01-13 12:59:00,2024-02-04 12:59:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,pro,True,False,True,,2024-03-17 12:59:00,escalated
+cb_000011,tx_00000649,cust_004761,2024-07-11 06:25:00,2024-08-01 06:25:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,PK,starter,True,True,False,False,2024-09-17 06:25:00,pending
+cb_000012,tx_00000677,cust_003306,2024-12-05 22:42:00,2025-01-14 22:42:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,UK,business,False,True,True,,2025-02-20 22:42:00,pending
+cb_000013,tx_00000742,cust_003051,2024-11-12 15:03:00,2024-12-20 15:03:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,CA,starter,True,True,True,,2025-02-27 15:03:00,pending
+cb_000014,tx_00000743,cust_004099,2024-09-08 06:05:00,2024-10-23 06:05:00,29.99,USD,11.1,authorization,Card Recovery Bulletin,visa,IN,pro,True,True,True,False,2025-01-07 06:05:00,resolved
+cb_000015,tx_00000755,cust_009020,2024-11-12 10:19:00,2024-11-27 10:19:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,PK,pro,False,False,False,True,2025-02-07 10:19:00,pending
+cb_000016,tx_00000973,cust_006789,2024-05-21 16:42:00,2024-06-14 16:42:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,UK,starter,False,True,True,,2024-07-24 16:42:00,resolved
+cb_000017,tx_00000983,cust_006379,2024-06-15 19:15:00,2024-07-04 19:15:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,CA,starter,True,False,False,False,2024-09-13 19:15:00,pending
+cb_000018,tx_00001029,cust_004209,2024-08-25 13:54:00,2024-10-06 13:54:00,99.99,USD,11.2,authorization,Declined Authorization,amex,UK,business,True,True,True,False,2024-11-23 13:54:00,pending
+cb_000019,tx_00001069,cust_000454,2024-10-12 01:43:00,2024-11-22 01:43:00,9.99,USD,4837,fraud,No Cardholder Authorization,paypal,US,starter,False,True,False,,2025-01-22 01:43:00,resolved
+cb_000020,tx_00001106,cust_004960,2024-08-22 21:05:00,2024-09-28 21:05:00,9.99,USD,4834,processing,Duplicate Processing,amex,US,starter,True,False,True,True,2024-12-07 21:05:00,resolved
+cb_000021,tx_00001229,cust_004484,2024-05-15 00:33:00,2024-06-26 00:33:00,14.98,USD,4853,service,Cardholder Dispute,amex,US,starter,True,False,False,True,2024-08-25 00:33:00,pending
+cb_000022,tx_00001245,cust_000697,2024-12-02 10:17:00,2024-12-28 10:17:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,US,pro,True,True,False,False,2025-02-26 10:17:00,resolved
+cb_000023,tx_00001264,cust_003545,2024-05-03 01:30:00,2024-06-01 01:30:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,DE,pro,False,False,True,True,2024-07-31 01:30:00,resolved
+cb_000024,tx_00001275,cust_000448,2024-02-11 23:48:00,2024-03-02 23:48:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,True,True,False,2024-05-12 23:48:00,escalated
+cb_000025,tx_00001301,cust_007466,2024-09-23 06:23:00,2024-10-13 06:23:00,9.99,USD,12.5,processing,Incorrect Amount,visa,IN,starter,True,False,True,,2024-11-20 06:23:00,escalated
+cb_000026,tx_00001305,cust_008314,2024-07-10 19:46:00,2024-07-29 19:46:00,9.99,USD,12.1,processing,Late Presentment,visa,US,starter,True,True,True,True,2024-09-20 19:46:00,escalated
+cb_000027,tx_00001312,cust_006677,2024-03-11 21:57:00,2024-04-23 21:57:00,29.99,USD,11.2,authorization,Declined Authorization,amex,US,pro,False,True,True,False,2024-06-14 21:57:00,pending
+cb_000028,tx_00001387,cust_004677,2024-06-24 10:16:00,2024-07-10 10:16:00,299.99,USD,4837,fraud,No Cardholder Authorization,amex,US,enterprise,True,True,True,False,2024-08-28 10:16:00,resolved
+cb_000029,tx_00001413,cust_001675,2024-05-15 19:27:00,2024-06-27 19:27:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,UK,starter,True,True,False,False,2024-08-18 19:27:00,escalated
+cb_000030,tx_00001426,cust_009379,2024-03-05 03:32:00,2024-04-02 03:32:00,49.98,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,pro,True,True,True,,2024-06-02 03:32:00,pending
+cb_000031,tx_00001455,cust_006389,2024-06-17 23:37:00,2024-07-18 23:37:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,starter,True,True,False,False,2024-08-29 23:37:00,resolved
+cb_000032,tx_00001466,cust_001039,2024-10-22 04:08:00,2024-11-08 04:08:00,99.99,USD,13.1,service,Merchandise/Services Not Received,amex,UK,business,False,True,False,True,2025-01-25 04:08:00,resolved
+cb_000033,tx_00001470,cust_007600,2024-10-14 20:44:00,2024-11-24 20:44:00,99.99,USD,10.4,fraud,Card Absent Environment,visa,US,business,False,True,False,True,2025-01-03 20:44:00,pending
+cb_000034,tx_00001495,cust_008864,2024-10-19 01:41:00,2024-11-09 01:41:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,UK,business,True,True,False,True,2024-12-15 01:41:00,resolved
+cb_000035,tx_00001504,cust_003503,2024-01-28 21:06:00,2024-02-14 21:06:00,299.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,enterprise,False,True,True,,2024-04-14 21:06:00,escalated
+cb_000036,tx_00001508,cust_000942,2024-03-07 16:05:00,2024-04-18 16:05:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,IN,pro,True,False,True,,2024-06-30 16:05:00,pending
+cb_000037,tx_00001609,cust_008288,2024-03-31 12:29:00,2024-05-11 12:29:00,14.98,USD,4853,service,Cardholder Dispute,visa,UK,starter,False,True,True,True,2024-07-06 12:29:00,resolved
+cb_000038,tx_00001692,cust_009368,2024-05-07 09:47:00,2024-06-21 09:47:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,UK,pro,False,True,True,True,2024-09-02 09:47:00,pending
+cb_000039,tx_00001769,cust_008734,2024-12-25 00:56:00,2025-01-19 00:56:00,29.99,USD,4837,fraud,No Cardholder Authorization,amex,US,pro,False,True,False,False,2025-03-08 00:56:00,pending
+cb_000040,tx_00001790,cust_004808,2024-06-20 06:32:00,2024-07-14 06:32:00,99.99,USD,13.1,service,Merchandise/Services Not Received,visa,DE,business,False,True,False,False,2024-08-16 06:32:00,pending
+cb_000041,tx_00001834,cust_006702,2024-09-30 04:56:00,2024-10-22 04:56:00,9.99,USD,4853,service,Cardholder Dispute,visa,UK,starter,True,True,True,False,2025-01-12 04:56:00,pending
+cb_000042,tx_00001878,cust_000858,2024-01-18 12:25:00,2024-03-03 12:25:00,99.99,USD,4853,service,Cardholder Dispute,visa,FR,business,True,False,True,False,2024-05-06 12:25:00,resolved
+cb_000043,tx_00001936,cust_003421,2024-03-09 04:08:00,2024-03-24 04:08:00,29.99,USD,11.1,authorization,Card Recovery Bulletin,visa,NG,pro,False,False,True,True,2024-06-20 04:08:00,pending
+cb_000044,tx_00001944,cust_004677,2024-09-26 16:29:00,2024-11-06 16:29:00,39.98,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,pro,True,True,False,False,2025-01-13 16:29:00,pending
+cb_000045,tx_00001989,cust_006748,2024-04-02 08:02:00,2024-05-14 08:02:00,99.99,USD,10.4,fraud,Card Absent Environment,mastercard,DE,business,True,True,False,False,2024-07-01 08:02:00,resolved
+cb_000046,tx_00001995,cust_004714,2024-11-02 14:33:00,2024-11-22 14:33:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,US,starter,False,False,True,False,2025-02-10 14:33:00,resolved
+cb_000047,tx_00002001,cust_006366,2024-01-26 22:19:00,2024-02-13 22:19:00,14.98,USD,4837,fraud,No Cardholder Authorization,mastercard,US,starter,True,True,True,True,2024-03-22 22:19:00,resolved
+cb_000048,tx_00002034,cust_000803,2024-08-06 06:00:00,2024-09-11 06:00:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,PK,starter,False,False,True,False,2024-12-01 06:00:00,pending
+cb_000049,tx_00002095,cust_000469,2024-10-29 10:17:00,2024-11-24 10:17:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,IN,pro,True,True,False,False,2025-01-15 10:17:00,resolved
+cb_000050,tx_00002164,cust_009646,2024-08-28 12:21:00,2024-09-15 12:21:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,UK,starter,True,True,False,True,2024-10-16 12:21:00,pending
+cb_000051,tx_00002279,cust_008198,2024-06-22 19:29:00,2024-07-17 19:29:00,19.98,USD,10.4,fraud,Card Absent Environment,visa,IN,starter,True,True,False,False,2024-09-26 19:29:00,pending
+cb_000052,tx_00002308,cust_001751,2024-05-17 23:42:00,2024-06-30 23:42:00,29.99,USD,12.1,processing,Late Presentment,visa,DE,pro,True,True,False,,2024-08-01 23:42:00,escalated
+cb_000053,tx_00002364,cust_001408,2024-09-21 03:07:00,2024-10-13 03:07:00,99.99,USD,4837,fraud,No Cardholder Authorization,mastercard,PK,business,False,True,True,True,2024-11-17 03:07:00,escalated
+cb_000054,tx_00002386,cust_001821,2024-11-05 20:03:00,2024-12-19 20:03:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,CA,starter,False,False,True,,2025-02-05 20:03:00,escalated
+cb_000055,tx_00002444,cust_008830,2024-06-23 18:21:00,2024-07-27 18:21:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,NG,starter,False,True,True,,2024-09-01 18:21:00,escalated
+cb_000056,tx_00002464,cust_006099,2024-01-01 01:43:00,2024-02-07 01:43:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,BR,pro,True,True,False,False,2024-03-14 01:43:00,resolved
+cb_000057,tx_00002536,cust_004414,2024-03-27 18:28:00,2024-05-10 18:28:00,29.99,USD,13.3,service,Not as Described,visa,US,pro,True,True,True,,2024-07-22 18:28:00,pending
+cb_000058,tx_00002607,cust_007832,2024-06-29 05:08:00,2024-08-09 05:08:00,14.98,USD,4837,fraud,No Cardholder Authorization,amex,BR,starter,False,True,True,,2024-10-03 05:08:00,escalated
+cb_000059,tx_00002608,cust_001119,2024-09-10 11:33:00,2024-09-27 11:33:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,UK,pro,False,False,True,False,2024-10-28 11:33:00,escalated
+cb_000060,tx_00002681,cust_008275,2024-12-24 23:13:00,2025-01-25 23:13:00,99.99,USD,13.3,service,Not as Described,visa,US,business,False,True,True,True,2025-03-02 23:13:00,resolved
+cb_000061,tx_00002719,cust_009263,2024-11-10 08:00:00,2024-12-15 08:00:00,99.99,USD,10.4,fraud,Card Absent Environment,mastercard,CA,business,False,True,True,,2025-02-06 08:00:00,escalated
+cb_000062,tx_00002732,cust_006002,2024-04-20 10:57:00,2024-06-01 10:57:00,299.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,enterprise,True,True,True,False,2024-08-17 10:57:00,escalated
+cb_000063,tx_00002814,cust_003265,2024-07-03 02:55:00,2024-07-25 02:55:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,US,starter,True,True,False,False,2024-10-14 02:55:00,pending
+cb_000064,tx_00002827,cust_001553,2024-03-29 09:25:00,2024-04-13 09:25:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,UK,starter,False,True,True,,2024-05-29 09:25:00,pending
+cb_000065,tx_00002830,cust_005046,2024-06-16 14:49:00,2024-07-16 14:49:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,False,True,True,False,2024-09-21 14:49:00,escalated
+cb_000066,tx_00002889,cust_008380,2024-01-08 14:44:00,2024-02-18 14:44:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,paypal,US,business,True,False,True,True,2024-04-15 14:44:00,resolved
+cb_000067,tx_00002904,cust_008102,2024-09-03 18:46:00,2024-09-25 18:46:00,99.99,USD,4853,service,Cardholder Dispute,visa,IN,business,False,True,True,,2024-11-04 18:46:00,resolved
+cb_000068,tx_00002935,cust_009491,2024-04-17 16:26:00,2024-05-31 16:26:00,29.99,USD,13.3,service,Not as Described,mastercard,BR,pro,True,False,True,False,2024-08-01 16:26:00,resolved
+cb_000069,tx_00002956,cust_000196,2024-06-02 02:30:00,2024-06-25 02:30:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,pro,True,True,True,True,2024-08-09 02:30:00,resolved
+cb_000070,tx_00002967,cust_005735,2024-09-04 14:48:00,2024-09-27 14:48:00,99.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,business,False,True,True,,2024-12-08 14:48:00,resolved
+cb_000071,tx_00003090,cust_001605,2024-05-10 20:45:00,2024-06-15 20:45:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,visa,PK,starter,True,True,True,False,2024-07-26 20:45:00,resolved
+cb_000072,tx_00003125,cust_007131,2024-08-21 13:13:00,2024-09-29 13:13:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,starter,False,False,True,False,2024-11-13 13:13:00,escalated
+cb_000073,tx_00003153,cust_009059,2024-09-17 01:34:00,2024-10-31 01:34:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,False,True,True,False,2025-01-03 01:34:00,escalated
+cb_000074,tx_00003326,cust_005788,2024-01-31 23:36:00,2024-02-26 23:36:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,DE,starter,True,True,True,False,2024-05-01 23:36:00,escalated
+cb_000075,tx_00003415,cust_008846,2024-04-12 20:56:00,2024-04-27 20:56:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,True,True,2024-07-25 20:56:00,pending
+cb_000076,tx_00003495,cust_000345,2024-03-12 18:41:00,2024-03-29 18:41:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,NG,pro,False,False,True,True,2024-06-07 18:41:00,resolved
+cb_000077,tx_00003497,cust_004856,2024-07-11 10:14:00,2024-08-22 10:14:00,99.99,USD,13.3,service,Not as Described,visa,IN,business,True,True,True,,2024-10-24 10:14:00,resolved
+cb_000078,tx_00003588,cust_000774,2024-07-06 15:32:00,2024-08-16 15:32:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,IN,pro,False,False,True,False,2024-10-01 15:32:00,escalated
+cb_000079,tx_00003704,cust_007780,2024-11-29 07:51:00,2025-01-10 07:51:00,19.98,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,True,False,False,True,2025-02-28 07:51:00,resolved
+cb_000080,tx_00003746,cust_001217,2024-09-10 22:03:00,2024-10-07 22:03:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,True,True,True,False,2024-11-21 22:03:00,escalated
+cb_000081,tx_00003747,cust_006150,2024-09-05 12:14:00,2024-09-24 12:14:00,99.99,USD,13.3,service,Not as Described,visa,US,business,False,True,True,True,2024-11-14 12:14:00,pending
+cb_000082,tx_00003755,cust_002061,2024-07-03 15:45:00,2024-08-05 15:45:00,299.99,USD,13.3,service,Not as Described,amex,BR,enterprise,True,True,True,,2024-10-16 15:45:00,resolved
+cb_000083,tx_00003782,cust_006739,2024-09-01 02:22:00,2024-10-08 02:22:00,29.98,USD,4853,service,Cardholder Dispute,visa,BR,starter,True,True,True,True,2024-12-28 02:22:00,pending
+cb_000084,tx_00003801,cust_002208,2024-11-12 16:14:00,2024-12-01 16:14:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,UK,pro,True,True,True,False,2025-01-09 16:14:00,pending
+cb_000085,tx_00003803,cust_002475,2024-12-09 07:50:00,2025-01-21 07:50:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,pro,True,False,True,False,2025-03-17 07:50:00,resolved
+cb_000086,tx_00003830,cust_001711,2024-12-17 17:45:00,2025-01-08 17:45:00,119.98,USD,10.5,fraud,Fraud - Card Present,visa,BR,business,False,False,True,,2025-04-06 17:45:00,pending
+cb_000087,tx_00003843,cust_009571,2024-07-04 12:11:00,2024-08-07 12:11:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,AU,pro,False,True,False,True,2024-10-04 12:11:00,escalated
+cb_000088,tx_00003880,cust_009489,2024-02-21 02:58:00,2024-03-28 02:58:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,True,True,True,False,2024-05-01 02:58:00,resolved
+cb_000089,tx_00003882,cust_008435,2024-09-28 22:02:00,2024-11-06 22:02:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,PK,starter,False,True,False,True,2024-12-27 22:02:00,escalated
+cb_000090,tx_00003886,cust_008433,2024-10-10 03:15:00,2024-10-27 03:15:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,FR,pro,False,True,True,False,2024-12-31 03:15:00,resolved
+cb_000091,tx_00003953,cust_005588,2024-10-30 10:56:00,2024-11-20 10:56:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,starter,False,True,True,True,2024-12-28 10:56:00,pending
+cb_000092,tx_00004006,cust_000856,2024-11-17 19:33:00,2024-12-31 19:33:00,9.99,USD,10.4,fraud,Card Absent Environment,paypal,US,starter,True,True,True,,2025-03-22 19:33:00,resolved
+cb_000093,tx_00004053,cust_008636,2024-03-18 05:16:00,2024-04-06 05:16:00,9.99,USD,4853,service,Cardholder Dispute,paypal,PK,starter,False,True,True,True,2024-07-01 05:16:00,resolved
+cb_000094,tx_00004095,cust_007590,2024-10-06 02:46:00,2024-11-07 02:46:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,starter,True,True,True,,2025-01-04 02:46:00,resolved
+cb_000095,tx_00004154,cust_009712,2024-04-09 09:07:00,2024-05-16 09:07:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,True,True,True,True,2024-07-02 09:07:00,pending
+cb_000096,tx_00004175,cust_001704,2024-01-17 16:49:00,2024-02-02 16:49:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,IN,starter,False,True,True,False,2024-04-14 16:49:00,resolved
+cb_000097,tx_00004239,cust_004744,2024-02-09 21:12:00,2024-03-09 21:12:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,True,True,False,False,2024-05-20 21:12:00,resolved
+cb_000098,tx_00004349,cust_000778,2024-01-02 02:45:00,2024-02-06 02:45:00,14.98,USD,4853,service,Cardholder Dispute,mastercard,IN,starter,True,False,False,True,2024-04-24 02:45:00,pending
+cb_000099,tx_00004350,cust_000695,2024-06-25 17:19:00,2024-07-23 17:19:00,99.99,USD,10.4,fraud,Card Absent Environment,mastercard,IN,business,False,True,True,False,2024-10-08 17:19:00,resolved
+cb_000100,tx_00004367,cust_005232,2024-08-17 05:31:00,2024-09-03 05:31:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,US,starter,True,True,True,False,2024-10-17 05:31:00,resolved
+cb_000101,tx_00004447,cust_005889,2024-08-16 07:41:00,2024-09-03 07:41:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,IN,business,True,False,True,,2024-10-20 07:41:00,escalated
+cb_000102,tx_00004477,cust_004908,2024-08-26 09:44:00,2024-09-30 09:44:00,9.99,USD,4853,service,Cardholder Dispute,visa,UK,starter,False,True,False,True,2024-12-03 09:44:00,escalated
+cb_000103,tx_00004480,cust_002840,2024-06-13 21:28:00,2024-07-16 21:28:00,9.99,USD,13.3,service,Not as Described,visa,UK,starter,True,True,False,False,2024-08-27 21:28:00,pending
+cb_000104,tx_00004523,cust_008922,2024-04-24 01:17:00,2024-05-13 01:17:00,99.99,USD,10.4,fraud,Card Absent Environment,visa,BR,business,False,False,True,False,2024-07-15 01:17:00,resolved
+cb_000105,tx_00004556,cust_007879,2024-03-25 12:45:00,2024-04-30 12:45:00,29.99,USD,13.3,service,Not as Described,mastercard,US,pro,True,True,True,True,2024-06-22 12:45:00,pending
+cb_000106,tx_00004605,cust_004416,2024-11-11 20:12:00,2024-12-02 20:12:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,BR,starter,True,False,False,,2025-01-20 20:12:00,escalated
+cb_000107,tx_00004606,cust_009025,2024-08-13 23:14:00,2024-09-14 23:14:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,RU,starter,False,True,True,True,2024-11-29 23:14:00,escalated
+cb_000108,tx_00004666,cust_004046,2024-02-06 00:08:00,2024-03-06 00:08:00,9.99,USD,13.3,service,Not as Described,mastercard,AU,starter,False,True,True,True,2024-05-13 00:08:00,pending
+cb_000109,tx_00004703,cust_004869,2024-05-25 08:57:00,2024-07-03 08:57:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,IN,starter,False,True,True,,2024-09-12 08:57:00,resolved
+cb_000110,tx_00004748,cust_003574,2024-05-02 17:53:00,2024-05-23 17:53:00,29.98,USD,10.4,fraud,Card Absent Environment,visa,UK,starter,False,True,False,False,2024-08-18 17:53:00,resolved
+cb_000111,tx_00004780,cust_009688,2024-06-24 01:40:00,2024-08-01 01:40:00,9.99,USD,12.5,processing,Incorrect Amount,mastercard,US,starter,True,False,False,False,2024-10-15 01:40:00,resolved
+cb_000112,tx_00004827,cust_004096,2024-10-18 15:30:00,2024-11-17 15:30:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,RU,pro,False,True,False,False,2025-02-04 15:30:00,pending
+cb_000113,tx_00004942,cust_007424,2024-01-05 16:33:00,2024-02-03 16:33:00,29.99,USD,12.1,processing,Late Presentment,visa,CA,pro,True,True,True,True,2024-04-03 16:33:00,pending
+cb_000114,tx_00005074,cust_004775,2024-02-10 10:14:00,2024-03-05 10:14:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,pro,True,True,True,True,2024-04-13 10:14:00,escalated
+cb_000115,tx_00005140,cust_002759,2024-04-17 09:44:00,2024-05-09 09:44:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,pro,True,False,True,True,2024-07-16 09:44:00,escalated
+cb_000116,tx_00005144,cust_004514,2024-10-13 21:37:00,2024-11-06 21:37:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,UK,starter,True,True,True,False,2025-01-06 21:37:00,pending
+cb_000117,tx_00005162,cust_003724,2024-09-27 13:54:00,2024-11-09 13:54:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,True,True,False,,2025-01-11 13:54:00,resolved
+cb_000118,tx_00005166,cust_002511,2024-02-12 20:41:00,2024-03-15 20:41:00,49.98,USD,13.1,service,Merchandise/Services Not Received,amex,RU,pro,True,True,True,,2024-05-31 20:41:00,resolved
+cb_000119,tx_00005176,cust_003508,2024-06-28 15:07:00,2024-07-17 15:07:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,True,True,False,2024-09-02 15:07:00,escalated
+cb_000120,tx_00005195,cust_006652,2024-11-01 18:31:00,2024-12-16 18:31:00,29.99,USD,11.2,authorization,Declined Authorization,visa,DE,pro,False,False,True,,2025-02-16 18:31:00,resolved
+cb_000121,tx_00005228,cust_002503,2024-11-29 06:13:00,2024-12-21 06:13:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,PK,starter,True,True,True,,2025-03-14 06:13:00,resolved
+cb_000122,tx_00005332,cust_000291,2024-02-01 07:59:00,2024-02-17 07:59:00,9.99,USD,13.3,service,Not as Described,paypal,CA,starter,False,True,False,,2024-05-16 07:59:00,pending
+cb_000123,tx_00005416,cust_009029,2024-04-25 07:23:00,2024-06-03 07:23:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,AU,starter,True,False,True,True,2024-08-24 07:23:00,resolved
+cb_000124,tx_00005579,cust_001282,2024-10-17 04:55:00,2024-11-02 04:55:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,starter,False,True,False,,2024-12-24 04:55:00,pending
+cb_000125,tx_00005618,cust_002770,2024-04-10 01:31:00,2024-05-15 01:31:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,paypal,UK,starter,False,False,True,False,2024-07-27 01:31:00,pending
+cb_000126,tx_00005664,cust_007043,2024-09-18 00:59:00,2024-10-06 00:59:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,UK,starter,False,False,True,False,2024-11-10 00:59:00,pending
+cb_000127,tx_00005754,cust_008648,2024-04-24 06:44:00,2024-05-14 06:44:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,CA,starter,True,True,True,False,2024-08-09 06:44:00,pending
+cb_000128,tx_00005812,cust_001510,2024-02-23 03:34:00,2024-03-30 03:34:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,RU,starter,True,False,True,True,2024-06-12 03:34:00,pending
+cb_000129,tx_00005824,cust_007273,2024-08-20 10:49:00,2024-09-29 10:49:00,99.99,USD,4853,service,Cardholder Dispute,amex,US,business,False,False,True,,2024-12-14 10:49:00,escalated
+cb_000130,tx_00005851,cust_008906,2024-04-05 00:03:00,2024-04-23 00:03:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,UK,pro,True,True,True,False,2024-07-01 00:03:00,pending
+cb_000131,tx_00005882,cust_007332,2024-12-16 05:24:00,2025-01-18 05:24:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,CA,starter,False,True,False,False,2025-03-17 05:24:00,resolved
+cb_000132,tx_00005907,cust_003698,2024-12-01 18:53:00,2024-12-28 18:53:00,14.98,USD,4837,fraud,No Cardholder Authorization,mastercard,BR,starter,False,True,True,False,2025-03-25 18:53:00,resolved
+cb_000133,tx_00005909,cust_002516,2024-12-25 10:30:00,2025-01-15 10:30:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,BR,pro,True,True,True,,2025-02-22 10:30:00,escalated
+cb_000134,tx_00005938,cust_001652,2024-10-04 02:07:00,2024-10-20 02:07:00,29.99,USD,13.3,service,Not as Described,mastercard,US,pro,True,True,True,True,2024-12-12 02:07:00,pending
+cb_000135,tx_00005949,cust_002555,2024-03-22 04:58:00,2024-05-02 04:58:00,99.99,USD,4837,fraud,No Cardholder Authorization,mastercard,DE,business,False,True,False,,2024-06-18 04:58:00,pending
+cb_000136,tx_00005998,cust_005722,2024-06-04 05:13:00,2024-07-06 05:13:00,14.98,USD,4837,fraud,No Cardholder Authorization,amex,US,starter,True,True,False,,2024-09-13 05:13:00,resolved
+cb_000137,tx_00006002,cust_003182,2024-11-10 22:42:00,2024-12-07 22:42:00,99.99,USD,13.3,service,Not as Described,paypal,AU,business,True,False,True,True,2025-02-08 22:42:00,escalated
+cb_000138,tx_00006095,cust_008529,2024-03-12 23:23:00,2024-04-10 23:23:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,business,False,True,True,,2024-06-15 23:23:00,resolved
+cb_000139,tx_00006132,cust_004731,2024-07-19 02:38:00,2024-08-27 02:38:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,starter,False,True,True,,2024-10-05 02:38:00,pending
+cb_000140,tx_00006137,cust_000919,2024-10-10 16:21:00,2024-11-10 16:21:00,14.98,USD,12.5,processing,Incorrect Amount,mastercard,DE,starter,True,True,False,,2025-01-23 16:21:00,pending
+cb_000141,tx_00006174,cust_003415,2024-11-24 20:59:00,2024-12-26 20:59:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,UK,starter,False,True,True,,2025-03-02 20:59:00,resolved
+cb_000142,tx_00006231,cust_002190,2024-08-13 23:05:00,2024-08-28 23:05:00,109.98,USD,4837,fraud,No Cardholder Authorization,visa,US,business,False,True,False,,2024-10-08 23:05:00,resolved
+cb_000143,tx_00006234,cust_001913,2024-07-25 20:06:00,2024-08-31 20:06:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,NG,pro,True,True,True,True,2024-11-24 20:06:00,escalated
+cb_000144,tx_00006272,cust_000966,2024-04-12 19:44:00,2024-05-07 19:44:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,True,True,True,True,2024-08-03 19:44:00,resolved
+cb_000145,tx_00006289,cust_007927,2024-08-27 04:01:00,2024-09-18 04:01:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,pro,True,True,False,False,2024-12-10 04:01:00,escalated
+cb_000146,tx_00006434,cust_003212,2024-05-24 03:00:00,2024-06-09 03:00:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,BR,business,True,True,False,False,2024-08-14 03:00:00,pending
+cb_000147,tx_00006438,cust_000734,2024-12-04 12:48:00,2024-12-23 12:48:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,pro,False,True,False,,2025-02-16 12:48:00,resolved
+cb_000148,tx_00006456,cust_007738,2024-07-08 11:31:00,2024-08-17 11:31:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,business,True,True,False,False,2024-10-25 11:31:00,resolved
+cb_000149,tx_00006462,cust_003802,2024-08-21 10:06:00,2024-09-27 10:06:00,29.99,USD,13.3,service,Not as Described,mastercard,BR,pro,True,True,True,True,2024-11-24 10:06:00,escalated
+cb_000150,tx_00006463,cust_009948,2024-11-21 07:25:00,2024-12-29 07:25:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,starter,True,True,False,,2025-03-24 07:25:00,pending
+cb_000151,tx_00006469,cust_006427,2024-02-09 16:33:00,2024-03-09 16:33:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,DE,business,True,False,False,,2024-04-29 16:33:00,escalated
+cb_000152,tx_00006474,cust_003630,2024-06-15 03:22:00,2024-07-10 03:22:00,19.98,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,starter,True,False,True,True,2024-09-26 03:22:00,resolved
+cb_000153,tx_00006478,cust_002115,2024-11-13 14:49:00,2024-12-20 14:49:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,False,True,True,False,2025-03-16 14:49:00,resolved
+cb_000154,tx_00006507,cust_002542,2024-01-31 09:46:00,2024-02-24 09:46:00,29.99,USD,10.4,fraud,Card Absent Environment,paypal,NG,pro,True,True,True,False,2024-03-25 09:46:00,escalated
+cb_000155,tx_00006535,cust_000897,2024-02-09 23:05:00,2024-03-10 23:05:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,UK,pro,True,True,True,,2024-05-25 23:05:00,pending
+cb_000156,tx_00006538,cust_003228,2024-01-24 18:34:00,2024-02-18 18:34:00,99.99,USD,13.3,service,Not as Described,visa,DE,business,True,True,True,False,2024-05-07 18:34:00,pending
+cb_000157,tx_00006594,cust_005038,2024-11-11 23:34:00,2024-12-13 23:34:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,business,True,True,True,False,2025-03-04 23:34:00,escalated
+cb_000158,tx_00006640,cust_006260,2024-11-11 11:26:00,2024-11-27 11:26:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,starter,True,True,True,,2024-12-28 11:26:00,escalated
+cb_000159,tx_00006644,cust_002616,2024-10-10 04:13:00,2024-10-31 04:13:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,CA,starter,False,True,False,False,2024-12-18 04:13:00,pending
+cb_000160,tx_00006649,cust_007717,2024-02-19 09:29:00,2024-04-04 09:29:00,9.99,USD,13.3,service,Not as Described,mastercard,US,starter,True,True,True,False,2024-06-10 09:29:00,escalated
+cb_000161,tx_00006719,cust_007764,2024-05-23 18:14:00,2024-06-07 18:14:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,PK,pro,False,False,False,,2024-07-13 18:14:00,resolved
+cb_000162,tx_00006747,cust_004469,2024-06-18 20:21:00,2024-07-18 20:21:00,9.99,USD,11.2,authorization,Declined Authorization,visa,RU,starter,False,True,False,False,2024-08-23 20:21:00,pending
+cb_000163,tx_00006806,cust_002859,2024-05-26 19:10:00,2024-07-01 19:10:00,29.99,USD,13.3,service,Not as Described,amex,IN,pro,True,True,False,True,2024-08-18 19:10:00,resolved
+cb_000164,tx_00006812,cust_003584,2024-09-09 16:16:00,2024-10-10 16:16:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,True,False,,2024-11-25 16:16:00,pending
+cb_000165,tx_00006854,cust_003685,2024-01-13 15:25:00,2024-02-03 15:25:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,US,starter,False,False,True,False,2024-03-05 15:25:00,escalated
+cb_000166,tx_00006875,cust_008603,2024-08-12 18:37:00,2024-09-05 18:37:00,29.99,USD,13.3,service,Not as Described,amex,US,pro,True,True,False,True,2024-11-08 18:37:00,resolved
+cb_000167,tx_00006960,cust_002540,2024-09-01 13:05:00,2024-10-14 13:05:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,FR,pro,False,True,True,False,2024-12-02 13:05:00,escalated
+cb_000168,tx_00007004,cust_008974,2024-07-06 19:42:00,2024-07-23 19:42:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,DE,starter,True,False,True,True,2024-09-09 19:42:00,resolved
+cb_000169,tx_00007237,cust_009734,2024-11-18 17:35:00,2025-01-01 17:35:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,UK,starter,True,True,True,False,2025-03-19 17:35:00,resolved
+cb_000170,tx_00007246,cust_009739,2024-07-23 15:57:00,2024-09-01 15:57:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,UK,starter,False,True,True,,2024-10-12 15:57:00,resolved
+cb_000171,tx_00007267,cust_007677,2024-03-30 16:30:00,2024-05-05 16:30:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,PK,starter,True,False,True,False,2024-07-20 16:30:00,resolved
+cb_000172,tx_00007290,cust_002081,2024-07-02 01:51:00,2024-07-23 01:51:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,pro,True,True,True,,2024-10-14 01:51:00,resolved
+cb_000173,tx_00007321,cust_003470,2024-02-02 02:40:00,2024-03-05 02:40:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,starter,False,True,False,False,2024-05-09 02:40:00,escalated
+cb_000174,tx_00007337,cust_002126,2024-06-18 07:17:00,2024-07-08 07:17:00,99.99,USD,10.5,fraud,Fraud - Card Present,visa,US,business,False,False,True,True,2024-08-27 07:17:00,resolved
+cb_000175,tx_00007404,cust_006575,2024-06-21 07:44:00,2024-07-19 07:44:00,14.98,USD,13.3,service,Not as Described,mastercard,US,starter,True,False,True,True,2024-09-16 07:44:00,escalated
+cb_000176,tx_00007409,cust_002533,2024-08-09 10:03:00,2024-09-07 10:03:00,9.99,USD,12.1,processing,Late Presentment,mastercard,US,starter,True,True,True,False,2024-10-23 10:03:00,escalated
+cb_000177,tx_00007413,cust_000323,2024-10-21 10:52:00,2024-11-17 10:52:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,FR,pro,True,True,False,True,2025-02-14 10:52:00,escalated
+cb_000178,tx_00007467,cust_004386,2024-05-05 09:03:00,2024-05-31 09:03:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,CA,starter,True,True,True,,2024-08-13 09:03:00,pending
+cb_000179,tx_00007548,cust_001596,2024-04-11 11:49:00,2024-05-22 11:49:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,PK,pro,False,True,True,,2024-07-15 11:49:00,escalated
+cb_000180,tx_00007707,cust_003089,2024-07-31 10:52:00,2024-09-07 10:52:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,starter,True,True,True,False,2024-11-09 10:52:00,resolved
+cb_000181,tx_00007727,cust_008080,2024-12-05 04:13:00,2025-01-19 04:13:00,99.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,US,business,True,True,False,,2025-03-09 04:13:00,escalated
+cb_000182,tx_00007751,cust_001571,2024-07-01 22:34:00,2024-08-07 22:34:00,9.99,USD,4853,service,Cardholder Dispute,amex,US,starter,False,True,True,True,2024-10-12 22:34:00,pending
+cb_000183,tx_00007785,cust_008934,2024-10-09 01:48:00,2024-10-28 01:48:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,FR,business,True,False,True,True,2024-12-01 01:48:00,resolved
+cb_000184,tx_00007797,cust_007712,2024-05-01 11:24:00,2024-05-19 11:24:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,CA,starter,False,True,False,True,2024-06-28 11:24:00,pending
+cb_000185,tx_00007811,cust_005813,2024-09-12 08:29:00,2024-10-01 08:29:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,UK,starter,False,True,True,True,2024-12-22 08:29:00,escalated
+cb_000186,tx_00007880,cust_004505,2024-07-20 07:46:00,2024-08-15 07:46:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,False,False,False,True,2024-11-02 07:46:00,resolved
+cb_000187,tx_00007946,cust_005906,2024-08-08 23:01:00,2024-08-28 23:01:00,9.99,USD,4853,service,Cardholder Dispute,paypal,CA,starter,True,True,False,,2024-11-04 23:01:00,pending
+cb_000188,tx_00008080,cust_003862,2024-06-22 16:33:00,2024-07-23 16:33:00,29.99,USD,12.1,processing,Late Presentment,visa,US,pro,True,False,True,,2024-10-20 16:33:00,pending
+cb_000189,tx_00008084,cust_008572,2024-09-02 08:46:00,2024-10-12 08:46:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,pro,True,False,True,True,2024-11-19 08:46:00,pending
+cb_000190,tx_00008099,cust_007054,2024-08-05 16:22:00,2024-09-18 16:22:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,BR,starter,True,True,True,False,2024-11-17 16:22:00,resolved
+cb_000191,tx_00008134,cust_003091,2024-07-14 23:54:00,2024-08-04 23:54:00,99.99,USD,10.4,fraud,Card Absent Environment,amex,BR,business,True,True,False,False,2024-09-03 23:54:00,escalated
+cb_000192,tx_00008182,cust_009312,2024-10-21 04:53:00,2024-12-02 04:53:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,CA,starter,True,True,True,False,2025-02-13 04:53:00,pending
+cb_000193,tx_00008456,cust_000057,2024-03-02 01:04:00,2024-04-10 01:04:00,9.99,USD,12.5,processing,Incorrect Amount,mastercard,DE,starter,True,True,True,False,2024-05-22 01:04:00,escalated
+cb_000194,tx_00008495,cust_005845,2024-10-29 17:39:00,2024-11-27 17:39:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,RU,starter,True,True,True,True,2025-01-15 17:39:00,resolved
+cb_000195,tx_00008518,cust_008190,2024-12-04 09:12:00,2024-12-31 09:12:00,9.99,USD,4853,service,Cardholder Dispute,amex,UK,starter,True,True,True,False,2025-03-21 09:12:00,escalated
+cb_000196,tx_00008536,cust_009969,2024-12-16 20:07:00,2025-01-30 20:07:00,29.99,USD,12.1,processing,Late Presentment,visa,DE,pro,True,True,False,False,2025-03-29 20:07:00,resolved
+cb_000197,tx_00008565,cust_008162,2024-12-21 23:09:00,2025-01-09 23:09:00,9.99,USD,13.3,service,Not as Described,visa,DE,starter,True,True,False,True,2025-04-05 23:09:00,resolved
+cb_000198,tx_00008673,cust_000406,2024-03-07 14:19:00,2024-04-06 14:19:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,True,,2024-05-27 14:19:00,resolved
+cb_000199,tx_00008719,cust_009312,2024-09-02 01:38:00,2024-10-05 01:38:00,29.99,USD,10.5,fraud,Fraud - Card Present,amex,US,pro,False,False,True,False,2024-12-21 01:38:00,pending
+cb_000200,tx_00008834,cust_009557,2024-06-12 21:02:00,2024-06-28 21:02:00,29.99,USD,13.3,service,Not as Described,mastercard,US,pro,False,False,False,,2024-09-12 21:02:00,pending
+cb_000201,tx_00008908,cust_006699,2024-10-12 21:52:00,2024-11-14 21:52:00,99.99,USD,10.5,fraud,Fraud - Card Present,amex,RU,business,False,True,True,,2025-01-07 21:52:00,escalated
+cb_000202,tx_00008915,cust_004684,2024-01-23 13:48:00,2024-02-09 13:48:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,AU,starter,True,False,True,True,2024-04-01 13:48:00,pending
+cb_000203,tx_00008921,cust_005884,2024-12-12 07:49:00,2025-01-03 07:49:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,BR,pro,False,False,True,False,2025-03-01 07:49:00,pending
+cb_000204,tx_00009104,cust_001868,2024-04-14 23:44:00,2024-05-22 23:44:00,14.98,USD,12.5,processing,Incorrect Amount,visa,BR,starter,False,True,True,False,2024-07-20 23:44:00,resolved
+cb_000205,tx_00009119,cust_007426,2024-09-25 15:56:00,2024-11-05 15:56:00,99.99,USD,10.4,fraud,Card Absent Environment,visa,IN,business,True,True,True,False,2025-01-20 15:56:00,pending
+cb_000206,tx_00009140,cust_006028,2024-09-26 06:17:00,2024-11-08 06:17:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,RU,starter,False,True,False,False,2024-12-15 06:17:00,escalated
+cb_000207,tx_00009157,cust_002800,2024-05-11 11:30:00,2024-05-30 11:30:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,CA,starter,True,False,True,True,2024-08-27 11:30:00,pending
+cb_000208,tx_00009227,cust_000873,2024-07-28 03:25:00,2024-08-21 03:25:00,9.99,USD,4853,service,Cardholder Dispute,visa,US,starter,True,True,False,True,2024-10-05 03:25:00,resolved
+cb_000209,tx_00009269,cust_006404,2024-11-06 03:08:00,2024-11-23 03:08:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,DE,starter,False,True,True,True,2025-01-07 03:08:00,pending
+cb_000210,tx_00009365,cust_007133,2024-05-22 08:15:00,2024-06-14 08:15:00,29.99,USD,4853,service,Cardholder Dispute,visa,NG,pro,True,True,True,True,2024-07-20 08:15:00,escalated
+cb_000211,tx_00009383,cust_000288,2024-02-11 20:27:00,2024-03-12 20:27:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,False,True,False,,2024-05-21 20:27:00,escalated
+cb_000212,tx_00009454,cust_008406,2024-11-26 09:36:00,2024-12-19 09:36:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,pro,True,True,True,,2025-02-13 09:36:00,pending
+cb_000213,tx_00009628,cust_009683,2024-12-07 12:28:00,2025-01-09 12:28:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,NG,pro,True,True,True,False,2025-03-08 12:28:00,resolved
+cb_000214,tx_00009629,cust_006214,2024-01-17 15:24:00,2024-02-16 15:24:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,NG,starter,True,True,False,True,2024-03-31 15:24:00,resolved
+cb_000215,tx_00009659,cust_008644,2024-07-15 11:52:00,2024-08-22 11:52:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,DE,starter,False,True,True,False,2024-10-03 11:52:00,escalated
+cb_000216,tx_00009729,cust_007983,2024-05-05 01:13:00,2024-06-08 01:13:00,9.99,USD,13.3,service,Not as Described,visa,CA,starter,True,True,False,,2024-07-23 01:13:00,escalated
+cb_000217,tx_00009794,cust_008211,2024-05-06 17:55:00,2024-05-26 17:55:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,DE,starter,False,False,False,False,2024-08-04 17:55:00,resolved
+cb_000218,tx_00009811,cust_009001,2024-03-26 04:23:00,2024-04-19 04:23:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,UK,pro,True,True,True,,2024-07-11 04:23:00,pending
+cb_000219,tx_00009875,cust_001338,2024-06-02 21:34:00,2024-07-07 21:34:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,FR,business,False,True,False,False,2024-08-06 21:34:00,escalated
+cb_000220,tx_00009906,cust_006057,2024-11-20 22:26:00,2024-12-27 22:26:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,starter,True,True,True,False,2025-01-29 22:26:00,resolved
+cb_000221,tx_00009918,cust_000677,2024-02-16 19:44:00,2024-03-07 19:44:00,29.99,USD,4834,processing,Duplicate Processing,mastercard,US,pro,True,True,True,,2024-05-04 19:44:00,resolved
+cb_000222,tx_00009949,cust_000354,2024-11-22 13:10:00,2024-12-19 13:10:00,99.99,USD,10.4,fraud,Card Absent Environment,visa,US,business,False,True,False,,2025-02-21 13:10:00,resolved
+cb_000223,tx_00009980,cust_008581,2024-02-18 03:55:00,2024-03-16 03:55:00,99.99,USD,13.3,service,Not as Described,amex,CA,business,False,True,True,True,2024-04-19 03:55:00,escalated
+cb_000224,tx_00009988,cust_008903,2024-09-13 02:39:00,2024-10-05 02:39:00,29.99,USD,11.1,authorization,Card Recovery Bulletin,amex,US,pro,False,True,True,,2024-12-13 02:39:00,pending
+cb_000225,tx_00010021,cust_003732,2024-06-16 10:36:00,2024-07-24 10:36:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,IN,pro,True,True,True,False,2024-10-19 10:36:00,escalated
+cb_000226,tx_00010061,cust_004300,2024-02-02 07:28:00,2024-03-02 07:28:00,9.99,USD,12.1,processing,Late Presentment,visa,FR,starter,True,True,False,True,2024-05-01 07:28:00,resolved
+cb_000227,tx_00010093,cust_000078,2024-09-19 05:38:00,2024-10-24 05:38:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,DE,business,False,True,False,True,2025-01-14 05:38:00,escalated
+cb_000228,tx_00010095,cust_000491,2024-03-09 22:50:00,2024-04-22 22:50:00,29.99,USD,13.3,service,Not as Described,amex,RU,pro,True,True,False,,2024-06-02 22:50:00,pending
+cb_000229,tx_00010111,cust_008377,2024-12-05 16:00:00,2025-01-13 16:00:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,CA,starter,True,False,True,,2025-02-12 16:00:00,pending
+cb_000230,tx_00010118,cust_009309,2024-02-07 08:49:00,2024-03-21 08:49:00,9.99,USD,13.3,service,Not as Described,paypal,US,starter,False,False,False,,2024-05-06 08:49:00,escalated
+cb_000231,tx_00010200,cust_009208,2024-06-21 09:06:00,2024-07-16 09:06:00,29.99,USD,10.5,fraud,Fraud - Card Present,amex,US,pro,False,True,True,,2024-09-10 09:06:00,pending
+cb_000232,tx_00010234,cust_003299,2024-11-15 16:25:00,2024-12-09 16:25:00,14.98,USD,12.1,processing,Late Presentment,visa,FR,starter,True,False,True,True,2025-02-08 16:25:00,resolved
+cb_000233,tx_00010253,cust_007923,2024-11-25 13:16:00,2024-12-18 13:16:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,FR,starter,False,False,True,False,2025-03-03 13:16:00,pending
+cb_000234,tx_00010316,cust_000504,2024-11-04 00:25:00,2024-11-21 00:25:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,US,pro,True,True,False,False,2025-01-05 00:25:00,pending
+cb_000235,tx_00010344,cust_009152,2024-04-16 09:56:00,2024-05-24 09:56:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,PK,pro,True,False,True,,2024-07-29 09:56:00,pending
+cb_000236,tx_00010354,cust_004758,2024-08-12 16:11:00,2024-09-13 16:11:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,True,True,2024-11-13 16:11:00,resolved
+cb_000237,tx_00010384,cust_001776,2024-04-08 11:58:00,2024-04-24 11:58:00,9.99,USD,4853,service,Cardholder Dispute,visa,US,starter,True,True,True,,2024-07-01 11:58:00,resolved
+cb_000238,tx_00010457,cust_007557,2024-06-05 01:06:00,2024-07-12 01:06:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,paypal,US,starter,True,True,True,,2024-08-21 01:06:00,escalated
+cb_000239,tx_00010518,cust_005976,2024-06-10 17:14:00,2024-07-06 17:14:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,DE,business,True,True,False,True,2024-09-13 17:14:00,pending
+cb_000240,tx_00010562,cust_001030,2024-11-02 15:38:00,2024-12-17 15:38:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,US,pro,True,True,False,,2025-03-07 15:38:00,resolved
+cb_000241,tx_00010581,cust_008875,2024-12-17 18:38:00,2025-01-01 18:38:00,99.99,USD,13.1,service,Merchandise/Services Not Received,amex,UK,business,True,False,True,False,2025-03-26 18:38:00,pending
+cb_000242,tx_00010640,cust_000654,2024-01-29 16:13:00,2024-03-13 16:13:00,99.99,USD,4853,service,Cardholder Dispute,visa,UK,business,True,True,True,True,2024-05-19 16:13:00,resolved
+cb_000243,tx_00010688,cust_009050,2024-07-10 18:32:00,2024-07-28 18:32:00,9.99,USD,4853,service,Cardholder Dispute,amex,UK,starter,True,True,True,True,2024-09-12 18:32:00,escalated
+cb_000244,tx_00010718,cust_007334,2024-01-29 19:01:00,2024-02-27 19:01:00,14.98,USD,4853,service,Cardholder Dispute,visa,US,starter,True,True,False,False,2024-04-09 19:01:00,resolved
+cb_000245,tx_00010874,cust_007499,2024-07-01 17:23:00,2024-07-26 17:23:00,99.99,USD,13.1,service,Merchandise/Services Not Received,amex,PK,business,True,False,True,True,2024-10-20 17:23:00,resolved
+cb_000246,tx_00010917,cust_005757,2024-08-11 15:30:00,2024-09-01 15:30:00,29.99,USD,13.3,service,Not as Described,visa,NG,pro,True,False,True,,2024-11-30 15:30:00,pending
+cb_000247,tx_00011065,cust_003591,2024-12-10 15:44:00,2025-01-02 15:44:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,FR,starter,False,False,False,,2025-02-16 15:44:00,resolved
+cb_000248,tx_00011086,cust_001667,2024-11-15 04:17:00,2024-12-05 04:17:00,29.99,USD,10.5,fraud,Fraud - Card Present,paypal,DE,pro,False,False,True,False,2025-02-14 04:17:00,escalated
+cb_000249,tx_00011115,cust_001215,2024-08-05 08:13:00,2024-09-06 08:13:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,False,True,False,False,2024-11-22 08:13:00,resolved
+cb_000250,tx_00011159,cust_008598,2024-03-20 11:07:00,2024-04-29 11:07:00,9.99,USD,4853,service,Cardholder Dispute,amex,US,starter,True,True,True,True,2024-06-12 11:07:00,escalated
+cb_000251,tx_00011213,cust_005402,2024-05-23 01:26:00,2024-06-11 01:26:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,PK,starter,False,False,True,False,2024-08-21 01:26:00,pending
+cb_000252,tx_00011267,cust_006855,2024-02-22 11:53:00,2024-03-10 11:53:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,RU,pro,False,False,True,True,2024-06-08 11:53:00,escalated
+cb_000253,tx_00011382,cust_001134,2024-02-02 12:51:00,2024-03-10 12:51:00,99.99,USD,4837,fraud,No Cardholder Authorization,mastercard,RU,business,False,True,True,True,2024-05-18 12:51:00,escalated
+cb_000254,tx_00011388,cust_001713,2024-10-24 00:56:00,2024-11-17 00:56:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,CA,business,False,True,False,,2025-01-17 00:56:00,resolved
+cb_000255,tx_00011391,cust_007933,2024-04-09 19:29:00,2024-05-13 19:29:00,14.98,USD,10.5,fraud,Fraud - Card Present,amex,DE,starter,False,False,True,False,2024-07-24 19:29:00,escalated
+cb_000256,tx_00011407,cust_007129,2024-03-12 07:39:00,2024-04-22 07:39:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,UK,starter,True,True,True,True,2024-07-08 07:39:00,resolved
+cb_000257,tx_00011423,cust_001224,2024-03-31 11:43:00,2024-04-30 11:43:00,99.99,USD,13.3,service,Not as Described,mastercard,FR,business,True,True,True,,2024-06-15 11:43:00,pending
+cb_000258,tx_00011459,cust_005536,2024-03-10 09:10:00,2024-04-01 09:10:00,9.99,USD,4853,service,Cardholder Dispute,amex,RU,starter,True,True,True,,2024-05-28 09:10:00,escalated
+cb_000259,tx_00011462,cust_002010,2024-03-27 10:20:00,2024-04-14 10:20:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,UK,starter,True,True,True,,2024-07-01 10:20:00,escalated
+cb_000260,tx_00011497,cust_003247,2024-11-30 08:49:00,2024-12-22 08:49:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,DE,pro,False,True,False,False,2025-03-04 08:49:00,resolved
+cb_000261,tx_00011525,cust_005063,2024-08-08 06:14:00,2024-09-06 06:14:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,PK,starter,True,False,True,True,2024-11-30 06:14:00,resolved
+cb_000262,tx_00011573,cust_001914,2024-03-15 15:18:00,2024-04-10 15:18:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,True,False,2024-06-09 15:18:00,pending
+cb_000263,tx_00011606,cust_008196,2024-02-07 16:26:00,2024-03-23 16:26:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,starter,True,True,True,False,2024-05-30 16:26:00,escalated
+cb_000264,tx_00011688,cust_001020,2024-08-28 13:45:00,2024-10-12 13:45:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,IN,pro,False,True,False,,2025-01-07 13:45:00,escalated
+cb_000265,tx_00011691,cust_000313,2024-04-23 03:14:00,2024-05-27 03:14:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,False,True,False,2024-08-13 03:14:00,pending
+cb_000266,tx_00011696,cust_007164,2024-12-22 19:23:00,2025-01-25 19:23:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,FR,starter,False,True,False,,2025-03-15 19:23:00,pending
+cb_000267,tx_00011708,cust_008683,2024-02-20 15:09:00,2024-03-25 15:09:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,RU,starter,False,True,True,,2024-05-12 15:09:00,pending
+cb_000268,tx_00011897,cust_000598,2024-07-18 15:03:00,2024-08-05 15:03:00,9.99,USD,13.3,service,Not as Described,visa,DE,starter,True,True,True,True,2024-10-17 15:03:00,escalated
+cb_000269,tx_00011927,cust_009007,2024-12-04 16:10:00,2025-01-17 16:10:00,9.99,USD,12.1,processing,Late Presentment,amex,US,starter,False,True,True,True,2025-03-07 16:10:00,resolved
+cb_000270,tx_00011938,cust_009905,2024-06-29 15:29:00,2024-08-04 15:29:00,299.99,USD,13.3,service,Not as Described,mastercard,IN,enterprise,False,True,True,True,2024-09-22 15:29:00,resolved
+cb_000271,tx_00011998,cust_002345,2024-07-25 23:15:00,2024-08-13 23:15:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,US,pro,False,True,False,False,2024-11-09 23:15:00,pending
+cb_000272,tx_00012158,cust_008618,2024-10-31 13:29:00,2024-11-18 13:29:00,299.99,USD,10.4,fraud,Card Absent Environment,amex,FR,enterprise,True,True,False,,2025-02-03 13:29:00,pending
+cb_000273,tx_00012159,cust_005548,2024-07-17 19:48:00,2024-08-08 19:48:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,CA,starter,True,True,True,,2024-10-31 19:48:00,resolved
+cb_000274,tx_00012163,cust_000870,2024-01-19 05:18:00,2024-02-16 05:18:00,9.99,USD,11.2,authorization,Declined Authorization,visa,DE,starter,True,True,False,False,2024-05-15 05:18:00,resolved
+cb_000275,tx_00012174,cust_002448,2024-11-29 07:12:00,2024-12-21 07:12:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,UK,starter,True,False,True,,2025-03-18 07:12:00,escalated
+cb_000276,tx_00012240,cust_004098,2024-08-26 06:19:00,2024-09-20 06:19:00,29.99,USD,13.3,service,Not as Described,visa,US,pro,True,True,True,False,2024-12-09 06:19:00,escalated
+cb_000277,tx_00012272,cust_001654,2024-01-06 21:38:00,2024-02-12 21:38:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,pro,False,False,False,True,2024-04-24 21:38:00,escalated
+cb_000278,tx_00012279,cust_006820,2024-09-24 08:06:00,2024-11-03 08:06:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,CA,starter,False,True,True,False,2025-01-29 08:06:00,pending
+cb_000279,tx_00012339,cust_009379,2024-10-19 18:47:00,2024-11-17 18:47:00,109.98,USD,13.1,service,Merchandise/Services Not Received,amex,CA,business,True,False,True,True,2025-01-05 18:47:00,resolved
+cb_000280,tx_00012368,cust_002477,2024-09-21 05:57:00,2024-10-26 05:57:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,pro,False,False,False,True,2024-11-30 05:57:00,pending
+cb_000281,tx_00012386,cust_004143,2024-07-04 13:28:00,2024-07-19 13:28:00,9.99,USD,11.2,authorization,Declined Authorization,visa,RU,starter,False,True,False,False,2024-09-28 13:28:00,pending
+cb_000282,tx_00012478,cust_000986,2024-01-01 17:29:00,2024-01-19 17:29:00,9.99,USD,10.5,fraud,Fraud - Card Present,paypal,BR,starter,False,True,True,True,2024-02-24 17:29:00,escalated
+cb_000283,tx_00012487,cust_003412,2024-02-22 05:11:00,2024-04-03 05:11:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,CA,pro,True,True,False,,2024-05-25 05:11:00,escalated
+cb_000284,tx_00012555,cust_008921,2024-02-26 00:12:00,2024-04-07 00:12:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,RU,pro,False,True,False,False,2024-06-03 00:12:00,escalated
+cb_000285,tx_00012673,cust_008247,2024-04-18 04:51:00,2024-05-25 04:51:00,29.99,USD,13.3,service,Not as Described,visa,UK,pro,True,True,True,True,2024-07-10 04:51:00,pending
+cb_000286,tx_00012785,cust_002820,2024-04-18 18:07:00,2024-05-06 18:07:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,PK,business,True,True,True,False,2024-07-06 18:07:00,escalated
+cb_000287,tx_00012800,cust_005683,2024-07-15 19:51:00,2024-08-24 19:51:00,99.99,USD,12.1,processing,Late Presentment,visa,AU,business,True,True,False,True,2024-11-10 19:51:00,resolved
+cb_000288,tx_00012804,cust_006343,2024-10-15 13:53:00,2024-11-08 13:53:00,99.99,USD,13.1,service,Merchandise/Services Not Received,amex,CA,business,True,True,True,False,2025-02-02 13:53:00,pending
+cb_000289,tx_00012890,cust_001538,2024-12-28 09:58:00,2025-01-31 09:58:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,DE,pro,False,True,False,,2025-04-05 09:58:00,escalated
+cb_000290,tx_00012993,cust_004602,2024-05-04 22:01:00,2024-06-03 22:01:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,starter,True,True,True,True,2024-07-28 22:01:00,escalated
+cb_000291,tx_00013002,cust_008856,2024-05-24 21:10:00,2024-06-30 21:10:00,99.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,business,True,True,True,,2024-08-30 21:10:00,resolved
+cb_000292,tx_00013014,cust_002865,2024-08-21 09:05:00,2024-09-06 09:05:00,29.99,USD,4853,service,Cardholder Dispute,visa,CA,pro,False,True,False,True,2024-11-22 09:05:00,escalated
+cb_000293,tx_00013025,cust_009545,2024-05-13 14:53:00,2024-06-23 14:53:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,pro,True,True,False,True,2024-09-11 14:53:00,escalated
+cb_000294,tx_00013026,cust_008354,2024-05-28 15:56:00,2024-06-17 15:56:00,29.99,USD,11.2,authorization,Declined Authorization,amex,UK,pro,True,True,False,False,2024-08-15 15:56:00,escalated
+cb_000295,tx_00013172,cust_003568,2024-07-26 12:11:00,2024-08-10 12:11:00,29.99,USD,13.1,service,Merchandise/Services Not Received,paypal,PK,pro,True,True,True,True,2024-10-04 12:11:00,escalated
+cb_000296,tx_00013186,cust_007474,2024-09-06 01:50:00,2024-10-01 01:50:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,UK,starter,True,True,True,,2024-10-31 01:50:00,pending
+cb_000297,tx_00013187,cust_006671,2024-06-17 01:04:00,2024-07-04 01:04:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,FR,starter,True,True,True,True,2024-09-05 01:04:00,pending
+cb_000298,tx_00013231,cust_009187,2024-07-03 11:47:00,2024-08-15 11:47:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,US,starter,False,True,True,,2024-10-24 11:47:00,pending
+cb_000299,tx_00013266,cust_006915,2024-09-26 03:27:00,2024-10-18 03:27:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,paypal,US,business,True,True,True,,2024-11-29 03:27:00,pending
+cb_000300,tx_00013291,cust_001030,2024-01-23 03:04:00,2024-02-14 03:04:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,AU,business,True,True,True,False,2024-04-05 03:04:00,pending
+cb_000301,tx_00013348,cust_000294,2024-03-09 07:43:00,2024-03-29 07:43:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,BR,pro,False,True,False,True,2024-05-22 07:43:00,pending
+cb_000302,tx_00013369,cust_001780,2024-12-26 14:45:00,2025-01-10 14:45:00,9.99,USD,11.2,authorization,Declined Authorization,mastercard,US,starter,True,True,False,False,2025-02-26 14:45:00,resolved
+cb_000303,tx_00013386,cust_001516,2024-02-20 07:03:00,2024-03-27 07:03:00,9.99,USD,12.5,processing,Incorrect Amount,visa,US,starter,True,False,False,True,2024-05-03 07:03:00,pending
+cb_000304,tx_00013404,cust_004577,2024-03-12 05:46:00,2024-03-30 05:46:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,DE,starter,True,True,True,False,2024-05-11 05:46:00,pending
+cb_000305,tx_00013484,cust_009902,2024-05-03 05:17:00,2024-05-18 05:17:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,FR,business,True,True,False,True,2024-08-02 05:17:00,pending
+cb_000306,tx_00013488,cust_007639,2024-11-07 19:44:00,2024-12-02 19:44:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,DE,pro,True,True,True,,2025-02-13 19:44:00,escalated
+cb_000307,tx_00013544,cust_000264,2024-07-29 13:50:00,2024-09-12 13:50:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,NG,starter,True,True,True,,2024-11-23 13:50:00,pending
+cb_000308,tx_00013551,cust_002789,2024-03-20 20:25:00,2024-05-01 20:25:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,starter,True,False,True,True,2024-06-26 20:25:00,pending
+cb_000309,tx_00013594,cust_007481,2024-04-08 17:29:00,2024-04-30 17:29:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,UK,pro,True,False,True,,2024-07-19 17:29:00,escalated
+cb_000310,tx_00013632,cust_000093,2024-03-19 18:17:00,2024-04-11 18:17:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,CA,pro,True,True,True,,2024-06-10 18:17:00,escalated
+cb_000311,tx_00013635,cust_007651,2024-06-01 18:08:00,2024-06-16 18:08:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,UK,pro,True,True,True,,2024-09-05 18:08:00,pending
+cb_000312,tx_00013642,cust_006920,2024-02-27 23:53:00,2024-03-14 23:53:00,9.99,USD,13.1,service,Merchandise/Services Not Received,paypal,NG,starter,True,False,True,True,2024-05-29 23:53:00,pending
+cb_000313,tx_00013672,cust_006204,2024-10-28 08:49:00,2024-12-09 08:49:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,RU,starter,True,True,True,False,2025-01-21 08:49:00,escalated
+cb_000314,tx_00013762,cust_004473,2024-02-11 05:04:00,2024-03-21 05:04:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,DE,starter,True,True,True,True,2024-05-20 05:04:00,pending
+cb_000315,tx_00013793,cust_005323,2024-09-28 21:56:00,2024-10-15 21:56:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,BR,pro,True,True,True,,2025-01-07 21:56:00,resolved
+cb_000316,tx_00013830,cust_003721,2024-06-28 14:00:00,2024-07-27 14:00:00,9.99,USD,12.5,processing,Incorrect Amount,visa,FR,starter,True,False,True,,2024-09-19 14:00:00,resolved
+cb_000317,tx_00013847,cust_001191,2024-12-25 22:43:00,2025-01-12 22:43:00,29.99,USD,13.1,service,Merchandise/Services Not Received,paypal,CA,pro,True,False,True,True,2025-03-12 22:43:00,resolved
+cb_000318,tx_00013917,cust_008966,2024-08-07 18:55:00,2024-09-05 18:55:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,UK,pro,False,False,True,False,2024-10-06 18:55:00,pending
+cb_000319,tx_00013925,cust_004542,2024-10-31 01:36:00,2024-11-20 01:36:00,99.99,USD,4834,processing,Duplicate Processing,mastercard,CA,business,True,True,True,True,2024-12-30 01:36:00,pending
+cb_000320,tx_00013939,cust_001143,2024-12-07 17:38:00,2025-01-13 17:38:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,DE,business,True,False,False,True,2025-03-24 17:38:00,pending
+cb_000321,tx_00014045,cust_006168,2024-04-25 12:34:00,2024-06-07 12:34:00,99.99,USD,10.5,fraud,Fraud - Card Present,visa,NG,business,False,True,False,False,2024-09-04 12:34:00,escalated
+cb_000322,tx_00014134,cust_009375,2024-05-07 06:47:00,2024-06-16 06:47:00,29.99,USD,11.1,authorization,Card Recovery Bulletin,paypal,US,pro,True,True,False,,2024-08-24 06:47:00,resolved
+cb_000323,tx_00014154,cust_005021,2024-04-20 06:03:00,2024-06-02 06:03:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,CA,starter,True,True,True,True,2024-08-21 06:03:00,escalated
+cb_000324,tx_00014272,cust_000296,2024-06-04 09:14:00,2024-06-26 09:14:00,9.99,USD,12.5,processing,Incorrect Amount,mastercard,BR,starter,True,False,False,,2024-09-16 09:14:00,pending
+cb_000325,tx_00014316,cust_002817,2024-09-29 12:43:00,2024-11-04 12:43:00,29.99,USD,13.3,service,Not as Described,mastercard,US,pro,False,False,False,True,2025-01-24 12:43:00,resolved
+cb_000326,tx_00014357,cust_005666,2024-10-24 07:05:00,2024-11-28 07:05:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,BR,pro,True,True,True,True,2025-01-24 07:05:00,pending
+cb_000327,tx_00014359,cust_007915,2024-06-15 09:38:00,2024-07-18 09:38:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,UK,starter,True,True,False,,2024-10-12 09:38:00,pending
+cb_000328,tx_00014361,cust_004985,2024-07-16 19:51:00,2024-08-13 19:51:00,29.99,USD,13.3,service,Not as Described,visa,US,pro,True,False,True,True,2024-09-19 19:51:00,pending
+cb_000329,tx_00014397,cust_004529,2024-06-27 00:10:00,2024-08-10 00:10:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,IN,starter,False,True,True,True,2024-09-15 00:10:00,escalated
+cb_000330,tx_00014414,cust_000014,2024-07-09 20:18:00,2024-08-13 20:18:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,pro,True,True,True,,2024-10-21 20:18:00,escalated
+cb_000331,tx_00014447,cust_001994,2024-03-07 11:23:00,2024-04-21 11:23:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,NG,pro,False,True,True,,2024-07-06 11:23:00,resolved
+cb_000332,tx_00014488,cust_005989,2024-05-08 05:48:00,2024-06-04 05:48:00,99.99,USD,11.1,authorization,Card Recovery Bulletin,visa,NG,business,True,True,True,False,2024-08-01 05:48:00,pending
+cb_000333,tx_00014506,cust_001909,2024-05-01 04:53:00,2024-06-01 04:53:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,UK,pro,False,True,True,,2024-07-12 04:53:00,resolved
+cb_000334,tx_00014604,cust_004778,2024-06-06 16:37:00,2024-07-19 16:37:00,9.99,USD,13.3,service,Not as Described,mastercard,US,starter,True,True,True,True,2024-09-02 16:37:00,pending
+cb_000335,tx_00014755,cust_005678,2024-08-08 09:46:00,2024-09-16 09:46:00,109.98,USD,13.3,service,Not as Described,visa,UK,business,True,True,True,False,2024-10-24 09:46:00,resolved
+cb_000336,tx_00014786,cust_001974,2024-09-20 23:55:00,2024-10-21 23:55:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,PK,starter,False,False,True,,2024-12-21 23:55:00,pending
+cb_000337,tx_00014861,cust_007362,2024-06-30 12:24:00,2024-08-13 12:24:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,starter,True,True,False,False,2024-10-19 12:24:00,resolved
+cb_000338,tx_00014986,cust_007472,2024-10-09 15:39:00,2024-10-26 15:39:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,NG,business,True,True,True,False,2024-11-28 15:39:00,pending
+cb_000339,tx_00015022,cust_006338,2024-05-09 22:34:00,2024-05-30 22:34:00,49.98,USD,10.5,fraud,Fraud - Card Present,visa,US,pro,False,True,False,True,2024-06-29 22:34:00,resolved
+cb_000340,tx_00015099,cust_002462,2024-11-19 09:37:00,2024-12-26 09:37:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,DE,pro,True,True,False,True,2025-02-03 09:37:00,resolved
+cb_000341,tx_00015117,cust_007825,2024-10-02 17:05:00,2024-11-01 17:05:00,29.98,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,False,,2024-12-28 17:05:00,resolved
+cb_000342,tx_00015126,cust_000027,2024-11-30 16:50:00,2024-12-17 16:50:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,False,True,False,2025-02-05 16:50:00,escalated
+cb_000343,tx_00015155,cust_004021,2024-02-03 18:52:00,2024-02-29 18:52:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,IN,starter,False,True,True,,2024-04-15 18:52:00,resolved
+cb_000344,tx_00015182,cust_005369,2024-11-14 01:38:00,2024-12-21 01:38:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,CA,pro,True,True,True,True,2025-01-21 01:38:00,pending
+cb_000345,tx_00015184,cust_008446,2024-04-10 02:07:00,2024-05-21 02:07:00,29.99,USD,13.3,service,Not as Described,mastercard,CA,pro,False,True,True,,2024-07-06 02:07:00,resolved
+cb_000346,tx_00015278,cust_008790,2024-10-26 11:12:00,2024-12-07 11:12:00,299.99,USD,4837,fraud,No Cardholder Authorization,amex,UK,enterprise,False,False,False,False,2025-03-02 11:12:00,escalated
+cb_000347,tx_00015282,cust_009479,2024-09-03 05:16:00,2024-09-24 05:16:00,29.99,USD,13.1,service,Merchandise/Services Not Received,amex,IN,pro,False,True,False,,2024-12-07 05:16:00,escalated
+cb_000348,tx_00015378,cust_007422,2024-09-05 23:52:00,2024-10-07 23:52:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,UK,pro,False,True,False,False,2024-12-05 23:52:00,escalated
+cb_000349,tx_00015400,cust_004647,2024-06-04 03:37:00,2024-06-25 03:37:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,UK,starter,True,False,True,True,2024-08-02 03:37:00,pending
+cb_000350,tx_00015435,cust_008442,2024-05-17 04:30:00,2024-06-04 04:30:00,9.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,starter,False,True,True,True,2024-08-14 04:30:00,pending
+cb_000351,tx_00015453,cust_008446,2024-07-05 15:29:00,2024-07-31 15:29:00,99.99,USD,4837,fraud,No Cardholder Authorization,mastercard,BR,business,True,True,False,False,2024-09-01 15:29:00,resolved
+cb_000352,tx_00015485,cust_007036,2024-09-11 09:08:00,2024-10-23 09:08:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,pro,True,True,True,False,2025-01-12 09:08:00,pending
+cb_000353,tx_00015569,cust_001232,2024-08-26 17:07:00,2024-09-15 17:07:00,99.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,business,False,False,True,False,2024-11-05 17:07:00,escalated
+cb_000354,tx_00015587,cust_001475,2024-12-24 08:18:00,2025-01-10 08:18:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,DE,business,True,True,True,,2025-02-10 08:18:00,resolved
+cb_000355,tx_00015603,cust_003918,2024-09-16 09:44:00,2024-10-22 09:44:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,UK,pro,False,True,False,True,2024-12-08 09:44:00,escalated
+cb_000356,tx_00015696,cust_007129,2024-02-25 16:45:00,2024-04-09 16:45:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,AU,pro,False,False,False,,2024-06-09 16:45:00,resolved
+cb_000357,tx_00015722,cust_004714,2024-01-18 09:54:00,2024-02-06 09:54:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,RU,starter,False,True,True,True,2024-03-20 09:54:00,pending
+cb_000358,tx_00015766,cust_001867,2024-02-20 05:45:00,2024-04-04 05:45:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,NG,starter,True,True,True,True,2024-06-21 05:45:00,pending
+cb_000359,tx_00015769,cust_002235,2024-07-09 03:18:00,2024-07-30 03:18:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,IN,starter,False,False,True,,2024-09-15 03:18:00,escalated
+cb_000360,tx_00015891,cust_001468,2024-02-26 21:50:00,2024-03-22 21:50:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,starter,True,True,False,False,2024-04-27 21:50:00,resolved
+cb_000361,tx_00015940,cust_000065,2024-06-25 10:03:00,2024-07-20 10:03:00,99.99,USD,10.5,fraud,Fraud - Card Present,mastercard,BR,business,False,True,True,False,2024-10-17 10:03:00,escalated
+cb_000362,tx_00015959,cust_001195,2024-08-13 02:51:00,2024-09-14 02:51:00,29.99,USD,11.2,authorization,Declined Authorization,amex,IN,pro,True,True,False,,2024-10-19 02:51:00,escalated
+cb_000363,tx_00015960,cust_001841,2024-10-22 08:36:00,2024-11-16 08:36:00,29.99,USD,11.1,authorization,Card Recovery Bulletin,amex,BR,pro,False,True,True,,2024-12-18 08:36:00,escalated
+cb_000364,tx_00016021,cust_007266,2024-09-16 16:25:00,2024-10-23 16:25:00,9.99,USD,4853,service,Cardholder Dispute,amex,US,starter,True,False,True,,2025-01-01 16:25:00,escalated
+cb_000365,tx_00016058,cust_001520,2024-05-14 12:08:00,2024-06-27 12:08:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,pro,False,True,False,True,2024-08-21 12:08:00,escalated
+cb_000366,tx_00016130,cust_007385,2024-01-07 22:04:00,2024-02-03 22:04:00,9.99,USD,4853,service,Cardholder Dispute,amex,PK,starter,True,True,True,False,2024-04-02 22:04:00,pending
+cb_000367,tx_00016179,cust_009145,2024-12-08 14:19:00,2025-01-13 14:19:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,CA,pro,True,True,True,True,2025-02-21 14:19:00,resolved
+cb_000368,tx_00016260,cust_009433,2024-07-14 03:29:00,2024-08-25 03:29:00,29.99,USD,12.1,processing,Late Presentment,mastercard,FR,pro,True,True,True,True,2024-09-24 03:29:00,escalated
+cb_000369,tx_00016324,cust_006803,2024-06-01 21:59:00,2024-06-29 21:59:00,14.98,USD,10.5,fraud,Fraud - Card Present,amex,US,starter,True,True,False,True,2024-08-20 21:59:00,resolved
+cb_000370,tx_00016359,cust_006640,2024-05-31 21:42:00,2024-06-29 21:42:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,pro,True,True,True,True,2024-08-23 21:42:00,escalated
+cb_000371,tx_00016361,cust_005703,2024-04-16 18:04:00,2024-05-14 18:04:00,9.99,USD,13.3,service,Not as Described,visa,IN,starter,True,True,True,True,2024-07-25 18:04:00,pending
+cb_000372,tx_00016369,cust_001014,2024-05-16 13:18:00,2024-06-10 13:18:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,UK,starter,True,True,True,True,2024-07-21 13:18:00,escalated
+cb_000373,tx_00016479,cust_005593,2024-11-27 08:39:00,2025-01-01 08:39:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,PK,starter,False,True,True,False,2025-02-07 08:39:00,escalated
+cb_000374,tx_00016523,cust_004371,2024-03-11 23:25:00,2024-04-12 23:25:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,IN,starter,False,True,True,,2024-06-17 23:25:00,pending
+cb_000375,tx_00016532,cust_002957,2024-05-10 10:58:00,2024-05-27 10:58:00,99.99,USD,13.3,service,Not as Described,mastercard,US,business,True,False,True,,2024-07-02 10:58:00,resolved
+cb_000376,tx_00016545,cust_009475,2024-07-09 08:22:00,2024-07-26 08:22:00,29.98,USD,10.4,fraud,Card Absent Environment,mastercard,CA,starter,True,True,True,True,2024-09-08 08:22:00,resolved
+cb_000377,tx_00016643,cust_000165,2024-12-31 08:22:00,2025-01-27 08:22:00,49.98,USD,13.1,service,Merchandise/Services Not Received,visa,PK,pro,True,True,False,,2025-04-23 08:22:00,resolved
+cb_000378,tx_00016673,cust_002652,2024-11-03 13:35:00,2024-12-15 13:35:00,99.99,USD,4853,service,Cardholder Dispute,visa,BR,business,True,True,True,,2025-02-14 13:35:00,resolved
+cb_000379,tx_00016686,cust_000210,2024-03-28 08:41:00,2024-05-01 08:41:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,US,starter,False,False,True,,2024-07-25 08:41:00,resolved
+cb_000380,tx_00016712,cust_003399,2024-09-08 18:00:00,2024-10-14 18:00:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,FR,pro,False,False,False,False,2024-12-11 18:00:00,escalated
+cb_000381,tx_00016771,cust_001879,2024-07-29 20:19:00,2024-08-19 20:19:00,19.98,USD,10.5,fraud,Fraud - Card Present,visa,FR,starter,False,True,True,False,2024-09-18 20:19:00,pending
+cb_000382,tx_00016847,cust_005466,2024-02-01 18:28:00,2024-03-10 18:28:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,BR,pro,True,False,True,,2024-04-26 18:28:00,escalated
+cb_000383,tx_00016856,cust_003344,2024-04-28 17:23:00,2024-05-24 17:23:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,AU,pro,True,True,True,False,2024-06-30 17:23:00,pending
+cb_000384,tx_00016874,cust_004968,2024-04-19 06:35:00,2024-05-04 06:35:00,19.98,USD,13.1,service,Merchandise/Services Not Received,mastercard,PK,starter,True,True,True,True,2024-06-08 06:35:00,pending
+cb_000385,tx_00016893,cust_003051,2024-09-18 13:55:00,2024-10-04 13:55:00,29.98,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,True,False,True,True,2024-12-17 13:55:00,escalated
+cb_000386,tx_00016912,cust_007735,2024-08-18 01:17:00,2024-09-03 01:17:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,starter,True,True,True,False,2024-11-23 01:17:00,resolved
+cb_000387,tx_00016980,cust_003532,2024-11-24 10:35:00,2024-12-30 10:35:00,29.99,USD,12.1,processing,Late Presentment,amex,US,pro,True,True,True,True,2025-02-27 10:35:00,escalated
+cb_000388,tx_00017045,cust_006373,2024-01-17 12:45:00,2024-02-24 12:45:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,US,starter,True,False,True,,2024-04-15 12:45:00,pending
+cb_000389,tx_00017067,cust_001501,2024-11-14 08:46:00,2024-12-20 08:46:00,29.99,USD,13.3,service,Not as Described,amex,UK,pro,True,True,False,True,2025-02-08 08:46:00,pending
+cb_000390,tx_00017090,cust_004227,2024-09-09 07:54:00,2024-09-27 07:54:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,DE,pro,False,True,True,,2024-12-26 07:54:00,escalated
+cb_000391,tx_00017104,cust_000941,2024-08-24 02:26:00,2024-09-28 02:26:00,9.99,USD,13.1,service,Merchandise/Services Not Received,paypal,US,starter,True,True,False,,2024-12-04 02:26:00,escalated
+cb_000392,tx_00017158,cust_000372,2024-11-13 12:32:00,2024-12-25 12:32:00,9.99,USD,11.2,authorization,Declined Authorization,paypal,US,starter,True,True,True,,2025-03-07 12:32:00,resolved
+cb_000393,tx_00017401,cust_007925,2024-03-07 04:56:00,2024-03-29 04:56:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,IN,starter,False,False,False,True,2024-06-21 04:56:00,pending
+cb_000394,tx_00017501,cust_004569,2024-02-05 12:25:00,2024-03-14 12:25:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,False,True,True,,2024-05-10 12:25:00,pending
+cb_000395,tx_00017645,cust_007050,2024-02-04 23:15:00,2024-03-19 23:15:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,True,False,False,2024-06-17 23:15:00,escalated
+cb_000396,tx_00017746,cust_000387,2024-04-15 21:09:00,2024-05-29 21:09:00,9.99,USD,4853,service,Cardholder Dispute,visa,AU,starter,True,False,True,True,2024-07-19 21:09:00,escalated
+cb_000397,tx_00017767,cust_004807,2024-05-29 05:39:00,2024-06-20 05:39:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,DE,starter,True,False,False,True,2024-08-19 05:39:00,pending
+cb_000398,tx_00017844,cust_008905,2024-03-18 10:30:00,2024-04-25 10:30:00,99.99,USD,4853,service,Cardholder Dispute,visa,AU,business,True,True,False,,2024-07-16 10:30:00,resolved
+cb_000399,tx_00018019,cust_007146,2024-06-25 11:26:00,2024-07-16 11:26:00,29.99,USD,4834,processing,Duplicate Processing,visa,PK,pro,True,True,False,True,2024-10-14 11:26:00,resolved
+cb_000400,tx_00018214,cust_009464,2024-10-31 06:29:00,2024-12-08 06:29:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,pro,False,False,True,,2025-01-22 06:29:00,pending
+cb_000401,tx_00018295,cust_009839,2024-12-18 22:19:00,2025-01-07 22:19:00,29.98,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,False,False,2025-02-09 22:19:00,escalated
+cb_000402,tx_00018312,cust_000160,2024-07-03 02:56:00,2024-07-26 02:56:00,39.98,USD,13.1,service,Merchandise/Services Not Received,visa,DE,pro,True,False,True,True,2024-09-15 02:56:00,pending
+cb_000403,tx_00018367,cust_001441,2024-04-08 03:23:00,2024-04-27 03:23:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,UK,starter,True,True,True,,2024-07-15 03:23:00,pending
+cb_000404,tx_00018576,cust_005745,2024-03-01 00:04:00,2024-03-29 00:04:00,14.98,USD,13.1,service,Merchandise/Services Not Received,paypal,FR,starter,True,False,True,False,2024-04-29 00:04:00,resolved
+cb_000405,tx_00018579,cust_003451,2024-03-13 15:19:00,2024-04-02 15:19:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,pro,False,True,True,False,2024-06-22 15:19:00,escalated
+cb_000406,tx_00018636,cust_006782,2024-05-15 05:20:00,2024-06-09 05:20:00,9.99,USD,10.5,fraud,Fraud - Card Present,amex,UK,starter,False,True,False,False,2024-08-28 05:20:00,resolved
+cb_000407,tx_00018658,cust_004780,2024-10-15 22:28:00,2024-11-25 22:28:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,pro,True,False,True,True,2025-01-25 22:28:00,escalated
+cb_000408,tx_00018729,cust_000990,2024-11-14 18:53:00,2024-11-30 18:53:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,UK,starter,True,True,False,False,2025-01-24 18:53:00,resolved
+cb_000409,tx_00018733,cust_001269,2024-03-04 06:48:00,2024-04-15 06:48:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,AU,starter,True,True,True,True,2024-06-14 06:48:00,escalated
+cb_000410,tx_00018825,cust_007894,2024-02-01 17:22:00,2024-03-05 17:22:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,US,pro,True,False,True,False,2024-05-03 17:22:00,escalated
+cb_000411,tx_00018855,cust_000758,2024-04-26 12:11:00,2024-05-22 12:11:00,29.99,USD,4834,processing,Duplicate Processing,visa,BR,pro,True,True,True,,2024-07-23 12:11:00,escalated
+cb_000412,tx_00018899,cust_005313,2024-10-18 06:16:00,2024-11-22 06:16:00,99.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,business,True,True,False,,2024-12-26 06:16:00,resolved
+cb_000413,tx_00018909,cust_006622,2024-02-21 02:12:00,2024-03-11 02:12:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,IN,pro,True,True,False,True,2024-04-23 02:12:00,escalated
+cb_000414,tx_00018915,cust_001784,2024-09-25 07:20:00,2024-10-15 07:20:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,BR,pro,True,True,True,True,2025-01-07 07:20:00,escalated
+cb_000415,tx_00018927,cust_008135,2024-05-31 22:51:00,2024-06-27 22:51:00,9.99,USD,13.1,service,Merchandise/Services Not Received,amex,RU,starter,False,False,False,True,2024-08-28 22:51:00,escalated
+cb_000416,tx_00019091,cust_009630,2024-02-15 07:23:00,2024-03-10 07:23:00,99.99,USD,10.4,fraud,Card Absent Environment,amex,US,business,False,True,True,False,2024-04-27 07:23:00,escalated
+cb_000417,tx_00019117,cust_000243,2024-04-16 17:35:00,2024-05-19 17:35:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,False,True,True,False,2024-06-18 17:35:00,resolved
+cb_000418,tx_00019120,cust_009496,2024-01-25 15:13:00,2024-02-29 15:13:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,UK,starter,True,True,True,,2024-05-08 15:13:00,pending
+cb_000419,tx_00019148,cust_007091,2024-02-09 17:51:00,2024-02-26 17:51:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,True,False,True,,2024-05-26 17:51:00,resolved
+cb_000420,tx_00019198,cust_009850,2024-11-20 21:26:00,2024-12-10 21:26:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,BR,starter,True,True,False,True,2025-01-21 21:26:00,resolved
+cb_000421,tx_00019249,cust_009586,2024-09-12 01:41:00,2024-10-08 01:41:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,DE,starter,False,True,True,False,2024-11-14 01:41:00,resolved
+cb_000422,tx_00019252,cust_008517,2024-10-16 12:42:00,2024-11-25 12:42:00,99.99,USD,13.3,service,Not as Described,paypal,US,business,False,True,False,True,2025-02-02 12:42:00,escalated
+cb_000423,tx_00019300,cust_009349,2024-03-22 13:40:00,2024-05-06 13:40:00,9.99,USD,12.5,processing,Incorrect Amount,mastercard,US,starter,True,True,True,,2024-07-21 13:40:00,resolved
+cb_000424,tx_00019364,cust_000003,2024-06-12 16:40:00,2024-07-21 16:40:00,29.98,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,False,True,False,,2024-10-01 16:40:00,resolved
+cb_000425,tx_00019383,cust_007530,2024-12-03 13:01:00,2024-12-26 13:01:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,RU,pro,True,False,True,,2025-03-25 13:01:00,resolved
+cb_000426,tx_00019417,cust_004732,2024-12-30 22:06:00,2025-02-04 22:06:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,business,False,True,True,False,2025-03-17 22:06:00,resolved
+cb_000427,tx_00019459,cust_000195,2024-01-18 23:44:00,2024-02-11 23:44:00,29.99,USD,12.1,processing,Late Presentment,mastercard,US,pro,True,False,True,False,2024-03-14 23:44:00,resolved
+cb_000428,tx_00019463,cust_001622,2024-06-03 19:40:00,2024-07-11 19:40:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,RU,starter,True,True,True,False,2024-08-27 19:40:00,resolved
+cb_000429,tx_00019657,cust_009396,2024-06-22 02:07:00,2024-08-02 02:07:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,FR,pro,True,True,True,True,2024-09-24 02:07:00,escalated
+cb_000430,tx_00019678,cust_000029,2024-10-06 08:53:00,2024-11-03 08:53:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,US,pro,False,True,True,False,2024-12-20 08:53:00,pending
+cb_000431,tx_00019681,cust_008412,2024-03-27 18:18:00,2024-04-16 18:18:00,29.99,USD,10.5,fraud,Fraud - Card Present,paypal,CA,pro,False,True,True,,2024-07-12 18:18:00,escalated
+cb_000432,tx_00019685,cust_000274,2024-07-08 23:00:00,2024-08-16 23:00:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,BR,starter,True,False,True,True,2024-11-03 23:00:00,pending
+cb_000433,tx_00019717,cust_005813,2024-12-30 23:01:00,2025-02-06 23:01:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,NG,pro,False,True,True,False,2025-03-15 23:01:00,pending
+cb_000434,tx_00019787,cust_007354,2024-11-02 06:27:00,2024-12-16 06:27:00,9.99,USD,13.3,service,Not as Described,mastercard,CA,starter,True,True,True,True,2025-02-09 06:27:00,pending
+cb_000435,tx_00019812,cust_002425,2024-03-20 18:54:00,2024-04-15 18:54:00,9.99,USD,13.3,service,Not as Described,visa,UK,starter,True,False,False,True,2024-07-14 18:54:00,pending
+cb_000436,tx_00019836,cust_001971,2024-02-02 06:05:00,2024-03-16 06:05:00,29.99,USD,4853,service,Cardholder Dispute,visa,DE,pro,True,True,True,False,2024-05-13 06:05:00,escalated
+cb_000437,tx_00019910,cust_006295,2024-04-04 22:17:00,2024-04-20 22:17:00,34.98,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,pro,True,True,True,True,2024-05-23 22:17:00,escalated
+cb_000438,tx_00019922,cust_008545,2024-10-10 07:38:00,2024-10-30 07:38:00,99.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,business,True,True,False,False,2025-01-16 07:38:00,pending
+cb_000439,tx_00019942,cust_009788,2024-10-04 11:03:00,2024-11-04 11:03:00,9.99,USD,10.4,fraud,Card Absent Environment,paypal,AU,starter,False,False,False,,2025-01-10 11:03:00,escalated
+cb_000440,tx_00020021,cust_000295,2024-01-14 15:55:00,2024-02-24 15:55:00,29.99,USD,13.3,service,Not as Described,mastercard,UK,pro,True,True,True,False,2024-04-05 15:55:00,resolved
+cb_000441,tx_00020140,cust_003646,2024-11-07 20:44:00,2024-12-06 20:44:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,FR,starter,False,False,True,,2025-01-25 20:44:00,pending
+cb_000442,tx_00020161,cust_006881,2024-03-29 17:11:00,2024-04-25 17:11:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,paypal,DE,starter,True,True,False,True,2024-07-09 17:11:00,pending
+cb_000443,tx_00020166,cust_000863,2024-08-03 12:19:00,2024-08-18 12:19:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,False,False,True,True,2024-10-20 12:19:00,escalated
+cb_000444,tx_00020254,cust_003340,2024-11-30 13:12:00,2024-12-21 13:12:00,99.99,USD,10.5,fraud,Fraud - Card Present,visa,UK,business,False,False,False,False,2025-02-26 13:12:00,escalated
+cb_000445,tx_00020269,cust_005968,2024-08-07 14:09:00,2024-09-05 14:09:00,29.99,USD,10.4,fraud,Card Absent Environment,paypal,US,pro,False,True,True,True,2024-10-16 14:09:00,pending
+cb_000446,tx_00020357,cust_000575,2024-05-07 15:42:00,2024-06-21 15:42:00,9.99,USD,12.5,processing,Incorrect Amount,mastercard,UK,starter,True,True,False,,2024-09-02 15:42:00,pending
+cb_000447,tx_00020401,cust_004589,2024-05-09 00:33:00,2024-06-06 00:33:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,NG,starter,False,True,True,False,2024-07-26 00:33:00,pending
+cb_000448,tx_00020447,cust_007745,2024-10-31 18:38:00,2024-12-04 18:38:00,99.99,USD,13.3,service,Not as Described,visa,FR,business,True,False,True,True,2025-01-06 18:38:00,pending
+cb_000449,tx_00020472,cust_001200,2024-04-07 17:26:00,2024-04-29 17:26:00,9.99,USD,4837,fraud,No Cardholder Authorization,paypal,NG,starter,True,True,True,False,2024-07-21 17:26:00,pending
+cb_000450,tx_00020473,cust_002392,2024-10-16 02:55:00,2024-11-07 02:55:00,29.99,USD,13.3,service,Not as Described,mastercard,CA,pro,True,True,True,False,2025-01-05 02:55:00,escalated
+cb_000451,tx_00020496,cust_005342,2024-01-08 18:26:00,2024-02-06 18:26:00,29.99,USD,4834,processing,Duplicate Processing,amex,US,pro,True,True,False,True,2024-04-30 18:26:00,pending
+cb_000452,tx_00020527,cust_001948,2024-07-17 07:07:00,2024-08-25 07:07:00,29.99,USD,13.3,service,Not as Described,paypal,US,pro,True,True,False,,2024-10-18 07:07:00,resolved
+cb_000453,tx_00020552,cust_002253,2024-08-17 03:09:00,2024-09-03 03:09:00,99.99,USD,10.4,fraud,Card Absent Environment,amex,US,business,False,False,True,,2024-10-04 03:09:00,resolved
+cb_000454,tx_00020555,cust_001721,2024-12-09 05:13:00,2025-01-18 05:13:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,DE,pro,False,True,False,False,2025-03-29 05:13:00,resolved
+cb_000455,tx_00020563,cust_009612,2024-05-19 20:50:00,2024-07-01 20:50:00,14.98,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,DE,starter,True,True,True,,2024-09-23 20:50:00,pending
+cb_000456,tx_00020644,cust_000654,2024-02-19 08:00:00,2024-03-20 08:00:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,amex,US,starter,False,True,True,,2024-05-19 08:00:00,escalated
+cb_000457,tx_00020831,cust_009379,2024-09-26 00:42:00,2024-10-13 00:42:00,29.99,USD,11.1,authorization,Card Recovery Bulletin,visa,BR,pro,True,True,True,False,2024-12-04 00:42:00,pending
+cb_000458,tx_00020833,cust_009737,2024-10-28 16:28:00,2024-12-08 16:28:00,99.99,USD,13.1,service,Merchandise/Services Not Received,visa,UK,business,True,False,True,True,2025-02-18 16:28:00,resolved
+cb_000459,tx_00020887,cust_005503,2024-11-16 15:18:00,2024-12-31 15:18:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,False,True,True,True,2025-02-21 15:18:00,escalated
+cb_000460,tx_00020928,cust_004126,2024-06-27 20:12:00,2024-08-08 20:12:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,IN,business,True,False,True,,2024-10-07 20:12:00,resolved
+cb_000461,tx_00020947,cust_006734,2024-01-03 12:45:00,2024-01-22 12:45:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,NG,starter,False,True,True,,2024-04-16 12:45:00,pending
+cb_000462,tx_00020966,cust_000406,2024-06-04 15:51:00,2024-06-28 15:51:00,19.98,USD,10.5,fraud,Fraud - Card Present,mastercard,PK,starter,False,True,True,False,2024-07-29 15:51:00,pending
+cb_000463,tx_00020976,cust_003499,2024-08-18 19:52:00,2024-09-17 19:52:00,9.99,USD,13.1,service,Merchandise/Services Not Received,paypal,BR,starter,True,True,True,False,2024-11-24 19:52:00,pending
+cb_000464,tx_00021125,cust_007080,2024-08-10 08:21:00,2024-08-26 08:21:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,False,True,True,True,2024-09-30 08:21:00,escalated
+cb_000465,tx_00021155,cust_000939,2024-08-24 02:57:00,2024-09-30 02:57:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,DE,starter,False,False,False,False,2024-12-11 02:57:00,resolved
+cb_000466,tx_00021198,cust_008323,2024-09-28 10:15:00,2024-11-02 10:15:00,99.99,USD,4853,service,Cardholder Dispute,mastercard,US,business,False,True,True,,2025-01-23 10:15:00,resolved
+cb_000467,tx_00021204,cust_005999,2024-04-12 13:34:00,2024-05-12 13:34:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,BR,starter,True,True,True,False,2024-07-10 13:34:00,escalated
+cb_000468,tx_00021435,cust_009319,2024-09-11 15:03:00,2024-09-28 15:03:00,29.99,USD,4837,fraud,No Cardholder Authorization,amex,US,pro,False,False,False,False,2024-11-28 15:03:00,escalated
+cb_000469,tx_00021539,cust_008695,2024-05-18 23:46:00,2024-06-15 23:46:00,29.99,USD,13.3,service,Not as Described,visa,AU,pro,True,True,True,,2024-07-19 23:46:00,resolved
+cb_000470,tx_00021576,cust_008022,2024-07-29 13:20:00,2024-08-14 13:20:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,UK,pro,False,False,False,,2024-09-14 13:20:00,resolved
+cb_000471,tx_00021683,cust_009689,2024-09-29 16:31:00,2024-11-01 16:31:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,True,False,True,False,2024-12-12 16:31:00,pending
+cb_000472,tx_00021696,cust_007630,2024-12-04 03:51:00,2025-01-12 03:51:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,pro,True,False,False,False,2025-03-15 03:51:00,pending
+cb_000473,tx_00021809,cust_004851,2024-03-12 09:32:00,2024-04-18 09:32:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,UK,starter,True,True,True,,2024-06-26 09:32:00,pending
+cb_000474,tx_00021853,cust_005517,2024-03-20 22:14:00,2024-05-04 22:14:00,49.98,USD,13.1,service,Merchandise/Services Not Received,mastercard,RU,pro,True,True,True,True,2024-07-31 22:14:00,escalated
+cb_000475,tx_00021871,cust_000724,2024-06-14 21:33:00,2024-07-02 21:33:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,pro,True,False,True,False,2024-09-15 21:33:00,escalated
+cb_000476,tx_00021969,cust_008274,2024-11-03 12:14:00,2024-12-12 12:14:00,9.99,USD,4853,service,Cardholder Dispute,visa,DE,starter,True,True,False,,2025-01-26 12:14:00,escalated
+cb_000477,tx_00022053,cust_002916,2024-05-29 06:17:00,2024-07-09 06:17:00,19.98,USD,13.3,service,Not as Described,paypal,BR,starter,True,False,True,True,2024-08-20 06:17:00,escalated
+cb_000478,tx_00022081,cust_009456,2024-06-20 22:43:00,2024-07-14 22:43:00,29.99,USD,12.5,processing,Incorrect Amount,mastercard,US,pro,True,True,True,True,2024-09-03 22:43:00,resolved
+cb_000479,tx_00022151,cust_005096,2024-07-06 14:34:00,2024-08-19 14:34:00,29.99,USD,13.3,service,Not as Described,mastercard,UK,pro,True,True,True,False,2024-11-04 14:34:00,resolved
+cb_000480,tx_00022286,cust_002655,2024-07-26 19:07:00,2024-08-13 19:07:00,29.99,USD,12.1,processing,Late Presentment,visa,UK,pro,True,True,True,True,2024-10-28 19:07:00,pending
+cb_000481,tx_00022354,cust_004593,2024-12-17 11:49:00,2025-01-27 11:49:00,104.98,USD,10.5,fraud,Fraud - Card Present,visa,NG,business,True,True,True,True,2025-03-20 11:49:00,resolved
+cb_000482,tx_00022379,cust_001095,2024-02-20 00:28:00,2024-03-24 00:28:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,starter,True,False,True,True,2024-06-18 00:28:00,resolved
+cb_000483,tx_00022389,cust_007437,2024-08-09 07:11:00,2024-08-24 07:11:00,99.99,USD,10.5,fraud,Fraud - Card Present,mastercard,DE,business,True,True,False,,2024-11-19 07:11:00,pending
+cb_000484,tx_00022395,cust_008129,2024-07-02 23:34:00,2024-08-02 23:34:00,14.98,USD,4837,fraud,No Cardholder Authorization,visa,PK,starter,True,False,False,False,2024-09-27 23:34:00,escalated
+cb_000485,tx_00022404,cust_006559,2024-11-16 22:06:00,2024-12-31 22:06:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,RU,starter,True,True,True,True,2025-02-15 22:06:00,pending
+cb_000486,tx_00022435,cust_009689,2024-08-26 17:51:00,2024-09-23 17:51:00,299.99,USD,10.4,fraud,Card Absent Environment,visa,RU,enterprise,True,False,True,,2024-12-08 17:51:00,pending
+cb_000487,tx_00022513,cust_000640,2024-06-12 11:42:00,2024-07-22 11:42:00,9.99,USD,13.3,service,Not as Described,amex,US,starter,True,False,False,True,2024-09-06 11:42:00,escalated
+cb_000488,tx_00022523,cust_000053,2024-07-13 05:59:00,2024-08-15 05:59:00,29.99,USD,4853,service,Cardholder Dispute,visa,US,pro,True,True,True,False,2024-10-03 05:59:00,pending
+cb_000489,tx_00022611,cust_009605,2024-01-21 20:47:00,2024-02-25 20:47:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,CA,starter,False,False,False,,2024-04-20 20:47:00,escalated
+cb_000490,tx_00022623,cust_008489,2024-01-13 17:26:00,2024-02-21 17:26:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,UK,starter,False,True,True,True,2024-04-14 17:26:00,pending
+cb_000491,tx_00022686,cust_005624,2024-01-01 02:00:00,2024-02-14 02:00:00,29.98,USD,13.3,service,Not as Described,mastercard,RU,starter,True,True,True,True,2024-05-14 02:00:00,pending
+cb_000492,tx_00022785,cust_001049,2024-01-31 08:29:00,2024-02-28 08:29:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,RU,pro,False,False,True,True,2024-04-22 08:29:00,pending
+cb_000493,tx_00022829,cust_004293,2024-05-01 07:18:00,2024-06-12 07:18:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,NG,starter,False,True,True,False,2024-08-22 07:18:00,pending
+cb_000494,tx_00022999,cust_006792,2024-10-23 08:49:00,2024-12-06 08:49:00,9.99,USD,13.3,service,Not as Described,visa,US,starter,False,True,True,True,2025-02-13 08:49:00,resolved
+cb_000495,tx_00023014,cust_002103,2024-09-05 14:00:00,2024-10-17 14:00:00,99.99,USD,13.1,service,Merchandise/Services Not Received,amex,FR,business,True,True,True,False,2024-11-27 14:00:00,resolved
+cb_000496,tx_00023038,cust_003662,2024-02-23 18:29:00,2024-03-19 18:29:00,99.99,USD,10.4,fraud,Card Absent Environment,visa,US,business,False,True,False,True,2024-06-14 18:29:00,pending
+cb_000497,tx_00023123,cust_008438,2024-06-15 16:21:00,2024-07-10 16:21:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,US,starter,False,False,True,False,2024-09-01 16:21:00,escalated
+cb_000498,tx_00023153,cust_000788,2024-05-07 17:40:00,2024-06-21 17:40:00,19.98,USD,4853,service,Cardholder Dispute,visa,US,starter,False,False,True,,2024-07-23 17:40:00,escalated
+cb_000499,tx_00023159,cust_004223,2024-07-30 02:49:00,2024-09-04 02:49:00,9.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,starter,False,True,False,False,2024-11-17 02:49:00,resolved
+cb_000500,tx_00023160,cust_006042,2024-08-18 14:31:00,2024-09-02 14:31:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,visa,US,starter,True,True,True,,2024-11-06 14:31:00,escalated
+cb_000501,tx_00023164,cust_008197,2024-03-24 14:01:00,2024-04-17 14:01:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,pro,False,True,True,True,2024-06-06 14:01:00,escalated
+cb_000502,tx_00023177,cust_008111,2024-02-01 20:47:00,2024-03-07 20:47:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,AU,starter,False,True,True,True,2024-04-23 20:47:00,resolved
+cb_000503,tx_00023190,cust_009677,2024-05-29 20:39:00,2024-06-14 20:39:00,104.98,USD,12.5,processing,Incorrect Amount,amex,BR,business,False,True,False,True,2024-07-29 20:39:00,resolved
+cb_000504,tx_00023285,cust_004588,2024-11-24 09:25:00,2024-12-11 09:25:00,99.99,USD,11.2,authorization,Declined Authorization,paypal,UK,business,True,True,True,False,2025-02-21 09:25:00,pending
+cb_000505,tx_00023313,cust_000008,2024-09-10 21:05:00,2024-10-12 21:05:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,BR,pro,True,True,True,False,2024-11-11 21:05:00,resolved
+cb_000506,tx_00023363,cust_005647,2024-01-06 18:39:00,2024-02-07 18:39:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,UK,business,True,True,True,False,2024-05-07 18:39:00,pending
+cb_000507,tx_00023470,cust_000697,2024-01-12 12:11:00,2024-02-17 12:11:00,9.99,USD,11.2,authorization,Declined Authorization,visa,IN,starter,True,True,True,,2024-04-11 12:11:00,pending
+cb_000508,tx_00023472,cust_001883,2024-02-19 08:23:00,2024-03-30 08:23:00,39.98,USD,4837,fraud,No Cardholder Authorization,visa,UK,pro,False,True,True,False,2024-06-03 08:23:00,resolved
+cb_000509,tx_00023488,cust_007577,2024-05-13 08:21:00,2024-06-09 08:21:00,29.98,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,True,False,True,True,2024-08-03 08:21:00,escalated
+cb_000510,tx_00023509,cust_002732,2024-09-12 22:22:00,2024-10-23 22:22:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,US,pro,False,True,True,,2025-01-18 22:22:00,escalated
+cb_000511,tx_00023587,cust_007665,2024-08-13 21:26:00,2024-08-30 21:26:00,19.98,USD,13.3,service,Not as Described,mastercard,US,starter,True,True,False,True,2024-11-05 21:26:00,escalated
+cb_000512,tx_00023595,cust_006693,2024-06-26 01:52:00,2024-07-12 01:52:00,29.99,USD,13.3,service,Not as Described,visa,DE,pro,True,True,True,False,2024-10-05 01:52:00,pending
+cb_000513,tx_00023599,cust_000127,2024-02-10 02:29:00,2024-03-12 02:29:00,49.98,USD,4853,service,Cardholder Dispute,paypal,UK,pro,True,True,False,,2024-04-17 02:29:00,escalated
+cb_000514,tx_00023614,cust_009670,2024-07-12 18:49:00,2024-08-25 18:49:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,pro,True,True,True,False,2024-10-04 18:49:00,resolved
+cb_000515,tx_00023652,cust_008627,2024-10-14 06:57:00,2024-11-18 06:57:00,299.99,USD,13.3,service,Not as Described,visa,CA,enterprise,False,True,True,True,2025-01-18 06:57:00,pending
+cb_000516,tx_00023662,cust_004069,2024-03-02 02:19:00,2024-03-20 02:19:00,29.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,pro,False,False,True,True,2024-05-20 02:19:00,resolved
+cb_000517,tx_00023711,cust_007403,2024-07-29 14:15:00,2024-09-05 14:15:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,UK,starter,True,True,True,,2024-11-16 14:15:00,escalated
+cb_000518,tx_00023800,cust_006967,2024-09-19 13:51:00,2024-10-26 13:51:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,BR,starter,True,True,False,True,2025-01-06 13:51:00,resolved
+cb_000519,tx_00023826,cust_008007,2024-12-15 00:16:00,2025-01-19 00:16:00,9.99,USD,11.2,authorization,Declined Authorization,paypal,DE,starter,True,True,True,False,2025-04-03 00:16:00,escalated
+cb_000520,tx_00023847,cust_007059,2024-12-14 00:19:00,2025-01-17 00:19:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,UK,starter,False,True,True,,2025-02-27 00:19:00,resolved
+cb_000521,tx_00023850,cust_009539,2024-11-02 10:15:00,2024-12-12 10:15:00,29.99,USD,13.3,service,Not as Described,visa,UK,pro,True,False,True,True,2025-01-23 10:15:00,pending
+cb_000522,tx_00023852,cust_006514,2024-07-31 22:07:00,2024-08-27 22:07:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,False,True,2024-09-29 22:07:00,escalated
+cb_000523,tx_00023869,cust_006280,2024-09-30 03:36:00,2024-11-02 03:36:00,99.99,USD,12.5,processing,Incorrect Amount,visa,AU,business,True,True,True,False,2024-12-20 03:36:00,escalated
+cb_000524,tx_00023966,cust_001303,2024-04-24 20:14:00,2024-05-22 20:14:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,DE,business,True,False,True,,2024-07-13 20:14:00,pending
+cb_000525,tx_00024059,cust_000088,2024-04-11 01:31:00,2024-05-16 01:31:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,BR,pro,False,True,True,False,2024-07-30 01:31:00,pending
+cb_000526,tx_00024103,cust_009426,2024-02-18 00:07:00,2024-03-13 00:07:00,119.98,USD,13.1,service,Merchandise/Services Not Received,visa,US,business,True,True,True,,2024-06-11 00:07:00,pending
+cb_000527,tx_00024131,cust_002984,2024-01-08 15:06:00,2024-02-17 15:06:00,99.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,business,True,False,True,True,2024-05-11 15:06:00,resolved
+cb_000528,tx_00024152,cust_004211,2024-01-15 18:43:00,2024-02-07 18:43:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,True,True,True,False,2024-04-16 18:43:00,pending
+cb_000529,tx_00024163,cust_009887,2024-03-31 19:29:00,2024-04-29 19:29:00,9.99,USD,10.5,fraud,Fraud - Card Present,amex,BR,starter,False,True,True,False,2024-06-19 19:29:00,escalated
+cb_000530,tx_00024440,cust_009775,2024-06-04 15:36:00,2024-07-14 15:36:00,99.99,USD,13.1,service,Merchandise/Services Not Received,amex,AU,business,False,True,True,False,2024-09-02 15:36:00,resolved
+cb_000531,tx_00024548,cust_007153,2024-07-30 15:48:00,2024-09-11 15:48:00,9.99,USD,12.1,processing,Late Presentment,visa,CA,starter,True,True,False,True,2024-10-18 15:48:00,resolved
+cb_000532,tx_00024728,cust_005532,2024-09-30 15:28:00,2024-11-01 15:28:00,29.99,USD,13.1,service,Merchandise/Services Not Received,amex,NG,pro,True,True,True,False,2024-12-12 15:28:00,escalated
+cb_000533,tx_00024751,cust_007356,2024-08-10 21:41:00,2024-09-18 21:41:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,US,pro,False,False,True,True,2024-11-12 21:41:00,pending
+cb_000534,tx_00024979,cust_009570,2024-07-05 10:59:00,2024-07-25 10:59:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,pro,True,True,True,False,2024-10-06 10:59:00,pending
+cb_000535,tx_00025041,cust_006472,2024-12-30 04:06:00,2025-01-20 04:06:00,9.99,USD,12.1,processing,Late Presentment,amex,UK,starter,True,True,False,True,2025-03-20 04:06:00,escalated
+cb_000536,tx_00025073,cust_004473,2024-02-02 01:52:00,2024-02-17 01:52:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,RU,starter,True,True,True,,2024-05-12 01:52:00,pending
+cb_000537,tx_00025078,cust_009545,2024-05-01 15:48:00,2024-06-07 15:48:00,14.98,USD,11.2,authorization,Declined Authorization,mastercard,US,starter,True,True,True,False,2024-08-06 15:48:00,pending
+cb_000538,tx_00025162,cust_004026,2024-04-21 02:05:00,2024-05-21 02:05:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,True,False,False,,2024-08-04 02:05:00,pending
+cb_000539,tx_00025210,cust_003714,2024-03-14 14:41:00,2024-04-09 14:41:00,29.99,USD,11.2,authorization,Declined Authorization,amex,UK,pro,False,False,True,True,2024-06-07 14:41:00,resolved
+cb_000540,tx_00025334,cust_006086,2024-01-15 14:41:00,2024-02-25 14:41:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,UK,pro,True,False,True,True,2024-05-15 14:41:00,resolved
+cb_000541,tx_00025384,cust_000928,2024-10-13 16:11:00,2024-11-03 16:11:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,NG,starter,True,False,False,False,2025-01-20 16:11:00,pending
+cb_000542,tx_00025538,cust_005653,2024-02-11 09:27:00,2024-03-21 09:27:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,UK,starter,True,True,True,True,2024-05-05 09:27:00,escalated
+cb_000543,tx_00025591,cust_006815,2024-05-21 06:42:00,2024-06-16 06:42:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,True,True,,2024-08-13 06:42:00,escalated
+cb_000544,tx_00025699,cust_001709,2024-01-28 22:58:00,2024-03-10 22:58:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,starter,False,False,True,True,2024-04-22 22:58:00,escalated
+cb_000545,tx_00025738,cust_001314,2024-09-16 19:10:00,2024-10-02 19:10:00,29.99,USD,13.3,service,Not as Described,amex,US,pro,False,True,True,,2024-11-23 19:10:00,resolved
+cb_000546,tx_00025836,cust_002184,2024-09-22 13:51:00,2024-10-21 13:51:00,29.99,USD,11.1,authorization,Card Recovery Bulletin,visa,BR,pro,True,False,False,False,2025-01-09 13:51:00,resolved
+cb_000547,tx_00025975,cust_005355,2024-09-09 04:01:00,2024-10-03 04:01:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,BR,starter,True,False,True,,2024-12-21 04:01:00,resolved
+cb_000548,tx_00025992,cust_001467,2024-02-17 11:12:00,2024-03-08 11:12:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,FR,pro,False,False,False,False,2024-05-03 11:12:00,resolved
+cb_000549,tx_00026018,cust_003363,2024-01-28 18:28:00,2024-02-20 18:28:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,RU,starter,True,True,False,,2024-03-27 18:28:00,escalated
+cb_000550,tx_00026165,cust_005614,2024-06-09 04:13:00,2024-07-07 04:13:00,29.99,USD,13.1,service,Merchandise/Services Not Received,amex,CA,pro,True,True,True,True,2024-08-18 04:13:00,escalated
+cb_000551,tx_00026170,cust_004386,2024-02-16 08:42:00,2024-03-28 08:42:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,US,starter,False,True,True,,2024-06-07 08:42:00,resolved
+cb_000552,tx_00026188,cust_006371,2024-08-14 05:22:00,2024-09-20 05:22:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,False,True,True,,2024-11-02 05:22:00,escalated
+cb_000553,tx_00026275,cust_004393,2024-02-29 21:49:00,2024-03-26 21:49:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,FR,starter,True,True,True,,2024-05-26 21:49:00,escalated
+cb_000554,tx_00026286,cust_004541,2024-03-10 04:52:00,2024-03-25 04:52:00,99.99,USD,13.1,service,Merchandise/Services Not Received,amex,BR,business,False,True,True,True,2024-05-28 04:52:00,resolved
+cb_000555,tx_00026288,cust_000879,2024-03-09 18:28:00,2024-04-12 18:28:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,starter,True,True,True,False,2024-05-14 18:28:00,pending
+cb_000556,tx_00026303,cust_008663,2024-09-20 22:34:00,2024-10-24 22:34:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,US,starter,True,True,False,False,2024-12-15 22:34:00,resolved
+cb_000557,tx_00026309,cust_003811,2024-09-10 19:13:00,2024-10-05 19:13:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,UK,starter,False,True,True,False,2024-12-27 19:13:00,pending
+cb_000558,tx_00026314,cust_000891,2024-11-27 09:07:00,2024-12-26 09:07:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,False,False,True,False,2025-02-14 09:07:00,pending
+cb_000559,tx_00026441,cust_000818,2024-10-15 18:29:00,2024-11-13 18:29:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,DE,starter,True,True,True,False,2025-02-11 18:29:00,resolved
+cb_000560,tx_00026452,cust_009188,2024-11-16 20:55:00,2024-12-04 20:55:00,9.99,USD,11.2,authorization,Declined Authorization,visa,FR,starter,True,True,True,False,2025-02-06 20:55:00,resolved
+cb_000561,tx_00026471,cust_008875,2024-03-02 07:49:00,2024-03-30 07:49:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,AU,pro,True,True,True,,2024-05-17 07:49:00,resolved
+cb_000562,tx_00026479,cust_005839,2024-07-13 05:37:00,2024-08-02 05:37:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,IN,pro,True,False,True,False,2024-10-05 05:37:00,pending
+cb_000563,tx_00026735,cust_001679,2024-07-05 22:08:00,2024-08-11 22:08:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,False,True,True,,2024-09-22 22:08:00,escalated
+cb_000564,tx_00026736,cust_008730,2024-09-02 04:05:00,2024-10-04 04:05:00,29.99,USD,11.1,authorization,Card Recovery Bulletin,visa,US,pro,True,True,True,True,2024-12-15 04:05:00,resolved
+cb_000565,tx_00026818,cust_004704,2024-02-25 07:39:00,2024-03-29 07:39:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,AU,starter,False,True,True,,2024-05-16 07:39:00,resolved
+cb_000566,tx_00026828,cust_006586,2024-10-01 03:57:00,2024-10-24 03:57:00,29.98,USD,4863,fraud,Cardholder Does Not Recognize,visa,DE,starter,True,True,True,True,2025-01-06 03:57:00,pending
+cb_000567,tx_00026849,cust_004007,2024-03-06 15:46:00,2024-04-17 15:46:00,9.99,USD,11.2,authorization,Declined Authorization,visa,FR,starter,True,True,True,False,2024-06-02 15:46:00,escalated
+cb_000568,tx_00026888,cust_002170,2024-06-09 05:09:00,2024-06-26 05:09:00,34.98,USD,10.4,fraud,Card Absent Environment,visa,UK,pro,True,True,False,False,2024-09-05 05:09:00,resolved
+cb_000569,tx_00026906,cust_006130,2024-11-24 19:22:00,2024-12-24 19:22:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,RU,starter,False,False,False,,2025-03-03 19:22:00,pending
+cb_000570,tx_00026969,cust_005527,2024-01-12 10:53:00,2024-02-04 10:53:00,9.99,USD,4853,service,Cardholder Dispute,visa,BR,starter,True,True,True,False,2024-03-05 10:53:00,escalated
+cb_000571,tx_00026986,cust_004625,2024-08-23 08:57:00,2024-10-02 08:57:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,DE,starter,True,True,True,False,2024-11-02 08:57:00,escalated
+cb_000572,tx_00027015,cust_006031,2024-12-17 15:29:00,2025-01-10 15:29:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,US,starter,False,True,False,,2025-02-25 15:29:00,pending
+cb_000573,tx_00027037,cust_002891,2024-07-19 16:50:00,2024-08-25 16:50:00,99.99,USD,10.4,fraud,Card Absent Environment,visa,US,business,False,True,False,False,2024-11-16 16:50:00,pending
+cb_000574,tx_00027038,cust_007981,2024-12-07 16:39:00,2024-12-26 16:39:00,29.99,USD,10.5,fraud,Fraud - Card Present,amex,US,pro,True,True,True,True,2025-03-10 16:39:00,resolved
+cb_000575,tx_00027087,cust_007143,2024-05-19 20:12:00,2024-06-09 20:12:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,pro,False,True,True,True,2024-09-01 20:12:00,pending
+cb_000576,tx_00027096,cust_005856,2024-08-18 04:20:00,2024-09-21 04:20:00,49.98,USD,13.1,service,Merchandise/Services Not Received,mastercard,DE,pro,True,False,True,True,2024-12-19 04:20:00,resolved
+cb_000577,tx_00027148,cust_009988,2024-05-07 23:44:00,2024-05-27 23:44:00,9.99,USD,13.3,service,Not as Described,visa,UK,starter,True,True,True,True,2024-08-06 23:44:00,resolved
+cb_000578,tx_00027205,cust_001638,2024-01-17 14:40:00,2024-02-19 14:40:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,US,starter,True,True,True,True,2024-04-11 14:40:00,pending
+cb_000579,tx_00027207,cust_003739,2024-11-10 15:30:00,2024-12-21 15:30:00,29.99,USD,12.1,processing,Late Presentment,amex,DE,pro,True,False,True,True,2025-01-20 15:30:00,resolved
+cb_000580,tx_00027218,cust_004399,2024-11-18 03:02:00,2024-12-21 03:02:00,14.98,USD,12.1,processing,Late Presentment,mastercard,BR,starter,True,True,True,,2025-02-07 03:02:00,resolved
+cb_000581,tx_00027290,cust_009148,2024-10-09 11:12:00,2024-11-15 11:12:00,9.99,USD,10.4,fraud,Card Absent Environment,paypal,RU,starter,True,True,True,,2025-01-01 11:12:00,pending
+cb_000582,tx_00027324,cust_002383,2024-08-29 03:06:00,2024-10-11 03:06:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,BR,pro,False,True,True,,2024-11-13 03:06:00,pending
+cb_000583,tx_00027349,cust_008644,2024-03-21 10:07:00,2024-05-05 10:07:00,9.99,USD,13.3,service,Not as Described,visa,FR,starter,True,True,False,False,2024-07-01 10:07:00,escalated
+cb_000584,tx_00027411,cust_007964,2024-07-01 02:49:00,2024-08-11 02:49:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,DE,pro,True,False,False,True,2024-09-14 02:49:00,escalated
+cb_000585,tx_00027424,cust_000194,2024-07-09 02:58:00,2024-08-02 02:58:00,14.98,USD,10.5,fraud,Fraud - Card Present,visa,UK,starter,False,True,True,False,2024-10-02 02:58:00,resolved
+cb_000586,tx_00027508,cust_008463,2024-03-08 22:06:00,2024-03-24 22:06:00,29.99,USD,10.5,fraud,Fraud - Card Present,amex,UK,pro,True,True,True,,2024-05-13 22:06:00,resolved
+cb_000587,tx_00027656,cust_007038,2024-03-23 05:44:00,2024-04-27 05:44:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,RU,pro,True,False,False,,2024-07-08 05:44:00,pending
+cb_000588,tx_00027676,cust_006899,2024-01-13 13:53:00,2024-02-07 13:53:00,34.98,USD,10.4,fraud,Card Absent Environment,visa,US,pro,False,True,False,True,2024-04-23 13:53:00,resolved
+cb_000589,tx_00027820,cust_009755,2024-02-13 15:09:00,2024-03-12 15:09:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,CA,starter,True,True,True,False,2024-06-02 15:09:00,escalated
+cb_000590,tx_00027841,cust_008649,2024-10-13 11:36:00,2024-11-05 11:36:00,34.98,USD,13.3,service,Not as Described,mastercard,UK,pro,True,False,True,False,2025-01-15 11:36:00,resolved
+cb_000591,tx_00027850,cust_004080,2024-02-21 13:47:00,2024-03-12 13:47:00,29.99,USD,13.3,service,Not as Described,amex,RU,pro,True,True,False,True,2024-05-30 13:47:00,resolved
+cb_000592,tx_00027858,cust_001217,2024-03-16 05:17:00,2024-04-10 05:17:00,9.99,USD,12.1,processing,Late Presentment,mastercard,FR,starter,True,False,True,,2024-06-17 05:17:00,escalated
+cb_000593,tx_00027861,cust_000642,2024-12-04 17:45:00,2024-12-27 17:45:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,pro,True,False,True,,2025-02-11 17:45:00,resolved
+cb_000594,tx_00027871,cust_001161,2024-04-09 03:33:00,2024-04-24 03:33:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,IN,starter,False,True,False,False,2024-07-03 03:33:00,pending
+cb_000595,tx_00027882,cust_009021,2024-10-17 14:30:00,2024-11-03 14:30:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,RU,pro,False,True,True,True,2024-12-10 14:30:00,pending
+cb_000596,tx_00027884,cust_008876,2024-05-30 19:10:00,2024-06-15 19:10:00,9.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,starter,True,True,True,False,2024-09-09 19:10:00,escalated
+cb_000597,tx_00027898,cust_009691,2024-12-20 00:07:00,2025-01-10 00:07:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,UK,starter,True,True,True,True,2025-04-08 00:07:00,resolved
+cb_000598,tx_00027905,cust_005669,2024-06-20 07:11:00,2024-07-06 07:11:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,CA,pro,True,True,True,False,2024-08-09 07:11:00,escalated
+cb_000599,tx_00027948,cust_009492,2024-11-17 23:22:00,2024-12-30 23:22:00,99.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,NG,business,True,True,True,False,2025-03-11 23:22:00,resolved
+cb_000600,tx_00027975,cust_003693,2024-05-07 09:02:00,2024-06-18 09:02:00,99.99,USD,13.3,service,Not as Described,visa,US,business,True,True,True,False,2024-09-14 09:02:00,resolved
+cb_000601,tx_00027984,cust_008207,2024-08-14 02:50:00,2024-09-11 02:50:00,99.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,business,False,False,False,,2024-12-10 02:50:00,pending
+cb_000602,tx_00028034,cust_000819,2024-06-21 01:27:00,2024-08-02 01:27:00,9.99,USD,11.2,authorization,Declined Authorization,amex,RU,starter,False,True,True,,2024-10-01 01:27:00,resolved
+cb_000603,tx_00028182,cust_000326,2024-10-06 07:02:00,2024-10-28 07:02:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,starter,True,False,False,False,2024-12-03 07:02:00,pending
+cb_000604,tx_00028193,cust_008944,2024-08-15 13:07:00,2024-09-29 13:07:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,UK,starter,False,False,True,,2024-12-20 13:07:00,resolved
+cb_000605,tx_00028216,cust_007538,2024-05-21 11:49:00,2024-07-01 11:49:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,pro,True,True,True,True,2024-08-24 11:49:00,escalated
+cb_000606,tx_00028289,cust_002695,2024-06-17 15:57:00,2024-07-31 15:57:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,starter,True,True,False,True,2024-10-17 15:57:00,pending
+cb_000607,tx_00028304,cust_009565,2024-04-26 00:38:00,2024-06-04 00:38:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,RU,pro,False,False,True,True,2024-08-09 00:38:00,resolved
+cb_000608,tx_00028306,cust_007293,2024-12-04 15:45:00,2024-12-22 15:45:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,CA,starter,True,True,False,False,2025-03-16 15:45:00,resolved
+cb_000609,tx_00028307,cust_003965,2024-04-13 19:34:00,2024-05-23 19:34:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,pro,True,True,True,False,2024-07-31 19:34:00,escalated
+cb_000610,tx_00028341,cust_002493,2024-11-03 19:12:00,2024-11-19 19:12:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,PK,pro,False,False,True,True,2025-02-04 19:12:00,pending
+cb_000611,tx_00028380,cust_007926,2024-02-02 14:17:00,2024-02-19 14:17:00,49.98,USD,4863,fraud,Cardholder Does Not Recognize,paypal,BR,pro,True,True,True,False,2024-04-23 14:17:00,pending
+cb_000612,tx_00028398,cust_001278,2024-06-07 19:02:00,2024-07-17 19:02:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,UK,pro,True,False,False,True,2024-09-05 19:02:00,pending
+cb_000613,tx_00028448,cust_007502,2024-10-07 02:23:00,2024-11-18 02:23:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,DE,pro,True,True,True,True,2025-01-12 02:23:00,resolved
+cb_000614,tx_00028470,cust_008129,2024-06-26 11:01:00,2024-07-16 11:01:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,pro,True,True,True,True,2024-08-27 11:01:00,pending
+cb_000615,tx_00028474,cust_006234,2024-07-15 09:56:00,2024-08-14 09:56:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,BR,business,False,False,False,False,2024-11-09 09:56:00,resolved
+cb_000616,tx_00028554,cust_001788,2024-08-31 07:47:00,2024-10-06 07:47:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,US,pro,False,False,False,False,2024-12-17 07:47:00,resolved
+cb_000617,tx_00028606,cust_003952,2024-02-14 20:50:00,2024-03-20 20:50:00,29.99,USD,13.3,service,Not as Described,paypal,US,pro,False,True,True,True,2024-05-07 20:50:00,escalated
+cb_000618,tx_00028618,cust_005113,2024-08-07 09:13:00,2024-09-12 09:13:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,NG,starter,False,True,True,,2024-12-07 09:13:00,resolved
+cb_000619,tx_00028659,cust_003094,2024-11-19 07:24:00,2024-12-27 07:24:00,9.99,USD,13.3,service,Not as Described,mastercard,US,starter,False,True,True,False,2025-01-27 07:24:00,pending
+cb_000620,tx_00028671,cust_003849,2024-01-08 06:47:00,2024-01-28 06:47:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,UK,pro,False,True,True,False,2024-03-18 06:47:00,resolved
+cb_000621,tx_00028700,cust_002915,2024-08-17 15:37:00,2024-09-13 15:37:00,99.99,USD,13.3,service,Not as Described,visa,US,business,True,True,True,False,2024-11-03 15:37:00,escalated
+cb_000622,tx_00028701,cust_000017,2024-03-03 18:25:00,2024-03-31 18:25:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,DE,starter,False,True,False,False,2024-05-30 18:25:00,escalated
+cb_000623,tx_00028735,cust_008445,2024-01-04 20:32:00,2024-01-22 20:32:00,9.99,USD,4853,service,Cardholder Dispute,amex,DE,starter,True,True,True,True,2024-03-09 20:32:00,pending
+cb_000624,tx_00028745,cust_004340,2024-06-28 03:11:00,2024-08-10 03:11:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,DE,starter,False,True,True,,2024-09-27 03:11:00,escalated
+cb_000625,tx_00028781,cust_003998,2024-09-13 04:27:00,2024-10-21 04:27:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,True,True,False,2024-12-30 04:27:00,resolved
+cb_000626,tx_00028963,cust_003909,2024-08-09 09:06:00,2024-09-12 09:06:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,BR,pro,False,False,False,,2024-11-12 09:06:00,escalated
+cb_000627,tx_00029007,cust_003540,2024-02-14 19:30:00,2024-03-07 19:30:00,9.99,USD,13.3,service,Not as Described,visa,US,starter,False,False,True,,2024-06-03 19:30:00,resolved
+cb_000628,tx_00029115,cust_009223,2024-05-29 03:04:00,2024-06-19 03:04:00,29.99,USD,13.3,service,Not as Described,visa,US,pro,False,True,True,True,2024-07-27 03:04:00,pending
+cb_000629,tx_00029159,cust_000776,2024-09-21 03:36:00,2024-10-28 03:36:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,starter,True,True,True,,2024-12-10 03:36:00,pending
+cb_000630,tx_00029174,cust_008162,2024-01-25 19:59:00,2024-02-23 19:59:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,BR,pro,False,True,False,True,2024-05-13 19:59:00,pending
+cb_000631,tx_00029188,cust_005297,2024-01-01 23:44:00,2024-01-29 23:44:00,39.98,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,True,True,True,True,2024-04-04 23:44:00,resolved
+cb_000632,tx_00029247,cust_009038,2024-08-22 02:31:00,2024-09-21 02:31:00,9.99,USD,12.5,processing,Incorrect Amount,mastercard,US,starter,True,True,True,True,2024-11-27 02:31:00,escalated
+cb_000633,tx_00029323,cust_009821,2024-11-26 20:49:00,2025-01-02 20:49:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,US,starter,False,False,True,,2025-03-06 20:49:00,resolved
+cb_000634,tx_00029355,cust_000683,2024-10-15 02:12:00,2024-11-29 02:12:00,9.99,USD,10.5,fraud,Fraud - Card Present,amex,UK,starter,False,False,True,False,2025-01-05 02:12:00,escalated
+cb_000635,tx_00029382,cust_002345,2024-10-02 10:02:00,2024-10-25 10:02:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,starter,True,True,True,False,2024-11-26 10:02:00,resolved
+cb_000636,tx_00029424,cust_001104,2024-04-14 08:45:00,2024-05-17 08:45:00,9.99,USD,13.3,service,Not as Described,mastercard,NG,starter,True,True,False,,2024-07-15 08:45:00,resolved
+cb_000637,tx_00029433,cust_000697,2024-02-11 15:57:00,2024-03-06 15:57:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,True,True,True,True,2024-06-04 15:57:00,resolved
+cb_000638,tx_00029457,cust_005845,2024-10-05 07:49:00,2024-11-17 07:49:00,19.98,USD,13.3,service,Not as Described,paypal,US,starter,True,True,True,,2025-01-19 07:49:00,pending
+cb_000639,tx_00029528,cust_002415,2024-10-13 19:37:00,2024-11-23 19:37:00,99.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,AU,business,True,False,True,True,2025-01-05 19:37:00,pending
+cb_000640,tx_00029664,cust_007880,2024-07-24 03:25:00,2024-09-02 03:25:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,DE,business,True,True,True,,2024-10-15 03:25:00,escalated
+cb_000641,tx_00029794,cust_000531,2024-07-11 07:15:00,2024-07-28 07:15:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,IN,starter,True,True,True,True,2024-10-17 07:15:00,escalated
+cb_000642,tx_00029846,cust_007007,2024-08-18 20:32:00,2024-09-30 20:32:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,DE,pro,True,True,False,True,2024-11-24 20:32:00,resolved
+cb_000643,tx_00029852,cust_007113,2024-03-31 10:58:00,2024-05-07 10:58:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,IN,business,True,True,False,,2024-07-19 10:58:00,pending
+cb_000644,tx_00029873,cust_005500,2024-07-11 23:08:00,2024-08-21 23:08:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,DE,pro,False,True,True,,2024-11-13 23:08:00,escalated
+cb_000645,tx_00029880,cust_009251,2024-07-02 07:07:00,2024-07-30 07:07:00,9.99,USD,4853,service,Cardholder Dispute,visa,CA,starter,False,True,False,True,2024-09-21 07:07:00,pending
+cb_000646,tx_00030004,cust_004747,2024-10-21 15:02:00,2024-11-08 15:02:00,14.98,USD,13.1,service,Merchandise/Services Not Received,paypal,US,starter,True,True,True,False,2025-01-08 15:02:00,pending
+cb_000647,tx_00030009,cust_002261,2024-04-28 23:09:00,2024-05-27 23:09:00,9.99,USD,11.2,authorization,Declined Authorization,mastercard,US,starter,True,True,True,False,2024-07-28 23:09:00,pending
+cb_000648,tx_00030012,cust_001175,2024-10-10 10:21:00,2024-10-26 10:21:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,IN,starter,False,True,True,False,2025-01-06 10:21:00,escalated
+cb_000649,tx_00030102,cust_003199,2024-02-15 17:35:00,2024-03-26 17:35:00,39.98,USD,13.3,service,Not as Described,mastercard,US,pro,False,True,True,False,2024-06-21 17:35:00,pending
+cb_000650,tx_00030107,cust_009146,2024-07-10 03:31:00,2024-08-15 03:31:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,starter,True,True,False,True,2024-11-11 03:31:00,resolved
+cb_000651,tx_00030138,cust_007402,2024-10-30 06:15:00,2024-12-01 06:15:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,PK,starter,True,True,False,False,2025-01-25 06:15:00,resolved
+cb_000652,tx_00030173,cust_004636,2024-09-29 21:21:00,2024-11-12 21:21:00,29.99,USD,13.3,service,Not as Described,visa,DE,pro,True,True,True,False,2025-01-18 21:21:00,pending
+cb_000653,tx_00030282,cust_002875,2024-03-06 20:46:00,2024-03-22 20:46:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,FR,starter,False,False,True,,2024-06-17 20:46:00,escalated
+cb_000654,tx_00030287,cust_002498,2024-03-28 03:00:00,2024-04-24 03:00:00,9.99,USD,13.3,service,Not as Described,paypal,BR,starter,True,True,True,,2024-06-15 03:00:00,resolved
+cb_000655,tx_00030311,cust_001678,2024-04-21 11:18:00,2024-05-22 11:18:00,29.99,USD,12.1,processing,Late Presentment,visa,DE,pro,True,True,True,False,2024-07-28 11:18:00,resolved
+cb_000656,tx_00030417,cust_006435,2024-12-21 23:17:00,2025-01-27 23:17:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,IN,starter,True,True,True,False,2025-04-25 23:17:00,resolved
+cb_000657,tx_00030430,cust_005365,2024-01-31 14:43:00,2024-03-07 14:43:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,BR,business,True,True,True,True,2024-05-14 14:43:00,resolved
+cb_000658,tx_00030435,cust_004762,2024-01-06 08:42:00,2024-02-08 08:42:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,FR,pro,False,True,True,,2024-03-15 08:42:00,resolved
+cb_000659,tx_00030508,cust_000766,2024-10-03 20:31:00,2024-11-06 20:31:00,29.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,pro,True,True,True,True,2025-01-17 20:31:00,escalated
+cb_000660,tx_00030534,cust_008041,2024-08-15 04:48:00,2024-09-12 04:48:00,99.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,business,True,False,True,,2024-11-06 04:48:00,pending
+cb_000661,tx_00030568,cust_007868,2024-07-19 11:31:00,2024-08-29 11:31:00,99.99,USD,13.3,service,Not as Described,visa,US,business,True,True,True,False,2024-10-08 11:31:00,escalated
+cb_000662,tx_00030571,cust_009548,2024-02-14 19:13:00,2024-03-16 19:13:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,FR,starter,True,True,False,False,2024-04-23 19:13:00,escalated
+cb_000663,tx_00030575,cust_000682,2024-10-18 08:38:00,2024-11-26 08:38:00,29.98,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,starter,False,True,False,,2025-01-15 08:38:00,resolved
+cb_000664,tx_00030607,cust_002972,2024-11-20 05:37:00,2024-12-12 05:37:00,299.99,USD,13.1,service,Merchandise/Services Not Received,visa,CA,enterprise,True,False,True,True,2025-02-25 05:37:00,escalated
+cb_000665,tx_00030741,cust_003835,2024-12-23 06:42:00,2025-01-22 06:42:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,AU,starter,True,True,True,True,2025-03-27 06:42:00,escalated
+cb_000666,tx_00030744,cust_008952,2024-08-23 01:09:00,2024-10-04 01:09:00,14.98,USD,13.1,service,Merchandise/Services Not Received,mastercard,UK,starter,False,True,True,True,2024-12-14 01:09:00,pending
+cb_000667,tx_00030758,cust_000761,2024-02-26 23:13:00,2024-04-05 23:13:00,99.99,USD,10.5,fraud,Fraud - Card Present,visa,US,business,True,False,True,False,2024-05-08 23:13:00,escalated
+cb_000668,tx_00030834,cust_000819,2024-09-22 21:31:00,2024-10-08 21:31:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,CA,pro,False,True,True,False,2024-12-17 21:31:00,resolved
+cb_000669,tx_00030871,cust_003690,2024-10-06 07:51:00,2024-11-03 07:51:00,99.99,USD,12.5,processing,Incorrect Amount,mastercard,US,business,False,True,False,True,2024-12-10 07:51:00,pending
+cb_000670,tx_00030887,cust_002167,2024-11-04 22:11:00,2024-12-19 22:11:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,True,False,True,False,2025-02-26 22:11:00,resolved
+cb_000671,tx_00030908,cust_008375,2024-07-23 17:53:00,2024-08-29 17:53:00,29.99,USD,12.1,processing,Late Presentment,mastercard,NG,pro,True,True,True,False,2024-10-21 17:53:00,escalated
+cb_000672,tx_00030944,cust_004141,2024-03-22 08:59:00,2024-04-07 08:59:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,US,pro,False,True,True,False,2024-05-07 08:59:00,escalated
+cb_000673,tx_00030952,cust_005691,2024-09-21 07:43:00,2024-10-16 07:43:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,AU,starter,True,False,True,False,2024-11-22 07:43:00,escalated
+cb_000674,tx_00030971,cust_000439,2024-12-01 11:35:00,2025-01-09 11:35:00,299.99,USD,4853,service,Cardholder Dispute,mastercard,AU,enterprise,True,True,False,True,2025-02-16 11:35:00,pending
+cb_000675,tx_00030973,cust_009569,2024-12-07 06:29:00,2024-12-23 06:29:00,29.99,USD,4853,service,Cardholder Dispute,visa,US,pro,True,True,False,True,2025-02-17 06:29:00,pending
+cb_000676,tx_00031015,cust_009534,2024-09-05 18:12:00,2024-09-30 18:12:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,DE,starter,False,True,True,True,2024-10-31 18:12:00,pending
+cb_000677,tx_00031053,cust_005073,2024-10-14 03:38:00,2024-11-20 03:38:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,FR,pro,True,False,False,True,2025-02-04 03:38:00,escalated
+cb_000678,tx_00031138,cust_007744,2024-01-23 06:09:00,2024-03-07 06:09:00,99.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,UK,business,True,False,False,True,2024-05-31 06:09:00,pending
+cb_000679,tx_00031165,cust_001841,2024-04-02 08:18:00,2024-04-28 08:18:00,29.98,USD,4863,fraud,Cardholder Does Not Recognize,amex,US,starter,True,True,True,False,2024-07-14 08:18:00,pending
+cb_000680,tx_00031201,cust_004444,2024-01-13 18:05:00,2024-02-10 18:05:00,19.98,USD,4834,processing,Duplicate Processing,visa,US,starter,True,True,True,True,2024-03-17 18:05:00,escalated
+cb_000681,tx_00031213,cust_008829,2024-12-03 07:29:00,2025-01-07 07:29:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,False,True,True,True,2025-04-05 07:29:00,escalated
+cb_000682,tx_00031353,cust_008272,2024-03-19 09:36:00,2024-05-01 09:36:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,False,True,,2024-07-16 09:36:00,escalated
+cb_000683,tx_00031384,cust_008734,2024-06-06 17:47:00,2024-06-30 17:47:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,pro,False,False,False,True,2024-08-30 17:47:00,pending
+cb_000684,tx_00031459,cust_006325,2024-02-12 20:08:00,2024-03-27 20:08:00,29.99,USD,4834,processing,Duplicate Processing,visa,FR,pro,True,True,False,False,2024-06-16 20:08:00,pending
+cb_000685,tx_00031516,cust_006885,2024-08-05 09:16:00,2024-09-08 09:16:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,CA,starter,False,True,False,False,2024-10-11 09:16:00,pending
+cb_000686,tx_00031572,cust_001019,2024-05-08 21:58:00,2024-06-13 21:58:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,False,True,,2024-07-14 21:58:00,escalated
+cb_000687,tx_00031631,cust_008231,2024-07-31 23:57:00,2024-08-29 23:57:00,9.99,USD,4853,service,Cardholder Dispute,paypal,UK,starter,True,True,True,True,2024-11-07 23:57:00,pending
+cb_000688,tx_00031718,cust_004943,2024-11-06 21:15:00,2024-11-22 21:15:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,False,True,True,True,2024-12-23 21:15:00,escalated
+cb_000689,tx_00031723,cust_003043,2024-03-12 23:19:00,2024-03-27 23:19:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,BR,pro,True,True,True,True,2024-05-07 23:19:00,pending
+cb_000690,tx_00031786,cust_007854,2024-11-29 10:37:00,2024-12-31 10:37:00,29.99,USD,12.1,processing,Late Presentment,visa,UK,pro,True,True,True,True,2025-03-25 10:37:00,escalated
+cb_000691,tx_00031848,cust_005643,2024-05-22 18:20:00,2024-07-05 18:20:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,True,False,True,False,2024-09-30 18:20:00,resolved
+cb_000692,tx_00031879,cust_008776,2024-12-24 20:42:00,2025-01-09 20:42:00,19.98,USD,13.1,service,Merchandise/Services Not Received,visa,IN,starter,True,False,True,False,2025-03-17 20:42:00,resolved
+cb_000693,tx_00031894,cust_003232,2024-02-20 08:12:00,2024-03-09 08:12:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,False,False,True,False,2024-04-29 08:12:00,escalated
+cb_000694,tx_00031962,cust_008071,2024-08-02 17:43:00,2024-08-22 17:43:00,29.99,USD,13.3,service,Not as Described,visa,UK,pro,True,True,True,True,2024-10-04 17:43:00,escalated
+cb_000695,tx_00032035,cust_009698,2024-11-24 02:54:00,2025-01-07 02:54:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,US,pro,False,False,True,False,2025-04-06 02:54:00,resolved
+cb_000696,tx_00032040,cust_002177,2024-10-22 12:03:00,2024-11-18 12:03:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,starter,False,True,True,True,2025-01-01 12:03:00,escalated
+cb_000697,tx_00032155,cust_007453,2024-06-18 02:15:00,2024-07-15 02:15:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,pro,True,True,True,True,2024-08-17 02:15:00,escalated
+cb_000698,tx_00032321,cust_002447,2024-04-02 20:09:00,2024-04-21 20:09:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,True,False,True,False,2024-05-23 20:09:00,resolved
+cb_000699,tx_00032352,cust_003119,2024-12-08 15:10:00,2025-01-22 15:10:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,BR,starter,False,True,True,False,2025-03-21 15:10:00,pending
+cb_000700,tx_00032465,cust_009531,2024-12-04 15:48:00,2025-01-03 15:48:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,IN,starter,False,True,True,False,2025-03-16 15:48:00,pending
+cb_000701,tx_00032532,cust_005098,2024-09-19 15:29:00,2024-10-12 15:29:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,starter,False,True,False,,2024-12-10 15:29:00,resolved
+cb_000702,tx_00032586,cust_002163,2024-01-03 10:33:00,2024-01-27 10:33:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,business,True,False,True,,2024-03-29 10:33:00,resolved
+cb_000703,tx_00032651,cust_009678,2024-09-19 23:36:00,2024-10-28 23:36:00,9.99,USD,13.3,service,Not as Described,amex,US,starter,True,True,True,False,2024-11-30 23:36:00,escalated
+cb_000704,tx_00032653,cust_003021,2024-08-14 08:40:00,2024-09-02 08:40:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,UK,starter,True,True,False,True,2024-10-21 08:40:00,resolved
+cb_000705,tx_00032713,cust_007840,2024-06-30 14:18:00,2024-08-04 14:18:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,pro,True,True,True,,2024-10-22 14:18:00,resolved
+cb_000706,tx_00032714,cust_003380,2024-12-07 05:57:00,2025-01-06 05:57:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,BR,starter,True,False,True,,2025-04-01 05:57:00,pending
+cb_000707,tx_00032729,cust_008554,2024-09-11 21:19:00,2024-10-23 21:19:00,29.98,USD,4853,service,Cardholder Dispute,amex,US,starter,False,True,True,,2024-12-24 21:19:00,pending
+cb_000708,tx_00032769,cust_002792,2024-12-16 01:22:00,2025-01-20 01:22:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,UK,business,False,False,True,False,2025-03-10 01:22:00,pending
+cb_000709,tx_00032777,cust_000985,2024-11-13 00:52:00,2024-12-16 00:52:00,29.99,USD,12.1,processing,Late Presentment,mastercard,CA,pro,True,False,True,,2025-01-31 00:52:00,resolved
+cb_000710,tx_00032793,cust_004019,2024-10-10 11:06:00,2024-11-23 11:06:00,9.99,USD,12.1,processing,Late Presentment,visa,CA,starter,True,False,True,True,2025-01-17 11:06:00,resolved
+cb_000711,tx_00032952,cust_007739,2024-12-22 23:26:00,2025-01-24 23:26:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,US,pro,False,True,True,False,2025-04-10 23:26:00,escalated
+cb_000712,tx_00032988,cust_009477,2024-06-05 00:20:00,2024-07-03 00:20:00,9.99,USD,12.1,processing,Late Presentment,visa,IN,starter,True,True,False,False,2024-09-03 00:20:00,escalated
+cb_000713,tx_00033118,cust_003490,2024-08-14 08:06:00,2024-09-01 08:06:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,PK,starter,True,False,True,,2024-10-24 08:06:00,escalated
+cb_000714,tx_00033139,cust_003205,2024-08-08 23:46:00,2024-09-22 23:46:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,BR,pro,True,False,True,False,2024-11-25 23:46:00,resolved
+cb_000715,tx_00033154,cust_009499,2024-06-19 08:36:00,2024-07-31 08:36:00,99.99,USD,10.4,fraud,Card Absent Environment,amex,US,business,True,True,False,False,2024-08-31 08:36:00,pending
+cb_000716,tx_00033180,cust_000390,2024-12-23 12:36:00,2025-01-17 12:36:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,starter,True,True,True,True,2025-04-03 12:36:00,resolved
+cb_000717,tx_00033363,cust_005717,2024-06-19 09:40:00,2024-07-20 09:40:00,29.98,USD,12.1,processing,Late Presentment,visa,FR,starter,True,True,True,True,2024-09-01 09:40:00,escalated
+cb_000718,tx_00033365,cust_000812,2024-12-02 21:25:00,2025-01-08 21:25:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,IN,pro,False,True,False,True,2025-02-25 21:25:00,escalated
+cb_000719,tx_00033494,cust_002976,2024-08-07 03:10:00,2024-09-20 03:10:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,CA,starter,False,True,True,,2024-11-29 03:10:00,resolved
+cb_000720,tx_00033514,cust_005451,2024-02-11 03:51:00,2024-03-01 03:51:00,99.99,USD,10.5,fraud,Fraud - Card Present,visa,IN,business,False,True,False,False,2024-04-24 03:51:00,escalated
+cb_000721,tx_00033632,cust_005750,2024-02-10 01:17:00,2024-03-12 01:17:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,UK,starter,False,False,True,,2024-06-02 01:17:00,escalated
+cb_000722,tx_00033663,cust_005638,2024-05-12 04:26:00,2024-06-21 04:26:00,29.99,USD,11.2,authorization,Declined Authorization,visa,AU,pro,True,False,False,False,2024-09-09 04:26:00,resolved
+cb_000723,tx_00033729,cust_002839,2024-06-06 02:23:00,2024-07-19 02:23:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,pro,False,True,True,False,2024-09-23 02:23:00,escalated
+cb_000724,tx_00033736,cust_008799,2024-05-15 20:46:00,2024-06-26 20:46:00,29.99,USD,4853,service,Cardholder Dispute,visa,AU,pro,True,False,True,False,2024-09-02 20:46:00,resolved
+cb_000725,tx_00033762,cust_003571,2024-03-31 06:51:00,2024-05-15 06:51:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,starter,True,False,True,False,2024-07-22 06:51:00,pending
+cb_000726,tx_00033798,cust_002514,2024-01-20 00:36:00,2024-02-06 00:36:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,pro,True,True,False,,2024-03-15 00:36:00,resolved
+cb_000727,tx_00033853,cust_008269,2024-08-29 02:57:00,2024-09-29 02:57:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,AU,starter,True,True,True,,2024-12-01 02:57:00,escalated
+cb_000728,tx_00033857,cust_008429,2024-04-06 02:02:00,2024-05-09 02:02:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,paypal,PK,business,False,True,True,,2024-07-28 02:02:00,pending
+cb_000729,tx_00033914,cust_005467,2024-03-13 00:53:00,2024-04-15 00:53:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,FR,starter,False,True,True,False,2024-06-07 00:53:00,pending
+cb_000730,tx_00033974,cust_009212,2024-01-09 20:16:00,2024-02-18 20:16:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,BR,starter,False,True,False,False,2024-03-31 20:16:00,escalated
+cb_000731,tx_00034110,cust_009202,2024-08-09 18:50:00,2024-09-11 18:50:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,BR,starter,False,False,True,False,2024-12-06 18:50:00,escalated
+cb_000732,tx_00034123,cust_003525,2024-11-03 11:31:00,2024-11-18 11:31:00,29.99,USD,13.3,service,Not as Described,visa,RU,pro,True,True,True,,2025-01-25 11:31:00,resolved
+cb_000733,tx_00034124,cust_005965,2024-11-03 03:05:00,2024-12-09 03:05:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,BR,starter,True,False,True,False,2025-02-06 03:05:00,resolved
+cb_000734,tx_00034129,cust_003400,2024-07-27 07:58:00,2024-08-19 07:58:00,29.99,USD,13.3,service,Not as Described,visa,NG,pro,True,False,True,False,2024-10-19 07:58:00,resolved
+cb_000735,tx_00034140,cust_009465,2024-08-07 09:57:00,2024-09-15 09:57:00,9.99,USD,13.3,service,Not as Described,amex,US,starter,True,True,True,True,2024-12-12 09:57:00,pending
+cb_000736,tx_00034182,cust_003762,2024-07-23 16:55:00,2024-08-27 16:55:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,UK,pro,True,True,True,False,2024-10-01 16:55:00,escalated
+cb_000737,tx_00034222,cust_008721,2024-03-23 00:13:00,2024-04-25 00:13:00,14.98,USD,13.1,service,Merchandise/Services Not Received,visa,UK,starter,True,True,False,False,2024-07-24 00:13:00,resolved
+cb_000738,tx_00034223,cust_008947,2024-09-30 12:11:00,2024-11-01 12:11:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,UK,pro,True,False,True,,2024-12-26 12:11:00,resolved
+cb_000739,tx_00034245,cust_002282,2024-06-12 05:05:00,2024-07-23 05:05:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,visa,DE,starter,False,True,True,,2024-10-03 05:05:00,pending
+cb_000740,tx_00034408,cust_005421,2024-06-02 09:38:00,2024-06-19 09:38:00,29.99,USD,4853,service,Cardholder Dispute,visa,BR,pro,False,True,True,True,2024-09-14 09:38:00,resolved
+cb_000741,tx_00034413,cust_000721,2024-11-28 12:34:00,2024-12-23 12:34:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,DE,starter,False,False,True,False,2025-03-16 12:34:00,resolved
+cb_000742,tx_00034423,cust_007162,2024-10-27 17:36:00,2024-12-06 17:36:00,309.98,USD,10.5,fraud,Fraud - Card Present,mastercard,US,enterprise,False,True,True,False,2025-02-18 17:36:00,resolved
+cb_000743,tx_00034595,cust_009178,2024-11-03 14:25:00,2024-11-28 14:25:00,119.98,USD,13.1,service,Merchandise/Services Not Received,amex,US,business,False,True,True,True,2025-02-08 14:25:00,pending
+cb_000744,tx_00034673,cust_006222,2024-07-17 00:24:00,2024-08-04 00:24:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,pro,True,True,True,,2024-09-21 00:24:00,pending
+cb_000745,tx_00034717,cust_004764,2024-05-06 06:13:00,2024-05-31 06:13:00,19.98,USD,10.5,fraud,Fraud - Card Present,mastercard,US,starter,False,False,False,,2024-07-28 06:13:00,pending
+cb_000746,tx_00034808,cust_000672,2024-01-30 02:00:00,2024-02-20 02:00:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,DE,pro,False,True,False,False,2024-04-15 02:00:00,pending
+cb_000747,tx_00034825,cust_002529,2024-07-29 14:56:00,2024-08-27 14:56:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,AU,pro,False,False,False,False,2024-10-22 14:56:00,escalated
+cb_000748,tx_00034832,cust_006868,2024-08-07 11:52:00,2024-09-17 11:52:00,9.99,USD,13.1,service,Merchandise/Services Not Received,amex,DE,starter,True,True,True,,2024-12-02 11:52:00,pending
+cb_000749,tx_00035056,cust_007110,2024-07-05 05:13:00,2024-07-22 05:13:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,True,True,2024-09-21 05:13:00,escalated
+cb_000750,tx_00035058,cust_005841,2024-11-02 05:59:00,2024-12-05 05:59:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,starter,False,True,True,True,2025-01-16 05:59:00,resolved
+cb_000751,tx_00035062,cust_005399,2024-10-14 22:11:00,2024-11-10 22:11:00,14.98,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,True,True,2024-12-15 22:11:00,pending
+cb_000752,tx_00035124,cust_002488,2024-01-04 06:20:00,2024-02-15 06:20:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,NG,starter,True,True,True,False,2024-04-19 06:20:00,escalated
+cb_000753,tx_00035371,cust_006394,2024-04-14 11:28:00,2024-05-13 11:28:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,pro,False,False,True,True,2024-07-28 11:28:00,escalated
+cb_000754,tx_00035577,cust_003871,2024-07-27 22:21:00,2024-08-20 22:21:00,9.99,USD,12.1,processing,Late Presentment,mastercard,AU,starter,True,True,True,False,2024-09-27 22:21:00,pending
+cb_000755,tx_00035623,cust_003026,2024-12-09 06:54:00,2024-12-26 06:54:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,US,business,True,False,False,False,2025-02-09 06:54:00,pending
+cb_000756,tx_00035632,cust_002283,2024-10-07 22:18:00,2024-11-04 22:18:00,9.99,USD,12.5,processing,Incorrect Amount,amex,US,starter,True,True,True,False,2025-02-01 22:18:00,escalated
+cb_000757,tx_00035648,cust_001496,2024-08-11 11:02:00,2024-09-08 11:02:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,DE,starter,True,True,False,True,2024-11-30 11:02:00,resolved
+cb_000758,tx_00035653,cust_003161,2024-02-06 00:23:00,2024-03-09 00:23:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,US,pro,False,True,True,,2024-05-16 00:23:00,escalated
+cb_000759,tx_00035656,cust_008779,2024-10-12 02:46:00,2024-11-03 02:46:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,FR,pro,False,True,True,,2025-01-10 02:46:00,pending
+cb_000760,tx_00035658,cust_008904,2024-09-21 14:07:00,2024-10-10 14:07:00,29.99,USD,10.5,fraud,Fraud - Card Present,paypal,BR,pro,False,True,True,,2025-01-04 14:07:00,escalated
+cb_000761,tx_00035701,cust_007965,2024-03-21 17:57:00,2024-04-15 17:57:00,99.99,USD,13.3,service,Not as Described,amex,IN,business,True,False,False,True,2024-06-20 17:57:00,pending
+cb_000762,tx_00035856,cust_003006,2024-09-23 02:34:00,2024-10-20 02:34:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,NG,starter,False,True,False,,2024-12-12 02:34:00,resolved
+cb_000763,tx_00035922,cust_005078,2024-07-06 21:38:00,2024-08-11 21:38:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,US,pro,False,False,False,False,2024-11-05 21:38:00,escalated
+cb_000764,tx_00035929,cust_000698,2024-04-19 00:44:00,2024-05-30 00:44:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,starter,False,True,False,False,2024-07-28 00:44:00,escalated
+cb_000765,tx_00035955,cust_008597,2024-04-20 03:42:00,2024-05-13 03:42:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,US,pro,False,True,False,,2024-07-25 03:42:00,resolved
+cb_000766,tx_00036076,cust_003688,2024-08-14 00:39:00,2024-09-16 00:39:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,PK,starter,False,True,False,,2024-10-23 00:39:00,resolved
+cb_000767,tx_00036081,cust_002085,2024-10-04 11:34:00,2024-10-23 11:34:00,9.99,USD,13.3,service,Not as Described,mastercard,US,starter,True,False,True,True,2025-01-19 11:34:00,escalated
+cb_000768,tx_00036083,cust_000192,2024-09-09 06:31:00,2024-09-30 06:31:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,PK,starter,True,True,False,,2024-12-17 06:31:00,escalated
+cb_000769,tx_00036111,cust_004703,2024-03-14 08:36:00,2024-04-11 08:36:00,29.99,USD,13.3,service,Not as Described,mastercard,US,pro,True,False,True,,2024-07-08 08:36:00,pending
+cb_000770,tx_00036166,cust_001942,2024-05-12 13:10:00,2024-06-10 13:10:00,49.98,USD,12.1,processing,Late Presentment,visa,BR,pro,True,True,True,,2024-07-18 13:10:00,escalated
+cb_000771,tx_00036199,cust_009865,2024-01-20 07:41:00,2024-02-04 07:41:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,PK,starter,True,True,False,,2024-05-02 07:41:00,escalated
+cb_000772,tx_00036349,cust_001456,2024-04-23 02:17:00,2024-05-19 02:17:00,99.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,business,True,True,True,False,2024-07-05 02:17:00,resolved
+cb_000773,tx_00036457,cust_007826,2024-08-14 14:46:00,2024-09-02 14:46:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,FR,pro,True,True,True,False,2024-11-01 14:46:00,escalated
+cb_000774,tx_00036477,cust_000029,2024-10-17 18:11:00,2024-11-08 18:11:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,PK,pro,True,False,False,True,2025-01-01 18:11:00,escalated
+cb_000775,tx_00036503,cust_009115,2024-05-25 21:23:00,2024-07-08 21:23:00,14.98,USD,4837,fraud,No Cardholder Authorization,mastercard,FR,starter,False,True,False,True,2024-08-26 21:23:00,pending
+cb_000776,tx_00036591,cust_001008,2024-11-24 05:31:00,2024-12-18 05:31:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,BR,starter,True,True,True,False,2025-03-09 05:31:00,escalated
+cb_000777,tx_00036629,cust_004050,2024-09-05 06:44:00,2024-09-24 06:44:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,DE,starter,True,False,True,False,2024-10-31 06:44:00,resolved
+cb_000778,tx_00036673,cust_004756,2024-04-10 16:38:00,2024-05-13 16:38:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,NG,starter,True,True,True,True,2024-06-16 16:38:00,pending
+cb_000779,tx_00036719,cust_002696,2024-06-21 07:06:00,2024-08-01 07:06:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,starter,False,True,False,,2024-10-24 07:06:00,pending
+cb_000780,tx_00036787,cust_004355,2024-03-25 13:34:00,2024-04-16 13:34:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,IN,starter,True,True,True,True,2024-07-03 13:34:00,resolved
+cb_000781,tx_00036830,cust_002693,2024-06-29 11:40:00,2024-07-26 11:40:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,True,True,True,False,2024-10-21 11:40:00,pending
+cb_000782,tx_00036862,cust_006521,2024-05-19 06:49:00,2024-06-12 06:49:00,119.98,USD,4837,fraud,No Cardholder Authorization,visa,UK,business,False,True,True,False,2024-08-15 06:49:00,resolved
+cb_000783,tx_00036890,cust_001362,2024-02-19 11:53:00,2024-04-03 11:53:00,29.99,USD,4837,fraud,No Cardholder Authorization,amex,AU,pro,True,True,True,,2024-05-28 11:53:00,resolved
+cb_000784,tx_00036927,cust_000164,2024-08-09 07:01:00,2024-09-17 07:01:00,29.99,USD,4837,fraud,No Cardholder Authorization,amex,RU,pro,False,False,False,False,2024-12-05 07:01:00,pending
+cb_000785,tx_00036949,cust_002956,2024-02-15 21:15:00,2024-03-28 21:15:00,29.99,USD,12.1,processing,Late Presentment,visa,BR,pro,False,True,False,,2024-04-27 21:15:00,escalated
+cb_000786,tx_00037343,cust_006409,2024-04-02 11:21:00,2024-05-14 11:21:00,9.99,USD,4853,service,Cardholder Dispute,visa,US,starter,True,False,False,True,2024-06-16 11:21:00,resolved
+cb_000787,tx_00037419,cust_001040,2024-02-03 18:53:00,2024-03-19 18:53:00,299.99,USD,13.3,service,Not as Described,amex,PK,enterprise,True,True,True,,2024-04-20 18:53:00,pending
+cb_000788,tx_00037463,cust_001849,2024-01-28 02:24:00,2024-03-06 02:24:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,AU,pro,False,False,True,False,2024-05-11 02:24:00,pending
+cb_000789,tx_00037566,cust_002326,2024-01-31 03:04:00,2024-02-17 03:04:00,99.99,USD,13.3,service,Not as Described,amex,UK,business,True,True,True,True,2024-04-16 03:04:00,resolved
+cb_000790,tx_00037619,cust_003559,2024-04-09 01:26:00,2024-05-12 01:26:00,29.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,pro,True,True,True,True,2024-06-29 01:26:00,pending
+cb_000791,tx_00037627,cust_004443,2024-11-24 13:07:00,2024-12-31 13:07:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,UK,pro,True,True,False,True,2025-03-05 13:07:00,escalated
+cb_000792,tx_00037653,cust_005592,2024-02-24 11:43:00,2024-04-07 11:43:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,RU,starter,True,True,True,False,2024-06-21 11:43:00,escalated
+cb_000793,tx_00037658,cust_003843,2024-04-07 09:11:00,2024-05-09 09:11:00,299.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,DE,enterprise,False,True,True,False,2024-07-02 09:11:00,resolved
+cb_000794,tx_00037661,cust_007157,2024-01-01 10:14:00,2024-01-28 10:14:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,UK,starter,False,True,True,False,2024-03-21 10:14:00,escalated
+cb_000795,tx_00037677,cust_001660,2024-03-14 19:21:00,2024-04-19 19:21:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,PK,pro,False,False,True,False,2024-07-01 19:21:00,resolved
+cb_000796,tx_00037683,cust_002348,2024-12-03 16:09:00,2024-12-27 16:09:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,True,True,True,,2025-02-15 16:09:00,escalated
+cb_000797,tx_00037712,cust_008691,2024-12-26 16:45:00,2025-02-04 16:45:00,99.99,USD,10.4,fraud,Card Absent Environment,visa,BR,business,True,True,True,False,2025-03-18 16:45:00,pending
+cb_000798,tx_00037720,cust_004976,2024-06-30 09:56:00,2024-08-13 09:56:00,99.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,business,True,False,True,False,2024-10-10 09:56:00,escalated
+cb_000799,tx_00037723,cust_009497,2024-03-13 19:59:00,2024-04-12 19:59:00,9.99,USD,12.1,processing,Late Presentment,amex,NG,starter,True,False,False,False,2024-05-15 19:59:00,resolved
+cb_000800,tx_00037736,cust_008378,2024-05-08 06:11:00,2024-05-25 06:11:00,19.98,USD,13.1,service,Merchandise/Services Not Received,visa,BR,starter,True,True,True,,2024-07-05 06:11:00,pending
+cb_000801,tx_00037740,cust_006205,2024-02-19 14:07:00,2024-03-13 14:07:00,29.99,USD,11.1,authorization,Card Recovery Bulletin,visa,UK,pro,False,False,True,False,2024-05-28 14:07:00,resolved
+cb_000802,tx_00037813,cust_003468,2024-03-05 17:57:00,2024-04-17 17:57:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,DE,starter,False,True,True,False,2024-07-02 17:57:00,pending
+cb_000803,tx_00037856,cust_008252,2024-02-02 12:46:00,2024-03-12 12:46:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,US,starter,True,False,False,,2024-05-03 12:46:00,escalated
+cb_000804,tx_00037858,cust_000480,2024-12-30 19:19:00,2025-01-28 19:19:00,29.99,USD,4853,service,Cardholder Dispute,visa,UK,pro,True,True,True,,2025-04-05 19:19:00,escalated
+cb_000805,tx_00037912,cust_006587,2024-12-04 23:01:00,2024-12-20 23:01:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,FR,business,True,True,False,True,2025-03-01 23:01:00,pending
+cb_000806,tx_00037953,cust_009360,2024-02-11 00:42:00,2024-03-23 00:42:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,CA,starter,False,True,True,True,2024-06-14 00:42:00,resolved
+cb_000807,tx_00037960,cust_009331,2024-09-09 16:00:00,2024-09-27 16:00:00,29.99,USD,12.5,processing,Incorrect Amount,visa,US,pro,True,True,False,True,2024-11-01 16:00:00,pending
+cb_000808,tx_00038099,cust_006137,2024-03-03 09:43:00,2024-03-20 09:43:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,BR,pro,False,True,True,,2024-04-22 09:43:00,escalated
+cb_000809,tx_00038106,cust_002759,2024-09-13 11:23:00,2024-10-20 11:23:00,99.99,USD,4837,fraud,No Cardholder Authorization,mastercard,BR,business,False,False,True,False,2025-01-18 11:23:00,resolved
+cb_000810,tx_00038186,cust_004382,2024-09-25 13:42:00,2024-11-07 13:42:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,pro,True,True,False,False,2024-12-16 13:42:00,escalated
+cb_000811,tx_00038212,cust_002087,2024-04-10 16:03:00,2024-05-14 16:03:00,19.98,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,False,True,True,False,2024-07-01 16:03:00,resolved
+cb_000812,tx_00038248,cust_001900,2024-03-31 01:05:00,2024-04-17 01:05:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,UK,starter,False,True,False,False,2024-06-01 01:05:00,escalated
+cb_000813,tx_00038384,cust_002216,2024-12-11 03:52:00,2025-01-11 03:52:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,FR,starter,False,False,True,,2025-03-13 03:52:00,resolved
+cb_000814,tx_00038407,cust_007873,2024-04-20 11:13:00,2024-05-06 11:13:00,29.99,USD,4853,service,Cardholder Dispute,paypal,UK,pro,True,False,True,False,2024-07-10 11:13:00,pending
+cb_000815,tx_00038411,cust_009131,2024-07-25 22:38:00,2024-08-31 22:38:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,starter,True,False,True,True,2024-11-26 22:38:00,pending
+cb_000816,tx_00038536,cust_006050,2024-07-11 08:43:00,2024-08-07 08:43:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,True,True,True,False,2024-09-16 08:43:00,escalated
+cb_000817,tx_00038548,cust_008162,2024-03-22 22:07:00,2024-05-06 22:07:00,9.99,USD,13.3,service,Not as Described,visa,US,starter,True,False,True,,2024-06-19 22:07:00,pending
+cb_000818,tx_00038577,cust_006787,2024-04-28 13:53:00,2024-06-04 13:53:00,19.98,USD,4853,service,Cardholder Dispute,amex,US,starter,True,True,False,True,2024-08-18 13:53:00,escalated
+cb_000819,tx_00038609,cust_000670,2024-09-18 23:22:00,2024-10-24 23:22:00,99.99,USD,4837,fraud,No Cardholder Authorization,mastercard,NG,business,True,False,True,False,2025-01-05 23:22:00,resolved
+cb_000820,tx_00038631,cust_000654,2024-01-01 03:05:00,2024-01-19 03:05:00,29.99,USD,4834,processing,Duplicate Processing,amex,US,pro,True,True,True,,2024-03-30 03:05:00,escalated
+cb_000821,tx_00038725,cust_008773,2024-08-27 13:58:00,2024-10-03 13:58:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,UK,business,True,True,True,True,2024-11-07 13:58:00,resolved
+cb_000822,tx_00038726,cust_001355,2024-01-29 21:28:00,2024-02-23 21:28:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,IN,starter,False,False,True,False,2024-04-20 21:28:00,escalated
+cb_000823,tx_00038799,cust_009315,2024-12-26 21:58:00,2025-02-09 21:58:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,UK,starter,True,True,True,,2025-04-25 21:58:00,pending
+cb_000824,tx_00038858,cust_002863,2024-11-18 19:31:00,2024-12-04 19:31:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,DE,starter,True,True,True,True,2025-01-27 19:31:00,resolved
+cb_000825,tx_00038865,cust_001504,2024-06-13 02:28:00,2024-07-16 02:28:00,99.99,USD,10.4,fraud,Card Absent Environment,visa,FR,business,False,False,False,False,2024-09-26 02:28:00,escalated
+cb_000826,tx_00038969,cust_000254,2024-01-25 21:03:00,2024-03-07 21:03:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,True,False,True,False,2024-06-05 21:03:00,escalated
+cb_000827,tx_00038977,cust_000450,2024-11-29 10:19:00,2025-01-10 10:19:00,299.99,USD,10.4,fraud,Card Absent Environment,mastercard,BR,enterprise,True,True,True,,2025-02-22 10:19:00,escalated
+cb_000828,tx_00038981,cust_001004,2024-12-31 00:38:00,2025-01-25 00:38:00,9.99,USD,4853,service,Cardholder Dispute,visa,UK,starter,True,True,False,False,2025-03-13 00:38:00,escalated
+cb_000829,tx_00039033,cust_001226,2024-08-12 14:23:00,2024-09-09 14:23:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,UK,starter,False,True,True,True,2024-11-27 14:23:00,resolved
+cb_000830,tx_00039073,cust_001563,2024-05-07 18:49:00,2024-06-19 18:49:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,True,True,False,2024-08-15 18:49:00,pending
+cb_000831,tx_00039149,cust_001974,2024-08-30 02:06:00,2024-09-26 02:06:00,9.99,USD,4853,service,Cardholder Dispute,visa,UK,starter,True,True,True,,2024-12-20 02:06:00,pending
+cb_000832,tx_00039198,cust_001880,2024-12-17 17:17:00,2025-01-13 17:17:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,PK,starter,False,False,True,False,2025-03-27 17:17:00,resolved
+cb_000833,tx_00039229,cust_005081,2024-12-01 21:29:00,2024-12-27 21:29:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,pro,False,True,True,False,2025-02-22 21:29:00,pending
+cb_000834,tx_00039270,cust_002060,2024-08-07 16:15:00,2024-09-11 16:15:00,99.99,USD,13.3,service,Not as Described,mastercard,DE,business,True,False,False,,2024-10-15 16:15:00,escalated
+cb_000835,tx_00039328,cust_008996,2024-05-05 11:32:00,2024-05-27 11:32:00,34.98,USD,13.3,service,Not as Described,amex,US,pro,False,True,False,True,2024-07-28 11:32:00,pending
+cb_000836,tx_00039370,cust_000272,2024-02-23 19:15:00,2024-04-08 19:15:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,AU,pro,True,True,True,,2024-06-19 19:15:00,resolved
+cb_000837,tx_00039509,cust_006672,2024-12-01 19:39:00,2024-12-27 19:39:00,9.99,USD,12.1,processing,Late Presentment,visa,US,starter,True,True,True,,2025-02-26 19:39:00,resolved
+cb_000838,tx_00039526,cust_000004,2024-03-29 03:40:00,2024-05-07 03:40:00,39.98,USD,10.4,fraud,Card Absent Environment,visa,US,pro,True,True,False,True,2024-07-24 03:40:00,escalated
+cb_000839,tx_00039538,cust_009687,2024-06-22 00:11:00,2024-07-19 00:11:00,99.99,USD,10.5,fraud,Fraud - Card Present,amex,US,business,True,True,True,True,2024-10-06 00:11:00,resolved
+cb_000840,tx_00039585,cust_000010,2024-12-19 00:40:00,2025-01-28 00:40:00,9.99,USD,13.1,service,Merchandise/Services Not Received,amex,RU,starter,False,True,True,False,2025-03-29 00:40:00,pending
+cb_000841,tx_00039586,cust_004052,2024-04-09 11:18:00,2024-05-15 11:18:00,9.99,USD,12.1,processing,Late Presentment,mastercard,US,starter,True,True,True,True,2024-06-20 11:18:00,resolved
+cb_000842,tx_00039677,cust_006152,2024-04-10 03:57:00,2024-05-12 03:57:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,DE,starter,True,True,False,,2024-07-25 03:57:00,resolved
+cb_000843,tx_00039684,cust_005853,2024-06-10 04:40:00,2024-07-19 04:40:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,CA,starter,False,True,False,,2024-10-01 04:40:00,escalated
+cb_000844,tx_00039700,cust_008472,2024-08-23 10:29:00,2024-09-27 10:29:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,starter,False,True,True,False,2024-11-12 10:29:00,escalated
+cb_000845,tx_00039705,cust_000901,2024-03-01 10:32:00,2024-03-21 10:32:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,pro,True,False,True,,2024-04-20 10:32:00,resolved
+cb_000846,tx_00039725,cust_009493,2024-08-17 10:45:00,2024-09-02 10:45:00,9.99,USD,12.1,processing,Late Presentment,visa,US,starter,True,True,True,False,2024-11-15 10:45:00,escalated
+cb_000847,tx_00039754,cust_008149,2024-01-03 21:17:00,2024-02-07 21:17:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,pro,False,True,False,True,2024-04-13 21:17:00,pending
+cb_000848,tx_00039805,cust_001600,2024-12-08 10:38:00,2025-01-20 10:38:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,BR,starter,False,True,True,,2025-03-25 10:38:00,escalated
+cb_000849,tx_00039818,cust_001926,2024-09-14 20:45:00,2024-10-01 20:45:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,IN,starter,True,True,False,True,2024-12-16 20:45:00,resolved
+cb_000850,tx_00039830,cust_007919,2024-03-03 00:31:00,2024-04-11 00:31:00,9.99,USD,13.3,service,Not as Described,visa,UK,starter,True,False,True,True,2024-06-16 00:31:00,escalated
+cb_000851,tx_00039866,cust_002319,2024-01-19 01:32:00,2024-02-27 01:32:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,True,True,True,2024-04-04 01:32:00,resolved
+cb_000852,tx_00039957,cust_007635,2024-12-17 13:44:00,2025-01-14 13:44:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,PK,pro,False,True,True,,2025-03-24 13:44:00,pending
+cb_000853,tx_00040050,cust_003294,2024-05-22 11:04:00,2024-06-15 11:04:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,RU,pro,False,True,True,True,2024-08-17 11:04:00,escalated
+cb_000854,tx_00040085,cust_003373,2024-09-14 01:14:00,2024-10-06 01:14:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,UK,starter,True,False,True,True,2024-11-11 01:14:00,escalated
+cb_000855,tx_00040109,cust_006327,2024-08-24 03:29:00,2024-09-12 03:29:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,AU,starter,False,True,True,True,2024-12-06 03:29:00,escalated
+cb_000856,tx_00040224,cust_007360,2024-07-09 05:57:00,2024-08-19 05:57:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,starter,False,True,True,,2024-10-22 05:57:00,escalated
+cb_000857,tx_00040237,cust_002144,2024-11-23 17:23:00,2024-12-09 17:23:00,9.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,starter,True,True,True,True,2025-01-18 17:23:00,escalated
+cb_000858,tx_00040300,cust_000898,2024-02-01 12:51:00,2024-03-02 12:51:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,UK,starter,True,False,True,True,2024-05-13 12:51:00,resolved
+cb_000859,tx_00040351,cust_007841,2024-05-02 00:04:00,2024-06-12 00:04:00,29.99,USD,4853,service,Cardholder Dispute,visa,UK,pro,True,False,True,False,2024-07-14 00:04:00,pending
+cb_000860,tx_00040409,cust_006640,2024-08-23 04:46:00,2024-09-27 04:46:00,34.98,USD,12.5,processing,Incorrect Amount,visa,CA,pro,True,True,True,True,2024-12-23 04:46:00,escalated
+cb_000861,tx_00040413,cust_006625,2024-04-01 02:30:00,2024-04-25 02:30:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,PK,starter,True,True,True,False,2024-06-08 02:30:00,escalated
+cb_000862,tx_00040446,cust_008437,2024-07-18 19:46:00,2024-08-09 19:46:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,DE,starter,True,False,False,,2024-10-18 19:46:00,resolved
+cb_000863,tx_00040530,cust_001296,2024-09-11 02:08:00,2024-10-18 02:08:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,US,starter,True,False,True,,2025-01-02 02:08:00,escalated
+cb_000864,tx_00040568,cust_008410,2024-12-07 13:43:00,2025-01-05 13:43:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,AU,starter,False,True,False,True,2025-02-23 13:43:00,pending
+cb_000865,tx_00040626,cust_008668,2024-04-05 21:22:00,2024-04-27 21:22:00,99.99,USD,11.2,authorization,Declined Authorization,mastercard,FR,business,True,True,True,False,2024-05-29 21:22:00,resolved
+cb_000866,tx_00040752,cust_002590,2024-07-30 16:48:00,2024-09-05 16:48:00,9.99,USD,12.1,processing,Late Presentment,visa,US,starter,True,True,True,,2024-11-16 16:48:00,pending
+cb_000867,tx_00040777,cust_005733,2024-09-27 01:21:00,2024-10-30 01:21:00,9.99,USD,4853,service,Cardholder Dispute,paypal,RU,starter,True,False,True,True,2024-12-27 01:21:00,escalated
+cb_000868,tx_00040801,cust_009767,2024-10-29 22:55:00,2024-11-29 22:55:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,UK,pro,False,True,False,False,2025-02-27 22:55:00,escalated
+cb_000869,tx_00040839,cust_009869,2024-12-02 20:31:00,2025-01-12 20:31:00,9.99,USD,4853,service,Cardholder Dispute,visa,US,starter,True,False,True,True,2025-03-14 20:31:00,escalated
+cb_000870,tx_00040965,cust_002268,2024-10-23 11:01:00,2024-11-14 11:01:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,BR,pro,True,False,True,False,2025-01-29 11:01:00,resolved
+cb_000871,tx_00040967,cust_006368,2024-09-26 13:23:00,2024-10-30 13:23:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,BR,pro,True,False,False,True,2025-01-12 13:23:00,escalated
+cb_000872,tx_00041010,cust_003175,2024-03-23 15:40:00,2024-04-25 15:40:00,29.99,USD,4853,service,Cardholder Dispute,visa,NG,pro,True,False,True,,2024-06-03 15:40:00,escalated
+cb_000873,tx_00041074,cust_006256,2024-10-13 11:52:00,2024-11-27 11:52:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,paypal,DE,starter,False,True,True,,2025-02-22 11:52:00,pending
+cb_000874,tx_00041171,cust_004661,2024-07-14 05:45:00,2024-07-30 05:45:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,NG,pro,True,False,False,,2024-10-14 05:45:00,escalated
+cb_000875,tx_00041274,cust_007960,2024-05-12 03:18:00,2024-06-23 03:18:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,BR,starter,False,True,True,,2024-08-02 03:18:00,resolved
+cb_000876,tx_00041340,cust_003334,2024-10-08 16:37:00,2024-10-23 16:37:00,99.99,USD,13.3,service,Not as Described,visa,UK,business,True,True,False,True,2025-01-18 16:37:00,escalated
+cb_000877,tx_00041378,cust_006236,2024-08-01 22:53:00,2024-08-17 22:53:00,29.99,USD,12.1,processing,Late Presentment,mastercard,US,pro,False,False,True,,2024-09-27 22:53:00,escalated
+cb_000878,tx_00041387,cust_005273,2024-11-04 13:50:00,2024-12-03 13:50:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,CA,pro,False,True,False,,2025-02-17 13:50:00,escalated
+cb_000879,tx_00041402,cust_006360,2024-06-02 07:52:00,2024-06-26 07:52:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,DE,pro,True,True,True,,2024-09-18 07:52:00,resolved
+cb_000880,tx_00041404,cust_003641,2024-05-13 16:21:00,2024-06-10 16:21:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,DE,pro,False,True,False,False,2024-08-19 16:21:00,pending
+cb_000881,tx_00041424,cust_007087,2024-03-01 21:18:00,2024-03-18 21:18:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,False,False,False,True,2024-05-18 21:18:00,resolved
+cb_000882,tx_00041467,cust_001242,2024-05-05 04:56:00,2024-05-20 04:56:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,UK,starter,False,True,True,False,2024-08-11 04:56:00,pending
+cb_000883,tx_00041644,cust_003018,2024-06-19 03:16:00,2024-07-23 03:16:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,US,starter,False,True,False,True,2024-09-07 03:16:00,escalated
+cb_000884,tx_00041654,cust_005701,2024-01-26 09:23:00,2024-02-13 09:23:00,299.99,USD,12.1,processing,Late Presentment,mastercard,UK,enterprise,False,True,True,True,2024-04-09 09:23:00,pending
+cb_000885,tx_00041668,cust_009897,2024-01-19 08:46:00,2024-02-26 08:46:00,9.99,USD,13.1,service,Merchandise/Services Not Received,paypal,BR,starter,True,True,False,True,2024-04-29 08:46:00,pending
+cb_000886,tx_00041685,cust_002563,2024-11-02 08:42:00,2024-11-26 08:42:00,29.99,USD,10.5,fraud,Fraud - Card Present,paypal,IN,pro,False,True,True,,2025-01-25 08:42:00,pending
+cb_000887,tx_00041700,cust_009081,2024-02-28 15:51:00,2024-03-23 15:51:00,9.99,USD,4853,service,Cardholder Dispute,visa,US,starter,True,True,True,False,2024-04-30 15:51:00,resolved
+cb_000888,tx_00041830,cust_003668,2024-08-07 22:29:00,2024-09-06 22:29:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,UK,starter,True,True,True,False,2024-11-18 22:29:00,escalated
+cb_000889,tx_00041844,cust_006678,2024-09-07 03:54:00,2024-10-07 03:54:00,29.98,USD,4853,service,Cardholder Dispute,paypal,US,starter,True,True,False,False,2024-12-09 03:54:00,pending
+cb_000890,tx_00041893,cust_005713,2024-09-18 01:30:00,2024-10-05 01:30:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,UK,pro,False,True,True,True,2024-11-12 01:30:00,resolved
+cb_000891,tx_00042014,cust_006169,2024-12-18 05:15:00,2025-01-28 05:15:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,mastercard,DE,starter,False,False,True,False,2025-03-06 05:15:00,pending
+cb_000892,tx_00042081,cust_008314,2024-03-11 01:30:00,2024-04-12 01:30:00,9.99,USD,4853,service,Cardholder Dispute,visa,PK,starter,False,False,True,,2024-06-28 01:30:00,pending
+cb_000893,tx_00042138,cust_008754,2024-05-22 23:28:00,2024-06-29 23:28:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,FR,starter,False,True,False,False,2024-07-29 23:28:00,resolved
+cb_000894,tx_00042181,cust_008233,2024-12-11 12:18:00,2025-01-08 12:18:00,99.99,USD,4853,service,Cardholder Dispute,amex,US,business,True,True,False,True,2025-04-04 12:18:00,pending
+cb_000895,tx_00042265,cust_007856,2024-02-23 09:45:00,2024-03-13 09:45:00,99.99,USD,10.5,fraud,Fraud - Card Present,visa,US,business,True,True,False,,2024-06-07 09:45:00,escalated
+cb_000896,tx_00042328,cust_001773,2024-07-15 10:48:00,2024-08-27 10:48:00,9.99,USD,11.2,authorization,Declined Authorization,visa,UK,starter,True,True,True,True,2024-11-13 10:48:00,resolved
+cb_000897,tx_00042329,cust_009772,2024-12-25 12:56:00,2025-01-30 12:56:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,IN,starter,True,False,True,False,2025-04-12 12:56:00,escalated
+cb_000898,tx_00042366,cust_000748,2024-07-23 21:47:00,2024-08-26 21:47:00,119.98,USD,10.5,fraud,Fraud - Card Present,visa,DE,business,False,True,False,,2024-10-08 21:47:00,escalated
+cb_000899,tx_00042368,cust_007515,2024-09-11 04:54:00,2024-10-23 04:54:00,99.99,USD,12.5,processing,Incorrect Amount,amex,UK,business,True,True,True,True,2024-11-26 04:54:00,escalated
+cb_000900,tx_00042567,cust_003169,2024-01-08 15:34:00,2024-02-22 15:34:00,9.99,USD,13.3,service,Not as Described,visa,DE,starter,True,True,True,False,2024-03-31 15:34:00,pending
+cb_000901,tx_00042610,cust_004146,2024-12-29 14:04:00,2025-01-18 14:04:00,29.98,USD,4863,fraud,Cardholder Does Not Recognize,paypal,DE,starter,True,True,True,,2025-03-25 14:04:00,pending
+cb_000902,tx_00042613,cust_001562,2024-01-22 07:44:00,2024-02-29 07:44:00,29.99,USD,4853,service,Cardholder Dispute,visa,PK,pro,True,True,True,False,2024-05-15 07:44:00,pending
+cb_000903,tx_00042621,cust_004393,2024-01-22 09:17:00,2024-02-07 09:17:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,US,pro,False,False,True,False,2024-04-01 09:17:00,pending
+cb_000904,tx_00042691,cust_002601,2024-08-08 23:37:00,2024-09-09 23:37:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,FR,starter,True,False,True,,2024-11-10 23:37:00,resolved
+cb_000905,tx_00042878,cust_007327,2024-09-25 04:59:00,2024-11-08 04:59:00,29.99,USD,4853,service,Cardholder Dispute,visa,US,pro,False,True,False,True,2025-02-05 04:59:00,escalated
+cb_000906,tx_00042885,cust_000119,2024-05-11 12:59:00,2024-06-13 12:59:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,DE,pro,False,True,True,,2024-08-07 12:59:00,escalated
+cb_000907,tx_00042922,cust_002571,2024-09-08 15:09:00,2024-09-23 15:09:00,29.99,USD,12.5,processing,Incorrect Amount,mastercard,UK,pro,True,False,False,False,2024-11-01 15:09:00,resolved
+cb_000908,tx_00042948,cust_000639,2024-08-26 08:27:00,2024-09-29 08:27:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,DE,pro,True,True,True,True,2024-10-31 08:27:00,resolved
+cb_000909,tx_00042980,cust_005294,2024-07-09 01:10:00,2024-08-16 01:10:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,DE,starter,True,True,True,,2024-10-10 01:10:00,escalated
+cb_000910,tx_00043017,cust_002197,2024-12-08 10:58:00,2025-01-20 10:58:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,AU,starter,True,False,True,False,2025-03-01 10:58:00,escalated
+cb_000911,tx_00043032,cust_001933,2024-04-20 11:44:00,2024-05-26 11:44:00,119.98,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,business,True,False,True,,2024-08-11 11:44:00,pending
+cb_000912,tx_00043156,cust_006879,2024-07-23 15:16:00,2024-09-03 15:16:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,US,starter,False,False,True,True,2024-10-04 15:16:00,pending
+cb_000913,tx_00043203,cust_002549,2024-12-26 22:36:00,2025-01-28 22:36:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,False,False,False,False,2025-03-02 22:36:00,escalated
+cb_000914,tx_00043229,cust_001334,2024-01-14 11:47:00,2024-02-23 11:47:00,29.99,USD,4853,service,Cardholder Dispute,amex,US,pro,False,True,True,,2024-05-18 11:47:00,pending
+cb_000915,tx_00043235,cust_005809,2024-10-02 22:13:00,2024-11-03 22:13:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,US,business,False,True,False,,2025-01-19 22:13:00,escalated
+cb_000916,tx_00043244,cust_002300,2024-01-30 16:23:00,2024-02-29 16:23:00,9.99,USD,13.3,service,Not as Described,visa,US,starter,True,False,False,True,2024-05-25 16:23:00,pending
+cb_000917,tx_00043263,cust_000038,2024-11-06 03:27:00,2024-12-03 03:27:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,DE,starter,False,True,True,False,2025-01-08 03:27:00,resolved
+cb_000918,tx_00043270,cust_002760,2024-08-10 04:50:00,2024-09-19 04:50:00,9.99,USD,13.3,service,Not as Described,mastercard,UK,starter,True,True,True,False,2024-12-18 04:50:00,escalated
+cb_000919,tx_00043295,cust_004119,2024-12-07 03:31:00,2024-12-24 03:31:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,US,pro,True,True,True,,2025-02-25 03:31:00,resolved
+cb_000920,tx_00043307,cust_005887,2024-12-20 19:02:00,2025-01-26 19:02:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,NG,starter,True,True,True,,2025-03-25 19:02:00,resolved
+cb_000921,tx_00043396,cust_005114,2024-05-16 22:54:00,2024-06-03 22:54:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,CA,starter,False,True,True,,2024-07-03 22:54:00,escalated
+cb_000922,tx_00043425,cust_006042,2024-08-27 03:46:00,2024-09-28 03:46:00,9.99,USD,4853,service,Cardholder Dispute,visa,US,starter,True,False,True,True,2024-11-11 03:46:00,escalated
+cb_000923,tx_00043537,cust_007693,2024-04-16 09:34:00,2024-05-17 09:34:00,39.98,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,pro,True,True,True,False,2024-07-20 09:34:00,resolved
+cb_000924,tx_00043560,cust_006378,2024-03-21 20:40:00,2024-04-07 20:40:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,IN,starter,True,True,False,,2024-07-05 20:40:00,escalated
+cb_000925,tx_00043567,cust_002075,2024-10-26 08:21:00,2024-11-27 08:21:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,NG,starter,True,True,True,False,2025-01-07 08:21:00,escalated
+cb_000926,tx_00043655,cust_003497,2024-11-05 01:02:00,2024-11-21 01:02:00,99.99,USD,13.3,service,Not as Described,mastercard,CA,business,True,False,True,True,2025-01-19 01:02:00,pending
+cb_000927,tx_00043934,cust_009690,2024-03-16 13:36:00,2024-04-15 13:36:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,DE,starter,True,True,True,,2024-07-05 13:36:00,escalated
+cb_000928,tx_00043935,cust_001229,2024-08-30 20:45:00,2024-10-04 20:45:00,9.99,USD,10.4,fraud,Card Absent Environment,paypal,BR,starter,False,True,True,True,2024-12-05 20:45:00,resolved
+cb_000929,tx_00043937,cust_002361,2024-03-04 12:46:00,2024-03-29 12:46:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,US,starter,True,True,True,True,2024-06-21 12:46:00,escalated
+cb_000930,tx_00044038,cust_004739,2024-09-17 18:41:00,2024-10-12 18:41:00,29.98,USD,4837,fraud,No Cardholder Authorization,visa,UK,starter,True,True,True,False,2025-01-07 18:41:00,pending
+cb_000931,tx_00044100,cust_003488,2024-06-10 03:10:00,2024-07-17 03:10:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,PK,starter,False,False,True,False,2024-08-23 03:10:00,pending
+cb_000932,tx_00044107,cust_006371,2024-08-26 14:57:00,2024-10-09 14:57:00,99.99,USD,12.5,processing,Incorrect Amount,visa,CA,business,True,False,True,True,2025-01-05 14:57:00,resolved
+cb_000933,tx_00044140,cust_005470,2024-08-17 12:13:00,2024-09-26 12:13:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,NG,pro,False,False,False,True,2024-12-07 12:13:00,pending
+cb_000934,tx_00044181,cust_007346,2024-06-11 22:58:00,2024-07-17 22:58:00,99.99,USD,10.4,fraud,Card Absent Environment,amex,BR,business,True,True,True,False,2024-09-17 22:58:00,resolved
+cb_000935,tx_00044227,cust_000355,2024-09-18 00:53:00,2024-10-05 00:53:00,99.99,USD,13.3,service,Not as Described,visa,RU,business,True,True,True,True,2024-11-05 00:53:00,resolved
+cb_000936,tx_00044370,cust_009887,2024-07-10 12:47:00,2024-08-14 12:47:00,9.99,USD,13.1,service,Merchandise/Services Not Received,amex,UK,starter,False,True,True,True,2024-10-09 12:47:00,escalated
+cb_000937,tx_00044376,cust_007218,2024-08-18 08:53:00,2024-09-20 08:53:00,29.99,USD,13.3,service,Not as Described,mastercard,US,pro,False,False,True,False,2024-12-12 08:53:00,escalated
+cb_000938,tx_00044396,cust_005859,2024-03-05 08:59:00,2024-04-11 08:59:00,99.99,USD,13.3,service,Not as Described,visa,UK,business,True,True,True,False,2024-05-19 08:59:00,pending
+cb_000939,tx_00044483,cust_000864,2024-02-21 23:18:00,2024-03-29 23:18:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,BR,starter,False,True,True,,2024-05-05 23:18:00,resolved
+cb_000940,tx_00044560,cust_009548,2024-07-06 04:51:00,2024-08-10 04:51:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,FR,starter,True,False,True,False,2024-10-26 04:51:00,escalated
+cb_000941,tx_00044561,cust_004770,2024-05-07 02:52:00,2024-06-14 02:52:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,UK,starter,True,False,True,True,2024-07-19 02:52:00,resolved
+cb_000942,tx_00044638,cust_001990,2024-10-21 22:01:00,2024-11-29 22:01:00,29.99,USD,4837,fraud,No Cardholder Authorization,mastercard,US,pro,True,True,False,False,2025-02-07 22:01:00,pending
+cb_000943,tx_00044643,cust_007987,2024-09-30 23:54:00,2024-10-31 23:54:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,True,True,False,True,2024-12-02 23:54:00,escalated
+cb_000944,tx_00044654,cust_003601,2024-05-10 15:17:00,2024-06-23 15:17:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,PK,pro,False,False,False,True,2024-09-16 15:17:00,resolved
+cb_000945,tx_00044679,cust_007333,2024-02-06 12:23:00,2024-03-22 12:23:00,29.99,USD,12.1,processing,Late Presentment,mastercard,UK,pro,True,True,True,True,2024-05-30 12:23:00,pending
+cb_000946,tx_00044815,cust_000649,2024-12-10 10:07:00,2025-01-22 10:07:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,CA,starter,True,True,True,False,2025-03-14 10:07:00,escalated
+cb_000947,tx_00044833,cust_004654,2024-01-10 19:41:00,2024-02-05 19:41:00,29.99,USD,13.3,service,Not as Described,amex,DE,pro,False,False,True,True,2024-03-10 19:41:00,resolved
+cb_000948,tx_00044925,cust_009612,2024-10-28 08:03:00,2024-12-01 08:03:00,99.99,USD,4837,fraud,No Cardholder Authorization,visa,US,business,True,True,True,,2025-01-26 08:03:00,pending
+cb_000949,tx_00044992,cust_007367,2024-11-30 19:57:00,2025-01-01 19:57:00,29.99,USD,13.1,service,Merchandise/Services Not Received,amex,CA,pro,True,True,True,,2025-03-26 19:57:00,resolved
+cb_000950,tx_00045005,cust_005365,2024-02-16 00:24:00,2024-03-29 00:24:00,29.99,USD,4853,service,Cardholder Dispute,visa,NG,pro,True,True,False,,2024-05-31 00:24:00,resolved
+cb_000951,tx_00045044,cust_009235,2024-06-30 13:36:00,2024-08-07 13:36:00,29.99,USD,12.1,processing,Late Presentment,visa,UK,pro,True,True,True,True,2024-09-15 13:36:00,pending
+cb_000952,tx_00045112,cust_005841,2024-05-31 05:47:00,2024-06-27 05:47:00,9.99,USD,12.5,processing,Incorrect Amount,visa,IN,starter,True,True,True,True,2024-08-25 05:47:00,pending
+cb_000953,tx_00045128,cust_000567,2024-06-21 14:42:00,2024-07-29 14:42:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,pro,True,False,True,,2024-10-21 14:42:00,escalated
+cb_000954,tx_00045136,cust_008563,2024-08-16 05:45:00,2024-08-31 05:45:00,29.99,USD,13.1,service,Merchandise/Services Not Received,paypal,UK,pro,True,False,True,True,2024-11-15 05:45:00,resolved
+cb_000955,tx_00045152,cust_005446,2024-11-22 01:42:00,2024-12-28 01:42:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,US,pro,False,True,False,,2025-03-22 01:42:00,escalated
+cb_000956,tx_00045191,cust_007096,2024-12-28 14:49:00,2025-02-10 14:49:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,US,pro,True,True,True,True,2025-04-28 14:49:00,pending
+cb_000957,tx_00045259,cust_007639,2024-10-25 02:15:00,2024-11-13 02:15:00,99.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,business,False,True,True,,2024-12-16 02:15:00,resolved
+cb_000958,tx_00045370,cust_002721,2024-10-11 22:22:00,2024-11-12 22:22:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,AU,business,False,False,False,,2024-12-17 22:22:00,escalated
+cb_000959,tx_00045390,cust_007101,2024-06-21 10:18:00,2024-07-25 10:18:00,29.99,USD,12.1,processing,Late Presentment,amex,US,pro,True,True,True,True,2024-10-06 10:18:00,resolved
+cb_000960,tx_00045394,cust_000655,2024-12-16 05:11:00,2025-01-13 05:11:00,29.99,USD,4853,service,Cardholder Dispute,amex,CA,pro,True,True,True,True,2025-03-29 05:11:00,resolved
+cb_000961,tx_00045444,cust_002547,2024-02-25 20:32:00,2024-03-14 20:32:00,9.99,USD,10.5,fraud,Fraud - Card Present,mastercard,US,starter,False,True,True,False,2024-05-17 20:32:00,resolved
+cb_000962,tx_00045467,cust_008231,2024-12-16 22:57:00,2025-01-22 22:57:00,29.99,USD,4853,service,Cardholder Dispute,visa,CA,pro,True,True,False,,2025-04-09 22:57:00,resolved
+cb_000963,tx_00045484,cust_002850,2024-10-21 05:47:00,2024-11-22 05:47:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,UK,pro,False,False,True,True,2025-01-16 05:47:00,escalated
+cb_000964,tx_00045575,cust_007634,2024-01-05 06:38:00,2024-02-16 06:38:00,9.99,USD,12.5,processing,Incorrect Amount,paypal,UK,starter,True,True,True,True,2024-03-26 06:38:00,resolved
+cb_000965,tx_00045620,cust_008848,2024-05-29 11:17:00,2024-07-04 11:17:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,CA,pro,True,True,True,True,2024-08-28 11:17:00,pending
+cb_000966,tx_00045631,cust_002542,2024-06-08 03:41:00,2024-07-20 03:41:00,9.99,USD,4837,fraud,No Cardholder Authorization,paypal,PK,starter,False,True,True,,2024-08-23 03:41:00,escalated
+cb_000967,tx_00045637,cust_001202,2024-10-27 21:36:00,2024-12-07 21:36:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,CA,pro,True,False,True,True,2025-01-08 21:36:00,escalated
+cb_000968,tx_00045668,cust_004442,2024-02-14 10:23:00,2024-03-11 10:23:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,DE,pro,False,True,True,True,2024-05-18 10:23:00,escalated
+cb_000969,tx_00045699,cust_006096,2024-11-27 17:04:00,2024-12-29 17:04:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,False,False,False,,2025-02-17 17:04:00,escalated
+cb_000970,tx_00045737,cust_005193,2024-02-26 10:30:00,2024-04-05 10:30:00,29.99,USD,12.5,processing,Incorrect Amount,visa,NG,pro,True,False,False,True,2024-05-05 10:30:00,pending
+cb_000971,tx_00045742,cust_004570,2024-10-17 15:56:00,2024-11-19 15:56:00,29.99,USD,13.3,service,Not as Described,visa,US,pro,True,False,True,False,2025-01-01 15:56:00,resolved
+cb_000972,tx_00045746,cust_006812,2024-11-24 14:55:00,2024-12-12 14:55:00,99.99,USD,10.4,fraud,Card Absent Environment,mastercard,CA,business,False,False,True,,2025-03-10 14:55:00,resolved
+cb_000973,tx_00045748,cust_007724,2024-01-23 11:02:00,2024-02-18 11:02:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,BR,starter,False,True,True,True,2024-05-11 11:02:00,escalated
+cb_000974,tx_00045781,cust_009904,2024-09-14 01:24:00,2024-10-21 01:24:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,NG,starter,True,False,True,,2024-11-27 01:24:00,resolved
+cb_000975,tx_00045796,cust_001917,2024-11-18 05:13:00,2025-01-01 05:13:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,CA,starter,False,True,True,,2025-03-08 05:13:00,escalated
+cb_000976,tx_00045806,cust_003466,2024-03-22 04:57:00,2024-05-05 04:57:00,99.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,business,False,True,True,False,2024-07-07 04:57:00,resolved
+cb_000977,tx_00045904,cust_004515,2024-05-21 02:58:00,2024-07-01 02:58:00,29.99,USD,13.1,service,Merchandise/Services Not Received,visa,CA,pro,False,True,True,True,2024-08-14 02:58:00,pending
+cb_000978,tx_00045957,cust_009644,2024-04-20 04:04:00,2024-05-19 04:04:00,39.98,USD,4853,service,Cardholder Dispute,visa,CA,pro,True,True,False,True,2024-08-14 04:04:00,pending
+cb_000979,tx_00046053,cust_007995,2024-05-15 22:08:00,2024-06-02 22:08:00,9.99,USD,13.3,service,Not as Described,visa,US,starter,True,True,True,True,2024-07-31 22:08:00,pending
+cb_000980,tx_00046187,cust_003666,2024-10-09 08:39:00,2024-11-20 08:39:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,IN,starter,True,True,False,,2025-01-30 08:39:00,pending
+cb_000981,tx_00046246,cust_005224,2024-06-02 21:38:00,2024-07-08 21:38:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,RU,starter,True,True,True,False,2024-10-05 21:38:00,pending
+cb_000982,tx_00046304,cust_001051,2024-05-20 12:50:00,2024-06-20 12:50:00,9.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,CA,starter,True,True,True,,2024-08-20 12:50:00,pending
+cb_000983,tx_00046436,cust_006744,2024-11-27 03:08:00,2024-12-14 03:08:00,9.99,USD,13.3,service,Not as Described,mastercard,DE,starter,True,False,True,,2025-02-05 03:08:00,resolved
+cb_000984,tx_00046479,cust_006692,2024-03-28 20:51:00,2024-05-01 20:51:00,29.99,USD,13.3,service,Not as Described,visa,IN,pro,True,True,True,False,2024-06-25 20:51:00,escalated
+cb_000985,tx_00046520,cust_000429,2024-04-21 21:55:00,2024-05-08 21:55:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,DE,pro,False,True,True,False,2024-07-25 21:55:00,pending
+cb_000986,tx_00046758,cust_004190,2024-10-12 08:02:00,2024-11-05 08:02:00,99.99,USD,11.1,authorization,Card Recovery Bulletin,visa,RU,business,True,True,True,,2025-02-02 08:02:00,escalated
+cb_000987,tx_00046767,cust_005032,2024-12-12 06:31:00,2025-01-05 06:31:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,BR,starter,True,True,True,False,2025-03-02 06:31:00,pending
+cb_000988,tx_00046778,cust_004899,2024-10-11 23:30:00,2024-10-29 23:30:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,UK,starter,False,False,False,True,2024-12-15 23:30:00,escalated
+cb_000989,tx_00046838,cust_002245,2024-12-25 14:19:00,2025-01-15 14:19:00,9.99,USD,12.1,processing,Late Presentment,visa,US,starter,True,True,True,False,2025-04-07 14:19:00,resolved
+cb_000990,tx_00046840,cust_000406,2024-08-11 22:10:00,2024-09-08 22:10:00,29.99,USD,4853,service,Cardholder Dispute,visa,US,pro,True,False,True,False,2024-11-13 22:10:00,escalated
+cb_000991,tx_00046866,cust_008227,2024-05-07 16:53:00,2024-06-02 16:53:00,99.99,USD,13.3,service,Not as Described,amex,US,business,True,False,True,False,2024-08-01 16:53:00,escalated
+cb_000992,tx_00046870,cust_001831,2024-05-04 12:40:00,2024-06-01 12:40:00,34.98,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,True,False,False,True,2024-08-21 12:40:00,resolved
+cb_000993,tx_00046911,cust_001161,2024-11-25 10:10:00,2024-12-26 10:10:00,29.99,USD,4853,service,Cardholder Dispute,mastercard,FR,pro,True,False,True,True,2025-02-17 10:10:00,escalated
+cb_000994,tx_00047016,cust_007545,2024-06-14 13:36:00,2024-07-04 13:36:00,19.98,USD,4863,fraud,Cardholder Does Not Recognize,visa,UK,starter,False,True,True,False,2024-09-03 13:36:00,pending
+cb_000995,tx_00047028,cust_001033,2024-10-23 02:17:00,2024-11-12 02:17:00,9.99,USD,4834,processing,Duplicate Processing,mastercard,US,starter,False,True,True,,2025-02-09 02:17:00,pending
+cb_000996,tx_00047040,cust_003288,2024-06-20 03:54:00,2024-07-31 03:54:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,CA,pro,True,True,True,,2024-10-15 03:54:00,resolved
+cb_000997,tx_00047050,cust_007609,2024-01-14 20:53:00,2024-02-20 20:53:00,34.98,USD,4853,service,Cardholder Dispute,visa,US,pro,False,True,False,,2024-04-04 20:53:00,escalated
+cb_000998,tx_00047158,cust_001373,2024-04-24 03:08:00,2024-05-22 03:08:00,29.99,USD,13.3,service,Not as Described,visa,UK,pro,False,True,True,False,2024-07-25 03:08:00,escalated
+cb_000999,tx_00047218,cust_004229,2024-02-11 21:29:00,2024-03-08 21:29:00,299.99,USD,11.1,authorization,Card Recovery Bulletin,mastercard,CA,enterprise,True,False,False,,2024-06-03 21:29:00,resolved
+cb_001000,tx_00047247,cust_002694,2024-04-01 20:25:00,2024-04-28 20:25:00,9.99,USD,11.1,authorization,Card Recovery Bulletin,visa,US,starter,True,True,True,False,2024-06-09 20:25:00,escalated
+cb_001001,tx_00047358,cust_009463,2024-08-19 08:47:00,2024-09-29 08:47:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,US,pro,True,True,False,False,2024-11-25 08:47:00,pending
+cb_001002,tx_00047384,cust_003123,2024-02-08 20:49:00,2024-03-02 20:49:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,BR,starter,False,True,True,False,2024-05-23 20:49:00,resolved
+cb_001003,tx_00047433,cust_006954,2024-12-29 08:26:00,2025-01-23 08:26:00,29.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,pro,True,False,True,False,2025-04-15 08:26:00,resolved
+cb_001004,tx_00047472,cust_000686,2024-08-20 17:26:00,2024-09-28 17:26:00,29.99,USD,4834,processing,Duplicate Processing,mastercard,US,pro,False,True,True,True,2024-12-20 17:26:00,resolved
+cb_001005,tx_00047569,cust_008682,2024-05-23 08:06:00,2024-07-07 08:06:00,14.98,USD,13.1,service,Merchandise/Services Not Received,mastercard,UK,starter,True,True,True,,2024-09-06 08:06:00,resolved
+cb_001006,tx_00047570,cust_006291,2024-02-21 07:50:00,2024-03-25 07:50:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,CA,starter,False,True,True,,2024-04-28 07:50:00,escalated
+cb_001007,tx_00047589,cust_009133,2024-06-11 18:30:00,2024-06-29 18:30:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,DE,starter,False,False,False,True,2024-08-22 18:30:00,resolved
+cb_001008,tx_00047594,cust_005519,2024-10-15 19:20:00,2024-10-30 19:20:00,9.99,USD,10.5,fraud,Fraud - Card Present,visa,PK,starter,False,True,True,True,2024-12-30 19:20:00,escalated
+cb_001009,tx_00047737,cust_008629,2024-12-18 11:51:00,2025-01-19 11:51:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,CA,starter,False,False,False,True,2025-04-14 11:51:00,pending
+cb_001010,tx_00047778,cust_005782,2024-09-14 18:58:00,2024-10-18 18:58:00,29.99,USD,13.3,service,Not as Described,visa,IN,pro,True,True,True,True,2024-11-25 18:58:00,resolved
+cb_001011,tx_00047785,cust_008724,2024-04-24 04:18:00,2024-05-12 04:18:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,DE,starter,False,True,True,,2024-08-01 04:18:00,resolved
+cb_001012,tx_00047800,cust_003104,2024-06-26 07:07:00,2024-07-25 07:07:00,29.99,USD,10.5,fraud,Fraud - Card Present,mastercard,BR,pro,False,False,True,True,2024-09-15 07:07:00,escalated
+cb_001013,tx_00047817,cust_005030,2024-10-04 13:16:00,2024-11-04 13:16:00,9.99,USD,4853,service,Cardholder Dispute,visa,UK,starter,True,True,True,True,2025-01-21 13:16:00,pending
+cb_001014,tx_00047818,cust_005413,2024-05-26 17:19:00,2024-06-28 17:19:00,9.99,USD,4853,service,Cardholder Dispute,visa,US,starter,True,True,True,True,2024-08-29 17:19:00,resolved
+cb_001015,tx_00047856,cust_004157,2024-01-30 12:36:00,2024-02-20 12:36:00,29.99,USD,12.1,processing,Late Presentment,mastercard,US,pro,True,False,True,,2024-05-02 12:36:00,resolved
+cb_001016,tx_00047885,cust_004049,2024-08-25 15:03:00,2024-09-15 15:03:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,BR,starter,True,True,True,False,2024-11-29 15:03:00,resolved
+cb_001017,tx_00047947,cust_001992,2024-06-17 12:35:00,2024-07-30 12:35:00,29.99,USD,4863,fraud,Cardholder Does Not Recognize,visa,DE,pro,True,True,True,True,2024-09-15 12:35:00,pending
+cb_001018,tx_00047957,cust_003686,2024-04-03 00:32:00,2024-05-03 00:32:00,9.99,USD,13.3,service,Not as Described,mastercard,PK,starter,False,True,True,True,2024-07-05 00:32:00,escalated
+cb_001019,tx_00048021,cust_002646,2024-09-23 10:32:00,2024-10-17 10:32:00,9.99,USD,4837,fraud,No Cardholder Authorization,mastercard,BR,starter,False,False,True,,2024-11-24 10:32:00,resolved
+cb_001020,tx_00048037,cust_000173,2024-03-03 00:38:00,2024-03-28 00:38:00,99.99,USD,13.3,service,Not as Described,visa,BR,business,True,False,True,True,2024-05-14 00:38:00,pending
+cb_001021,tx_00048231,cust_007878,2024-06-28 14:26:00,2024-08-11 14:26:00,99.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,business,True,False,False,False,2024-10-03 14:26:00,resolved
+cb_001022,tx_00048283,cust_007404,2024-01-03 08:48:00,2024-01-21 08:48:00,99.99,USD,10.4,fraud,Card Absent Environment,mastercard,NG,business,True,True,False,False,2024-03-24 08:48:00,escalated
+cb_001023,tx_00048309,cust_004845,2024-12-23 08:25:00,2025-01-08 08:25:00,9.99,USD,13.3,service,Not as Described,paypal,BR,starter,True,False,False,,2025-03-02 08:25:00,escalated
+cb_001024,tx_00048350,cust_005607,2024-10-27 13:30:00,2024-11-14 13:30:00,29.99,USD,12.1,processing,Late Presentment,visa,US,pro,True,False,False,False,2025-01-17 13:30:00,resolved
+cb_001025,tx_00048371,cust_000426,2024-01-08 12:40:00,2024-02-01 12:40:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,UK,pro,False,False,True,True,2024-04-29 12:40:00,resolved
+cb_001026,tx_00048395,cust_002184,2024-04-01 00:06:00,2024-05-10 00:06:00,29.98,USD,10.5,fraud,Fraud - Card Present,visa,US,starter,False,False,False,False,2024-06-20 00:06:00,resolved
+cb_001027,tx_00048399,cust_000775,2024-07-04 12:03:00,2024-08-12 12:03:00,14.98,USD,10.4,fraud,Card Absent Environment,mastercard,DE,starter,True,True,True,False,2024-11-09 12:03:00,escalated
+cb_001028,tx_00048402,cust_002777,2024-03-24 05:00:00,2024-05-06 05:00:00,99.99,USD,11.1,authorization,Card Recovery Bulletin,visa,UK,business,False,True,True,False,2024-07-24 05:00:00,escalated
+cb_001029,tx_00048418,cust_000766,2024-09-08 08:24:00,2024-09-25 08:24:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,US,pro,False,True,True,False,2024-11-21 08:24:00,escalated
+cb_001030,tx_00048476,cust_008468,2024-12-03 11:15:00,2025-01-09 11:15:00,9.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,starter,False,True,True,False,2025-02-22 11:15:00,resolved
+cb_001031,tx_00048522,cust_007115,2024-07-14 19:03:00,2024-08-07 19:03:00,29.99,USD,10.4,fraud,Card Absent Environment,amex,PK,pro,False,False,True,False,2024-10-16 19:03:00,pending
+cb_001032,tx_00048551,cust_001216,2024-08-13 18:14:00,2024-09-06 18:14:00,29.99,USD,10.4,fraud,Card Absent Environment,visa,UK,pro,False,True,True,,2024-12-01 18:14:00,resolved
+cb_001033,tx_00048556,cust_000100,2024-12-18 11:56:00,2025-01-08 11:56:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,US,pro,True,False,True,,2025-03-07 11:56:00,escalated
+cb_001034,tx_00048566,cust_008247,2024-10-27 16:36:00,2024-11-18 16:36:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,DE,starter,True,False,True,False,2024-12-24 16:36:00,escalated
+cb_001035,tx_00048589,cust_004506,2024-10-25 18:51:00,2024-11-29 18:51:00,9.99,USD,4837,fraud,No Cardholder Authorization,visa,CA,starter,False,True,True,True,2025-01-27 18:51:00,escalated
+cb_001036,tx_00048636,cust_001492,2024-08-28 10:22:00,2024-09-12 10:22:00,9.99,USD,4863,fraud,Cardholder Does Not Recognize,paypal,UK,starter,True,False,True,False,2024-11-03 10:22:00,pending
+cb_001037,tx_00048686,cust_000249,2024-10-14 12:01:00,2024-11-16 12:01:00,99.99,USD,13.3,service,Not as Described,mastercard,BR,business,True,True,True,True,2025-01-29 12:01:00,resolved
+cb_001038,tx_00048693,cust_005641,2024-12-19 19:37:00,2025-01-11 19:37:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,DE,starter,False,True,False,False,2025-02-17 19:37:00,escalated
+cb_001039,tx_00048715,cust_003853,2024-08-18 01:27:00,2024-09-18 01:27:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,AU,starter,True,True,False,False,2024-11-24 01:27:00,escalated
+cb_001040,tx_00048719,cust_005402,2024-06-19 11:44:00,2024-08-01 11:44:00,9.99,USD,4853,service,Cardholder Dispute,mastercard,RU,starter,True,True,True,,2024-10-19 11:44:00,resolved
+cb_001041,tx_00048820,cust_009328,2024-04-24 03:13:00,2024-05-31 03:13:00,29.99,USD,13.1,service,Merchandise/Services Not Received,mastercard,CA,pro,True,False,False,True,2024-08-23 03:13:00,pending
+cb_001042,tx_00048870,cust_004281,2024-07-19 22:04:00,2024-08-13 22:04:00,99.99,USD,13.3,service,Not as Described,mastercard,NG,business,True,True,False,True,2024-11-10 22:04:00,pending
+cb_001043,tx_00048947,cust_000277,2024-07-10 23:15:00,2024-08-11 23:15:00,9.99,USD,13.3,service,Not as Described,visa,BR,starter,True,False,True,,2024-10-09 23:15:00,resolved
+cb_001044,tx_00048967,cust_006213,2024-12-14 07:23:00,2025-01-08 07:23:00,9.99,USD,4837,fraud,No Cardholder Authorization,amex,IN,starter,True,True,True,,2025-03-10 07:23:00,resolved
+cb_001045,tx_00048985,cust_002532,2024-11-23 05:33:00,2024-12-20 05:33:00,29.99,USD,10.5,fraud,Fraud - Card Present,visa,US,pro,True,False,True,,2025-02-22 05:33:00,pending
+cb_001046,tx_00049075,cust_007870,2024-09-19 08:41:00,2024-10-07 08:41:00,299.99,USD,10.4,fraud,Card Absent Environment,visa,CA,enterprise,True,True,True,False,2024-12-15 08:41:00,resolved
+cb_001047,tx_00049158,cust_008747,2024-03-08 09:20:00,2024-04-18 09:20:00,9.99,USD,13.1,service,Merchandise/Services Not Received,amex,US,starter,True,False,False,True,2024-06-08 09:20:00,escalated
+cb_001048,tx_00049283,cust_006919,2024-09-08 02:28:00,2024-09-25 02:28:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,NG,starter,False,True,False,True,2024-11-07 02:28:00,pending
+cb_001049,tx_00049284,cust_000760,2024-02-16 03:02:00,2024-03-03 03:02:00,9.99,USD,4853,service,Cardholder Dispute,visa,NG,starter,True,True,False,False,2024-05-30 03:02:00,pending
+cb_001050,tx_00049331,cust_003370,2024-06-25 08:22:00,2024-08-08 08:22:00,29.99,USD,4837,fraud,No Cardholder Authorization,visa,US,pro,False,True,False,False,2024-10-27 08:22:00,pending
+cb_001051,tx_00049392,cust_008755,2024-03-17 05:49:00,2024-04-07 05:49:00,99.99,USD,4863,fraud,Cardholder Does Not Recognize,amex,CA,business,True,True,True,False,2024-05-30 05:49:00,resolved
+cb_001052,tx_00049495,cust_008075,2024-09-12 21:05:00,2024-10-13 21:05:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,US,starter,False,True,True,,2024-12-07 21:05:00,resolved
+cb_001053,tx_00049582,cust_002774,2024-03-02 03:48:00,2024-03-27 03:48:00,29.99,USD,4853,service,Cardholder Dispute,amex,UK,pro,True,True,True,,2024-05-28 03:48:00,escalated
+cb_001054,tx_00049664,cust_008899,2024-06-10 11:10:00,2024-06-29 11:10:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,UK,pro,False,True,False,,2024-08-08 11:10:00,resolved
+cb_001055,tx_00049673,cust_006041,2024-06-05 10:10:00,2024-06-22 10:10:00,29.98,USD,4853,service,Cardholder Dispute,visa,US,starter,False,True,True,False,2024-07-26 10:10:00,pending
+cb_001056,tx_00049817,cust_004150,2024-11-29 16:34:00,2024-12-22 16:34:00,9.99,USD,10.4,fraud,Card Absent Environment,visa,US,starter,True,True,True,True,2025-01-28 16:34:00,resolved
+cb_001057,tx_00049836,cust_007140,2024-12-05 14:24:00,2025-01-06 14:24:00,9.99,USD,10.4,fraud,Card Absent Environment,amex,FR,starter,False,True,False,False,2025-03-16 14:24:00,escalated
+cb_001058,tx_00049842,cust_005945,2024-10-17 15:45:00,2024-11-11 15:45:00,9.99,USD,13.1,service,Merchandise/Services Not Received,visa,BR,starter,True,False,True,True,2025-01-24 15:45:00,escalated
+cb_001059,tx_00049868,cust_008896,2024-07-22 14:14:00,2024-09-03 14:14:00,29.99,USD,10.4,fraud,Card Absent Environment,mastercard,IN,pro,False,True,False,,2024-10-24 14:14:00,escalated

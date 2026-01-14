@@ -2,6 +2,10 @@
 
 Production-grade signup fraud detection system using XGBoost and LightGBM. Built based on real-world experience reducing scam incidents by **70%** at Upwork and chargebacks from **7% to 1%** at Semrush.
 
+## 📸 API Preview
+
+![Swagger API Docs](assets/swagger_api.png)
+
 ## 🎯 Overview
 
 This pipeline provides end-to-end fraud detection for user signups:
