@@ -1,0 +1,59 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw payment and chargeback data
+    database: "{{ env_var('DBT_DATABASE', 'your_project') }}"
+    schema: raw_payments
+    tables:
+      - name: transactions
+        description: Raw transaction records
+        columns:
+          - name: transaction_id
+            description: Unique transaction identifier
+          - name: customer_id
+            description: Customer identifier
+          - name: transaction_date
+            description: Transaction timestamp
+          - name: amount
+            description: Transaction amount in USD
+          - name: currency
+            description: Currency code
+          - name: plan
+            description: Subscription plan name
+          - name: payment_method
+            description: Payment method (visa, mastercard, etc.)
+          - name: country
+            description: Customer country code
+          - name: is_3ds
+            description: Whether 3D Secure was used
+          - name: is_recurring
+            description: Whether this is a recurring payment
+          - name: device_type
+            description: Device used for transaction
+          - name: is_chargeback
+            description: Whether transaction resulted in chargeback
+
+      - name: chargebacks
+        description: Chargeback records
+        columns:
+          - name: chargeback_id
+            description: Unique chargeback identifier
+          - name: transaction_id
+            description: Related transaction ID
+          - name: customer_id
+            description: Customer identifier
+          - name: chargeback_date
+            description: Date chargeback was filed
+          - name: amount
+            description: Chargeback amount
+          - name: reason_code
+            description: Chargeback reason code (Visa/MC)
+          - name: reason_category
+            description: Reason category (fraud, service, etc.)
+          - name: dispute_filed
+            description: Whether dispute was filed
+          - name: dispute_won
+            description: Whether dispute was won
+          - name: status
+            description: Current chargeback status

@@ -32,13 +32,27 @@ Production-grade signup fraud detection with ML — based on experience reducing
 | **FastAPI** | Real-time scoring API with risk levels |
 | **Docker** | Ready for production deployment |
 
+[View Project →](./fraud_ml_pipeline)
+
+---
+
+### 💳 [Chargeback Analytics Dashboard](./chargeback_analytics)
+
+Payment fraud monitoring and chargeback analytics — based on experience reducing chargebacks from **7% to 1%** at Semrush.
+
+| Component | Description |
+|-----------|-------------|
+| **dbt Models** | Staging → Marts with daily summaries |
+| **Streamlit** | Interactive dashboard with KPIs |
+| **Reason Codes** | Visa/Mastercard classification |
+| **Metrics** | Rate, win rate, fraud %, by country/plan |
+
 ```bash
-# Quick start
-docker-compose up -d
-# API at http://localhost:8000/docs
+streamlit run dashboard/app.py
+# Dashboard at http://localhost:8501
 ```
 
-[View Project →](./fraud_ml_pipeline)
+[View Project →](./chargeback_analytics)
 
 ---
 
