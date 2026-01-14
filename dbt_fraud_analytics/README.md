@@ -2,6 +2,14 @@
 
 A production-ready dbt project for fraud detection and risk analytics. Demonstrates data modeling best practices for Trust & Safety teams.
 
+## 📸 Lineage Graph
+
+![Lineage Graph](assets/lineage_graph.png)
+
+## 📊 Models Overview
+
+![Models](assets/models.png)
+
 ## 📊 Project Overview
 
 This project transforms raw transaction and user data into analytics-ready models for:

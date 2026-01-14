@@ -1,0 +1,434 @@
+[0m11:52:17.528572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110fa1520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112aeeb50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112aeef70>]}
+
+
+============================== 11:52:17.532860 | 99d69170-8377-45cf-aabd-d695ca16ac1e ==============================
+[0m11:52:17.532860 [info ] [MainThread]: Running with dbt=1.10.18
+[0m11:52:17.533761 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'indirect_selection': 'eager', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '.', 'log_format': 'default', 'debug': 'False', 'static_parser': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt docs generate --profiles-dir .', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'target_path': 'None', 'cache_selected_only': 'False', 'log_path': '/Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/logs', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'version_check': 'True', 'use_colors': 'True', 'introspect': 'True', 'printer_width': '80', 'no_print': 'None'}
+[0m11:52:17.537321 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'fraud_analytics'
+[0m11:52:17.540375 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": false, "command_wall_clock_time": 0.087172456, "process_in_blocks": "0", "process_kernel_time": 0.162738, "process_mem_max_rss": "102563840", "process_out_blocks": "0", "process_user_time": 1.356829}
+[0m11:52:17.540859 [debug] [MainThread]: Command `dbt docs generate` failed at 11:52:17.540766 after 0.09 seconds
+[0m11:52:17.541215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110fa1520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112aa4a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1119bd8e0>]}
+[0m11:52:17.541575 [debug] [MainThread]: Flushing usage events
+[0m11:52:18.758362 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:52:31.757759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a75520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e2e640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e2e460>]}
+
+
+============================== 11:52:31.761981 | 58805df6-d8aa-4922-b249-c79bbed8b077 ==============================
+[0m11:52:31.761981 [info ] [MainThread]: Running with dbt=1.10.18
+[0m11:52:31.762559 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'target_path': 'None', 'cache_selected_only': 'False', 'version_check': 'True', 'static_parser': 'True', 'profiles_dir': '.', 'log_cache_events': 'False', 'invocation_command': 'dbt docs generate --profiles-dir .', 'empty': 'None', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'indirect_selection': 'eager', 'debug': 'False', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'log_path': '/Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/logs', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'fail_fast': 'False'}
+[0m11:52:32.635294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '58805df6-d8aa-4922-b249-c79bbed8b077', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104117f70>]}
+[0m11:52:32.697100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '58805df6-d8aa-4922-b249-c79bbed8b077', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f3f310>]}
+[0m11:52:32.700134 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m11:52:32.811459 [debug] [MainThread]: checksum: 9646db7d1a5f5b9389d9c545d3ebf898b26bc1f63f6b5366f34a6af01d52cb91, vars: {}, profile: , target: , version: 1.10.18
+[0m11:52:32.812208 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m11:52:32.812607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '58805df6-d8aa-4922-b249-c79bbed8b077', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107acae20>]}
+[0m11:52:34.085610 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `accepted_values`. Arguments to generic tests
+should be nested under the `arguments` property.`
+[0m11:52:34.086161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '58805df6-d8aa-4922-b249-c79bbed8b077', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045fd100>]}
+[0m11:52:34.436280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '58805df6-d8aa-4922-b249-c79bbed8b077', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1280802b0>]}
+[0m11:52:34.455084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '58805df6-d8aa-4922-b249-c79bbed8b077', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1280668b0>]}
+[0m11:52:34.455599 [info ] [MainThread]: Found 10 models, 27 data tests, 4 sources, 458 macros
+[0m11:52:34.455946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '58805df6-d8aa-4922-b249-c79bbed8b077', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x128066b20>]}
+[0m11:52:34.458392 [info ] [MainThread]: 
+[0m11:52:34.458741 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:52:34.459029 [info ] [MainThread]: 
+[0m11:52:34.459458 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m11:52:34.464998 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_memory_main_marts'
+[0m11:52:34.526399 [debug] [ThreadPool]: Using duckdb connection "list_memory_main_marts"
+[0m11:52:34.526812 [debug] [ThreadPool]: On list_memory_main_marts: BEGIN
+[0m11:52:34.527118 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:52:34.538273 [debug] [ThreadPool]: SQL status: OK in 0.011 seconds
+[0m11:52:34.538689 [debug] [ThreadPool]: Using duckdb connection "list_memory_main_marts"
+[0m11:52:34.539117 [debug] [ThreadPool]: On list_memory_main_marts: /* {"app": "dbt", "dbt_version": "1.10.18", "profile_name": "fraud_analytics", "target_name": "dev", "connection_name": "list_memory_main_marts"} */
+select
+      'memory' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main_marts'
+    and lower(table_catalog) = 'memory'
+  
+[0m11:52:34.552547 [debug] [ThreadPool]: SQL status: OK in 0.013 seconds
+[0m11:52:34.553905 [debug] [ThreadPool]: On list_memory_main_marts: ROLLBACK
+[0m11:52:34.555818 [debug] [ThreadPool]: Failed to rollback 'list_memory_main_marts'
+[0m11:52:34.556154 [debug] [ThreadPool]: On list_memory_main_marts: Close
+[0m11:52:34.556732 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_memory_main_marts, now list_memory_main_staging)
+[0m11:52:34.559816 [debug] [ThreadPool]: Using duckdb connection "list_memory_main_staging"
+[0m11:52:34.560168 [debug] [ThreadPool]: On list_memory_main_staging: BEGIN
+[0m11:52:34.560451 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:52:34.560977 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m11:52:34.561258 [debug] [ThreadPool]: Using duckdb connection "list_memory_main_staging"
+[0m11:52:34.561550 [debug] [ThreadPool]: On list_memory_main_staging: /* {"app": "dbt", "dbt_version": "1.10.18", "profile_name": "fraud_analytics", "target_name": "dev", "connection_name": "list_memory_main_staging"} */
+select
+      'memory' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main_staging'
+    and lower(table_catalog) = 'memory'
+  
+[0m11:52:34.564382 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m11:52:34.565486 [debug] [ThreadPool]: On list_memory_main_staging: ROLLBACK
+[0m11:52:34.565882 [debug] [ThreadPool]: Failed to rollback 'list_memory_main_staging'
+[0m11:52:34.566166 [debug] [ThreadPool]: On list_memory_main_staging: Close
+[0m11:52:34.566929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '58805df6-d8aa-4922-b249-c79bbed8b077', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12806fee0>]}
+[0m11:52:34.570845 [debug] [Thread-1  ]: Began running node model.fraud_analytics.stg_devices
+[0m11:52:34.571266 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_memory_main_staging, now model.fraud_analytics.stg_devices)
+[0m11:52:34.571619 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.stg_devices
+[0m11:52:34.580520 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.stg_devices"
+[0m11:52:34.581398 [debug] [Thread-1  ]: Began executing node model.fraud_analytics.stg_devices
+[0m11:52:34.582043 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.stg_devices
+[0m11:52:34.582404 [debug] [Thread-1  ]: Began running node model.fraud_analytics.stg_fraud_labels
+[0m11:52:34.582939 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.stg_devices, now model.fraud_analytics.stg_fraud_labels)
+[0m11:52:34.583478 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.stg_fraud_labels
+[0m11:52:34.586897 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.stg_fraud_labels"
+[0m11:52:34.587496 [debug] [Thread-1  ]: Began executing node model.fraud_analytics.stg_fraud_labels
+[0m11:52:34.588145 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.stg_fraud_labels
+[0m11:52:34.588535 [debug] [Thread-1  ]: Began running node model.fraud_analytics.stg_transactions
+[0m11:52:34.588955 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.stg_fraud_labels, now model.fraud_analytics.stg_transactions)
+[0m11:52:34.589364 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.stg_transactions
+[0m11:52:34.592581 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.stg_transactions"
+[0m11:52:34.593155 [debug] [Thread-1  ]: Began executing node model.fraud_analytics.stg_transactions
+[0m11:52:34.593757 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.stg_transactions
+[0m11:52:34.594113 [debug] [Thread-1  ]: Began running node model.fraud_analytics.stg_users
+[0m11:52:34.594534 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.stg_transactions, now model.fraud_analytics.stg_users)
+[0m11:52:34.595023 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.stg_users
+[0m11:52:34.598261 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.stg_users"
+[0m11:52:34.598814 [debug] [Thread-1  ]: Began executing node model.fraud_analytics.stg_users
+[0m11:52:34.599420 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.stg_users
+[0m11:52:34.599873 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_stg_devices_device_id.1dea87303d
+[0m11:52:34.600360 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.stg_users, now test.fraud_analytics.not_null_stg_devices_device_id.1dea87303d)
+[0m11:52:34.600860 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_stg_devices_device_id.1dea87303d
+[0m11:52:34.609390 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_stg_devices_device_id.1dea87303d"
+[0m11:52:34.610041 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_stg_devices_device_id.1dea87303d
+[0m11:52:34.610651 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_stg_devices_device_id.1dea87303d
+[0m11:52:34.611020 [debug] [Thread-1  ]: Began running node test.fraud_analytics.unique_stg_devices_device_id.73b62efd0d
+[0m11:52:34.611418 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_stg_devices_device_id.1dea87303d, now test.fraud_analytics.unique_stg_devices_device_id.73b62efd0d)
+[0m11:52:34.611757 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.unique_stg_devices_device_id.73b62efd0d
+[0m11:52:34.619328 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.unique_stg_devices_device_id.73b62efd0d"
+[0m11:52:34.619925 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.unique_stg_devices_device_id.73b62efd0d
+[0m11:52:34.620535 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.unique_stg_devices_device_id.73b62efd0d
+[0m11:52:34.620901 [debug] [Thread-1  ]: Began running node test.fraud_analytics.accepted_values_stg_fraud_labels_fraud_type__chargeback__account_takeover__synthetic_identity__friendly_fraud__card_testing.7d1c52fb82
+[0m11:52:34.621308 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.unique_stg_devices_device_id.73b62efd0d, now test.fraud_analytics.accepted_values_stg_fraud_labels_fraud_type__chargeback__account_takeover__synthetic_identity__friendly_fraud__card_testing.7d1c52fb82)
+[0m11:52:34.621660 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.accepted_values_stg_fraud_labels_fraud_type__chargeback__account_takeover__synthetic_identity__friendly_fraud__card_testing.7d1c52fb82
+[0m11:52:34.625907 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.accepted_values_stg_fraud_labels_fraud_type__chargeback__account_takeover__synthetic_identity__friendly_fraud__card_testing.7d1c52fb82"
+[0m11:52:34.626467 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.accepted_values_stg_fraud_labels_fraud_type__chargeback__account_takeover__synthetic_identity__friendly_fraud__card_testing.7d1c52fb82
+[0m11:52:34.627073 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.accepted_values_stg_fraud_labels_fraud_type__chargeback__account_takeover__synthetic_identity__friendly_fraud__card_testing.7d1c52fb82
+[0m11:52:34.627431 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_stg_fraud_labels_fraud_event_id.8b26b94dcd
+[0m11:52:34.627814 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.accepted_values_stg_fraud_labels_fraud_type__chargeback__account_takeover__synthetic_identity__friendly_fraud__card_testing.7d1c52fb82, now test.fraud_analytics.not_null_stg_fraud_labels_fraud_event_id.8b26b94dcd)
+[0m11:52:34.628151 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_stg_fraud_labels_fraud_event_id.8b26b94dcd
+[0m11:52:34.632188 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_stg_fraud_labels_fraud_event_id.8b26b94dcd"
+[0m11:52:34.632739 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_stg_fraud_labels_fraud_event_id.8b26b94dcd
+[0m11:52:34.633457 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_stg_fraud_labels_fraud_event_id.8b26b94dcd
+[0m11:52:34.633821 [debug] [Thread-1  ]: Began running node test.fraud_analytics.unique_stg_fraud_labels_fraud_event_id.a69377f007
+[0m11:52:34.634231 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_stg_fraud_labels_fraud_event_id.8b26b94dcd, now test.fraud_analytics.unique_stg_fraud_labels_fraud_event_id.a69377f007)
+[0m11:52:34.634571 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.unique_stg_fraud_labels_fraud_event_id.a69377f007
+[0m11:52:34.638463 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.unique_stg_fraud_labels_fraud_event_id.a69377f007"
+[0m11:52:34.639035 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.unique_stg_fraud_labels_fraud_event_id.a69377f007
+[0m11:52:34.639627 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.unique_stg_fraud_labels_fraud_event_id.a69377f007
+[0m11:52:34.639988 [debug] [Thread-1  ]: Began running node model.fraud_analytics.dim_devices
+[0m11:52:34.640380 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.unique_stg_fraud_labels_fraud_event_id.a69377f007, now model.fraud_analytics.dim_devices)
+[0m11:52:34.640715 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.dim_devices
+[0m11:52:34.644447 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.dim_devices"
+[0m11:52:34.645088 [debug] [Thread-1  ]: Began executing node model.fraud_analytics.dim_devices
+[0m11:52:34.645701 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.dim_devices
+[0m11:52:34.646061 [debug] [Thread-1  ]: Began running node model.fraud_analytics.int_transaction_features
+[0m11:52:34.646453 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.dim_devices, now model.fraud_analytics.int_transaction_features)
+[0m11:52:34.646879 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.int_transaction_features
+[0m11:52:34.650367 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.int_transaction_features"
+[0m11:52:34.651194 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.int_transaction_features
+[0m11:52:34.651567 [debug] [Thread-1  ]: Began running node test.fraud_analytics.accepted_values_stg_transactions_status__pending__completed__failed__cancelled.5dec448809
+[0m11:52:34.651969 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.int_transaction_features, now test.fraud_analytics.accepted_values_stg_transactions_status__pending__completed__failed__cancelled.5dec448809)
+[0m11:52:34.652314 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.accepted_values_stg_transactions_status__pending__completed__failed__cancelled.5dec448809
+[0m11:52:34.657775 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.accepted_values_stg_transactions_status__pending__completed__failed__cancelled.5dec448809"
+[0m11:52:34.658328 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.accepted_values_stg_transactions_status__pending__completed__failed__cancelled.5dec448809
+[0m11:52:34.658923 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.accepted_values_stg_transactions_status__pending__completed__failed__cancelled.5dec448809
+[0m11:52:34.659277 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_stg_transactions_amount.3629b5421e
+[0m11:52:34.659636 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.accepted_values_stg_transactions_status__pending__completed__failed__cancelled.5dec448809, now test.fraud_analytics.not_null_stg_transactions_amount.3629b5421e)
+[0m11:52:34.659998 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_stg_transactions_amount.3629b5421e
+[0m11:52:34.663860 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_stg_transactions_amount.3629b5421e"
+[0m11:52:34.664409 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_stg_transactions_amount.3629b5421e
+[0m11:52:34.665008 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_stg_transactions_amount.3629b5421e
+[0m11:52:34.665366 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_stg_transactions_transaction_id.1d00a8e2e4
+[0m11:52:34.665898 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_stg_transactions_amount.3629b5421e, now test.fraud_analytics.not_null_stg_transactions_transaction_id.1d00a8e2e4)
+[0m11:52:34.666278 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_stg_transactions_transaction_id.1d00a8e2e4
+[0m11:52:34.670390 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_stg_transactions_transaction_id.1d00a8e2e4"
+[0m11:52:34.670998 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_stg_transactions_transaction_id.1d00a8e2e4
+[0m11:52:34.671609 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_stg_transactions_transaction_id.1d00a8e2e4
+[0m11:52:34.671977 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_stg_transactions_user_id.b541614306
+[0m11:52:34.672369 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_stg_transactions_transaction_id.1d00a8e2e4, now test.fraud_analytics.not_null_stg_transactions_user_id.b541614306)
+[0m11:52:34.672722 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_stg_transactions_user_id.b541614306
+[0m11:52:34.676718 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_stg_transactions_user_id.b541614306"
+[0m11:52:34.677271 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_stg_transactions_user_id.b541614306
+[0m11:52:34.677862 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_stg_transactions_user_id.b541614306
+[0m11:52:34.678217 [debug] [Thread-1  ]: Began running node test.fraud_analytics.unique_stg_transactions_transaction_id.ee9a78a396
+[0m11:52:34.678611 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_stg_transactions_user_id.b541614306, now test.fraud_analytics.unique_stg_transactions_transaction_id.ee9a78a396)
+[0m11:52:34.679008 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.unique_stg_transactions_transaction_id.ee9a78a396
+[0m11:52:34.682968 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.unique_stg_transactions_transaction_id.ee9a78a396"
+[0m11:52:34.683644 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.unique_stg_transactions_transaction_id.ee9a78a396
+[0m11:52:34.684266 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.unique_stg_transactions_transaction_id.ee9a78a396
+[0m11:52:34.684639 [debug] [Thread-1  ]: Began running node model.fraud_analytics.fct_fraud_events
+[0m11:52:34.685056 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.unique_stg_transactions_transaction_id.ee9a78a396, now model.fraud_analytics.fct_fraud_events)
+[0m11:52:34.685435 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.fct_fraud_events
+[0m11:52:34.689033 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.fct_fraud_events"
+[0m11:52:34.689570 [debug] [Thread-1  ]: Began executing node model.fraud_analytics.fct_fraud_events
+[0m11:52:34.690160 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.fct_fraud_events
+[0m11:52:34.690513 [debug] [Thread-1  ]: Began running node model.fraud_analytics.int_user_risk_signals
+[0m11:52:34.690915 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.fct_fraud_events, now model.fraud_analytics.int_user_risk_signals)
+[0m11:52:34.691403 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.int_user_risk_signals
+[0m11:52:34.695404 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.int_user_risk_signals"
+[0m11:52:34.696133 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.int_user_risk_signals
+[0m11:52:34.696497 [debug] [Thread-1  ]: Began running node test.fraud_analytics.accepted_values_stg_users_account_status__active__suspended__banned__deleted.3011efbb1c
+[0m11:52:34.696903 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.int_user_risk_signals, now test.fraud_analytics.accepted_values_stg_users_account_status__active__suspended__banned__deleted.3011efbb1c)
+[0m11:52:34.697311 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.accepted_values_stg_users_account_status__active__suspended__banned__deleted.3011efbb1c
+[0m11:52:34.702871 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.accepted_values_stg_users_account_status__active__suspended__banned__deleted.3011efbb1c"
+[0m11:52:34.703482 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.accepted_values_stg_users_account_status__active__suspended__banned__deleted.3011efbb1c
+[0m11:52:34.704087 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.accepted_values_stg_users_account_status__active__suspended__banned__deleted.3011efbb1c
+[0m11:52:34.704438 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_stg_users_user_id.980dfc1b77
+[0m11:52:34.704836 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.accepted_values_stg_users_account_status__active__suspended__banned__deleted.3011efbb1c, now test.fraud_analytics.not_null_stg_users_user_id.980dfc1b77)
+[0m11:52:34.705167 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_stg_users_user_id.980dfc1b77
+[0m11:52:34.709151 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_stg_users_user_id.980dfc1b77"
+[0m11:52:34.709670 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_stg_users_user_id.980dfc1b77
+[0m11:52:34.710256 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_stg_users_user_id.980dfc1b77
+[0m11:52:34.710608 [debug] [Thread-1  ]: Began running node test.fraud_analytics.unique_stg_users_user_id.c2ff477e6b
+[0m11:52:34.710987 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_stg_users_user_id.980dfc1b77, now test.fraud_analytics.unique_stg_users_user_id.c2ff477e6b)
+[0m11:52:34.711319 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.unique_stg_users_user_id.c2ff477e6b
+[0m11:52:34.715299 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.unique_stg_users_user_id.c2ff477e6b"
+[0m11:52:34.715831 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.unique_stg_users_user_id.c2ff477e6b
+[0m11:52:34.716533 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.unique_stg_users_user_id.c2ff477e6b
+[0m11:52:34.716912 [debug] [Thread-1  ]: Began running node test.fraud_analytics.accepted_values_dim_devices_trust_tier__trusted__suspicious__untrusted__unknown.cab68baaa9
+[0m11:52:34.717309 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.unique_stg_users_user_id.c2ff477e6b, now test.fraud_analytics.accepted_values_dim_devices_trust_tier__trusted__suspicious__untrusted__unknown.cab68baaa9)
+[0m11:52:34.717673 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.accepted_values_dim_devices_trust_tier__trusted__suspicious__untrusted__unknown.cab68baaa9
+[0m11:52:34.721806 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.accepted_values_dim_devices_trust_tier__trusted__suspicious__untrusted__unknown.cab68baaa9"
+[0m11:52:34.722488 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.accepted_values_dim_devices_trust_tier__trusted__suspicious__untrusted__unknown.cab68baaa9
+[0m11:52:34.723096 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.accepted_values_dim_devices_trust_tier__trusted__suspicious__untrusted__unknown.cab68baaa9
+[0m11:52:34.723454 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_dim_devices_device_id.fa10a195c1
+[0m11:52:34.723858 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.accepted_values_dim_devices_trust_tier__trusted__suspicious__untrusted__unknown.cab68baaa9, now test.fraud_analytics.not_null_dim_devices_device_id.fa10a195c1)
+[0m11:52:34.724194 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_dim_devices_device_id.fa10a195c1
+[0m11:52:34.728116 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_dim_devices_device_id.fa10a195c1"
+[0m11:52:34.728643 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_dim_devices_device_id.fa10a195c1
+[0m11:52:34.729229 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_dim_devices_device_id.fa10a195c1
+[0m11:52:34.729580 [debug] [Thread-1  ]: Began running node test.fraud_analytics.unique_dim_devices_device_id.1c44b7d79d
+[0m11:52:34.729954 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_dim_devices_device_id.fa10a195c1, now test.fraud_analytics.unique_dim_devices_device_id.1c44b7d79d)
+[0m11:52:34.730284 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.unique_dim_devices_device_id.1c44b7d79d
+[0m11:52:34.734563 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.unique_dim_devices_device_id.1c44b7d79d"
+[0m11:52:34.735176 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.unique_dim_devices_device_id.1c44b7d79d
+[0m11:52:34.735779 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.unique_dim_devices_device_id.1c44b7d79d
+[0m11:52:34.736141 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_fct_fraud_events_fraud_event_id.828a8fc0c0
+[0m11:52:34.736553 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.unique_dim_devices_device_id.1c44b7d79d, now test.fraud_analytics.not_null_fct_fraud_events_fraud_event_id.828a8fc0c0)
+[0m11:52:34.737047 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_fct_fraud_events_fraud_event_id.828a8fc0c0
+[0m11:52:34.741219 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_fct_fraud_events_fraud_event_id.828a8fc0c0"
+[0m11:52:34.741809 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_fct_fraud_events_fraud_event_id.828a8fc0c0
+[0m11:52:34.742412 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_fct_fraud_events_fraud_event_id.828a8fc0c0
+[0m11:52:34.742774 [debug] [Thread-1  ]: Began running node test.fraud_analytics.unique_fct_fraud_events_fraud_event_id.78d78e5633
+[0m11:52:34.743187 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_fct_fraud_events_fraud_event_id.828a8fc0c0, now test.fraud_analytics.unique_fct_fraud_events_fraud_event_id.78d78e5633)
+[0m11:52:34.743560 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.unique_fct_fraud_events_fraud_event_id.78d78e5633
+[0m11:52:34.749021 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.unique_fct_fraud_events_fraud_event_id.78d78e5633"
+[0m11:52:34.749632 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.unique_fct_fraud_events_fraud_event_id.78d78e5633
+[0m11:52:34.750379 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.unique_fct_fraud_events_fraud_event_id.78d78e5633
+[0m11:52:34.750753 [debug] [Thread-1  ]: Began running node model.fraud_analytics.dim_users
+[0m11:52:34.751146 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.unique_fct_fraud_events_fraud_event_id.78d78e5633, now model.fraud_analytics.dim_users)
+[0m11:52:34.751479 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.dim_users
+[0m11:52:34.764753 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.dim_users"
+[0m11:52:34.765573 [debug] [Thread-1  ]: Began executing node model.fraud_analytics.dim_users
+[0m11:52:34.766170 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.dim_users
+[0m11:52:34.766651 [debug] [Thread-1  ]: Began running node model.fraud_analytics.fct_transactions
+[0m11:52:34.767099 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.dim_users, now model.fraud_analytics.fct_transactions)
+[0m11:52:34.767542 [debug] [Thread-1  ]: Began compiling node model.fraud_analytics.fct_transactions
+[0m11:52:34.789354 [debug] [Thread-1  ]: Writing injected SQL for node "model.fraud_analytics.fct_transactions"
+[0m11:52:34.790044 [debug] [Thread-1  ]: Began executing node model.fraud_analytics.fct_transactions
+[0m11:52:34.790672 [debug] [Thread-1  ]: Finished running node model.fraud_analytics.fct_transactions
+[0m11:52:34.791037 [debug] [Thread-1  ]: Began running node test.fraud_analytics.accepted_values_dim_users_risk_tier__low__medium__high.3b4a87df49
+[0m11:52:34.791460 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.fraud_analytics.fct_transactions, now test.fraud_analytics.accepted_values_dim_users_risk_tier__low__medium__high.3b4a87df49)
+[0m11:52:34.791939 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.accepted_values_dim_users_risk_tier__low__medium__high.3b4a87df49
+[0m11:52:34.796024 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.accepted_values_dim_users_risk_tier__low__medium__high.3b4a87df49"
+[0m11:52:34.796599 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.accepted_values_dim_users_risk_tier__low__medium__high.3b4a87df49
+[0m11:52:34.797228 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.accepted_values_dim_users_risk_tier__low__medium__high.3b4a87df49
+[0m11:52:34.797595 [debug] [Thread-1  ]: Began running node test.fraud_analytics.accepted_values_dim_users_user_segment__fraudster__high_risk__suspicious_new__trusted__standard.f71cf9e0d5
+[0m11:52:34.797989 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.accepted_values_dim_users_risk_tier__low__medium__high.3b4a87df49, now test.fraud_analytics.accepted_values_dim_users_user_segment__fraudster__high_risk__suspicious_new__trusted__standard.f71cf9e0d5)
+[0m11:52:34.798344 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.accepted_values_dim_users_user_segment__fraudster__high_risk__suspicious_new__trusted__standard.f71cf9e0d5
+[0m11:52:34.802641 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.accepted_values_dim_users_user_segment__fraudster__high_risk__suspicious_new__trusted__standard.f71cf9e0d5"
+[0m11:52:34.803247 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.accepted_values_dim_users_user_segment__fraudster__high_risk__suspicious_new__trusted__standard.f71cf9e0d5
+[0m11:52:34.803853 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.accepted_values_dim_users_user_segment__fraudster__high_risk__suspicious_new__trusted__standard.f71cf9e0d5
+[0m11:52:34.804214 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_dim_users_user_id.e754bb5812
+[0m11:52:34.804602 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.accepted_values_dim_users_user_segment__fraudster__high_risk__suspicious_new__trusted__standard.f71cf9e0d5, now test.fraud_analytics.not_null_dim_users_user_id.e754bb5812)
+[0m11:52:34.804949 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_dim_users_user_id.e754bb5812
+[0m11:52:34.810267 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_dim_users_user_id.e754bb5812"
+[0m11:52:34.810816 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_dim_users_user_id.e754bb5812
+[0m11:52:34.811406 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_dim_users_user_id.e754bb5812
+[0m11:52:34.811757 [debug] [Thread-1  ]: Began running node test.fraud_analytics.unique_dim_users_user_id.bcdc17b9f9
+[0m11:52:34.812136 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_dim_users_user_id.e754bb5812, now test.fraud_analytics.unique_dim_users_user_id.bcdc17b9f9)
+[0m11:52:34.812464 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.unique_dim_users_user_id.bcdc17b9f9
+[0m11:52:34.816497 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.unique_dim_users_user_id.bcdc17b9f9"
+[0m11:52:34.817071 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.unique_dim_users_user_id.bcdc17b9f9
+[0m11:52:34.817673 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.unique_dim_users_user_id.bcdc17b9f9
+[0m11:52:34.818035 [debug] [Thread-1  ]: Began running node test.fraud_analytics.accepted_values_fct_transactions_risk_tier__low__medium__high.780b279c36
+[0m11:52:34.818420 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.unique_dim_users_user_id.bcdc17b9f9, now test.fraud_analytics.accepted_values_fct_transactions_risk_tier__low__medium__high.780b279c36)
+[0m11:52:34.818758 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.accepted_values_fct_transactions_risk_tier__low__medium__high.780b279c36
+[0m11:52:34.822738 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.accepted_values_fct_transactions_risk_tier__low__medium__high.780b279c36"
+[0m11:52:34.823290 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.accepted_values_fct_transactions_risk_tier__low__medium__high.780b279c36
+[0m11:52:34.823884 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.accepted_values_fct_transactions_risk_tier__low__medium__high.780b279c36
+[0m11:52:34.824238 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_fct_transactions_transaction_id.2c6b5372aa
+[0m11:52:34.824620 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.accepted_values_fct_transactions_risk_tier__low__medium__high.780b279c36, now test.fraud_analytics.not_null_fct_transactions_transaction_id.2c6b5372aa)
+[0m11:52:34.824955 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_fct_transactions_transaction_id.2c6b5372aa
+[0m11:52:34.828814 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_fct_transactions_transaction_id.2c6b5372aa"
+[0m11:52:34.829362 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_fct_transactions_transaction_id.2c6b5372aa
+[0m11:52:34.829951 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_fct_transactions_transaction_id.2c6b5372aa
+[0m11:52:34.830306 [debug] [Thread-1  ]: Began running node test.fraud_analytics.not_null_fct_transactions_user_id.b48a6b184c
+[0m11:52:34.830680 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_fct_transactions_transaction_id.2c6b5372aa, now test.fraud_analytics.not_null_fct_transactions_user_id.b48a6b184c)
+[0m11:52:34.831016 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.not_null_fct_transactions_user_id.b48a6b184c
+[0m11:52:34.835060 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.not_null_fct_transactions_user_id.b48a6b184c"
+[0m11:52:34.835625 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.not_null_fct_transactions_user_id.b48a6b184c
+[0m11:52:34.836217 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.not_null_fct_transactions_user_id.b48a6b184c
+[0m11:52:34.836582 [debug] [Thread-1  ]: Began running node test.fraud_analytics.relationships_fct_transactions_user_id__user_id__ref_dim_users_.237e9dc92f
+[0m11:52:34.836967 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.not_null_fct_transactions_user_id.b48a6b184c, now test.fraud_analytics.relationships_fct_transactions_user_id__user_id__ref_dim_users_.237e9dc92f)
+[0m11:52:34.837306 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.relationships_fct_transactions_user_id__user_id__ref_dim_users_.237e9dc92f
+[0m11:52:34.841976 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.relationships_fct_transactions_user_id__user_id__ref_dim_users_.237e9dc92f"
+[0m11:52:34.842545 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.relationships_fct_transactions_user_id__user_id__ref_dim_users_.237e9dc92f
+[0m11:52:34.843143 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.relationships_fct_transactions_user_id__user_id__ref_dim_users_.237e9dc92f
+[0m11:52:34.843497 [debug] [Thread-1  ]: Began running node test.fraud_analytics.unique_fct_transactions_transaction_id.c963611c53
+[0m11:52:34.843876 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.fraud_analytics.relationships_fct_transactions_user_id__user_id__ref_dim_users_.237e9dc92f, now test.fraud_analytics.unique_fct_transactions_transaction_id.c963611c53)
+[0m11:52:34.844208 [debug] [Thread-1  ]: Began compiling node test.fraud_analytics.unique_fct_transactions_transaction_id.c963611c53
+[0m11:52:34.848072 [debug] [Thread-1  ]: Writing injected SQL for node "test.fraud_analytics.unique_fct_transactions_transaction_id.c963611c53"
+[0m11:52:34.848601 [debug] [Thread-1  ]: Began executing node test.fraud_analytics.unique_fct_transactions_transaction_id.c963611c53
+[0m11:52:34.849197 [debug] [Thread-1  ]: Finished running node test.fraud_analytics.unique_fct_transactions_transaction_id.c963611c53
+[0m11:52:34.850064 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:52:34.850356 [debug] [MainThread]: Connection 'test.fraud_analytics.unique_fct_transactions_transaction_id.c963611c53' was properly closed.
+[0m11:52:34.854490 [debug] [MainThread]: Command end result
+[0m11:52:34.973203 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/target/manifest.json
+[0m11:52:34.975107 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/target/semantic_manifest.json
+[0m11:52:34.983529 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/target/run_results.json
+[0m11:52:34.985784 [debug] [MainThread]: Acquiring new duckdb connection 'generate_catalog'
+[0m11:52:34.986116 [info ] [MainThread]: Building catalog
+[0m11:52:34.997997 [debug] [ThreadPool]: Acquiring new duckdb connection 'memory.information_schema'
+[0m11:52:35.004997 [debug] [ThreadPool]: Using duckdb connection "memory.information_schema"
+[0m11:52:35.005356 [debug] [ThreadPool]: On memory.information_schema: BEGIN
+[0m11:52:35.005653 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:52:35.006390 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m11:52:35.006702 [debug] [ThreadPool]: Using duckdb connection "memory.information_schema"
+[0m11:52:35.007060 [debug] [ThreadPool]: On memory.information_schema: /* {"app": "dbt", "dbt_version": "1.10.18", "profile_name": "fraud_analytics", "target_name": "dev", "connection_name": "memory.information_schema"} */
+with relations AS (
+      select
+        t.table_name
+        , t.database_name
+        , t.schema_name
+        , 'BASE TABLE' as table_type
+        , t.comment as table_comment
+      from duckdb_tables() t
+      WHERE t.database_name = 'memory'
+      UNION ALL
+      SELECT v.view_name as table_name
+      , v.database_name
+      , v.schema_name
+      , 'VIEW' as table_type
+      , v.comment as table_comment
+      from duckdb_views() v
+      WHERE v.database_name = 'memory'
+    )
+    select
+        'memory' as table_database,
+        r.schema_name as table_schema,
+        r.table_name,
+        r.table_type,
+        r.table_comment,
+        c.column_name,
+        c.column_index as column_index,
+        c.data_type as column_type,
+        c.comment as column_comment,
+        NULL as table_owner
+    FROM relations r JOIN duckdb_columns() c ON r.schema_name = c.schema_name AND r.table_name = c.table_name
+    WHERE (upper(r.schema_name) = upper('main_marts') or upper(r.schema_name) = upper('main_staging'))
+    ORDER BY
+        r.schema_name,
+        r.table_name,
+        c.column_index
+[0m11:52:35.012207 [debug] [ThreadPool]: SQL status: OK in 0.005 seconds
+[0m11:52:35.014199 [debug] [ThreadPool]: On memory.information_schema: ROLLBACK
+[0m11:52:35.014624 [debug] [ThreadPool]: Failed to rollback 'memory.information_schema'
+[0m11:52:35.014924 [debug] [ThreadPool]: On memory.information_schema: Close
+[0m11:52:35.015422 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly memory.information_schema, now analytics.information_schema)
+[0m11:52:35.018084 [debug] [ThreadPool]: Using duckdb connection "analytics.information_schema"
+[0m11:52:35.018423 [debug] [ThreadPool]: On analytics.information_schema: BEGIN
+[0m11:52:35.018702 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:52:35.019236 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m11:52:35.019518 [debug] [ThreadPool]: Using duckdb connection "analytics.information_schema"
+[0m11:52:35.019840 [debug] [ThreadPool]: On analytics.information_schema: /* {"app": "dbt", "dbt_version": "1.10.18", "profile_name": "fraud_analytics", "target_name": "dev", "connection_name": "analytics.information_schema"} */
+with relations AS (
+      select
+        t.table_name
+        , t.database_name
+        , t.schema_name
+        , 'BASE TABLE' as table_type
+        , t.comment as table_comment
+      from duckdb_tables() t
+      WHERE t.database_name = 'memory'
+      UNION ALL
+      SELECT v.view_name as table_name
+      , v.database_name
+      , v.schema_name
+      , 'VIEW' as table_type
+      , v.comment as table_comment
+      from duckdb_views() v
+      WHERE v.database_name = 'memory'
+    )
+    select
+        'memory' as table_database,
+        r.schema_name as table_schema,
+        r.table_name,
+        r.table_type,
+        r.table_comment,
+        c.column_name,
+        c.column_index as column_index,
+        c.data_type as column_type,
+        c.comment as column_comment,
+        NULL as table_owner
+    FROM relations r JOIN duckdb_columns() c ON r.schema_name = c.schema_name AND r.table_name = c.table_name
+    WHERE (upper(r.schema_name) = upper('raw'))
+    ORDER BY
+        r.schema_name,
+        r.table_name,
+        c.column_index
+[0m11:52:35.023654 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m11:52:35.026115 [debug] [ThreadPool]: On analytics.information_schema: ROLLBACK
+[0m11:52:35.026546 [debug] [ThreadPool]: Failed to rollback 'analytics.information_schema'
+[0m11:52:35.026884 [debug] [ThreadPool]: On analytics.information_schema: Close
+[0m11:52:35.031199 [debug] [MainThread]: Wrote artifact CatalogArtifact to /Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/target/catalog.json
+[0m11:52:35.064435 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/target/manifest.json
+[0m11:52:35.066115 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/target/semantic_manifest.json
+[0m11:52:35.066523 [info ] [MainThread]: Catalog written to /Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/target/catalog.json
+[0m11:52:35.067208 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 8 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m11:52:35.069424 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": true, "command_wall_clock_time": 3.3835652, "process_in_blocks": "0", "process_kernel_time": 0.317054, "process_mem_max_rss": "150208512", "process_out_blocks": "0", "process_user_time": 3.866611}
+[0m11:52:35.069888 [debug] [MainThread]: Command `dbt docs generate` succeeded at 11:52:35.069804 after 3.38 seconds
+[0m11:52:35.070201 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m11:52:35.070466 [debug] [MainThread]: Connection 'analytics.information_schema' was properly closed.
+[0m11:52:35.070778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a75520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x128107730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104117f70>]}
+[0m11:52:35.071147 [debug] [MainThread]: Flushing usage events
+[0m11:52:36.477742 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:52:44.914638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1039a2400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d2e520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d2e340>]}
+
+
+============================== 11:52:44.918794 | e62a4c88-40d5-4707-9a4d-66ca0860c8e3 ==============================
+[0m11:52:44.918794 [info ] [MainThread]: Running with dbt=1.10.18
+[0m11:52:44.919358 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'debug': 'False', 'static_parser': 'True', 'fail_fast': 'False', 'printer_width': '80', 'log_format': 'default', 'profiles_dir': '.', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'log_cache_events': 'False', 'invocation_command': 'dbt docs serve --profiles-dir . --port 8081', 'write_json': 'True', 'partial_parse': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'target_path': 'None', 'no_print': 'None', 'warn_error': 'None', 'log_path': '/Users/maksim/repos/data-engineering-max/dbt_fraud_analytics/logs', 'introspect': 'True', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False'}
+[0m11:52:45.137141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e62a4c88-40d5-4707-9a4d-66ca0860c8e3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105823070>]}
+[0m11:52:45.197408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e62a4c88-40d5-4707-9a4d-66ca0860c8e3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b4fdc0>]}
