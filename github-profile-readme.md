@@ -65,25 +65,11 @@
 
 ## 📂 Featured Projects
 
-### 🔧 Data Engineering
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| **[Fraud ML Pipeline](https://github.com/makuzminets/data-engineering-max/tree/main/fraud_ml_pipeline)** | Signup fraud detection: 40+ features, XGBoost/LightGBM, FastAPI scoring | Python, XGBoost, FastAPI, Docker |
-| **[Chargeback Dashboard](https://github.com/makuzminets/data-engineering-max/tree/main/chargeback_analytics)** | Payment fraud monitoring: dbt models, Streamlit dashboard, Visa/MC codes | dbt, Streamlit, Plotly, SQL |
-| **[Airflow Pipelines](https://github.com/makuzminets/data-engineering-max/tree/main/airflow_pipelines)** | 10 production-grade DAGs: ETL sync, GDPR anonymization, data quality, alerting | Airflow, BigQuery, PostgreSQL, ClickHouse |
-| **[dbt Fraud Analytics](https://github.com/makuzminets/data-engineering-max/tree/main/dbt_fraud_analytics)** | Fraud detection models: staging → marts, risk scoring, star schema | dbt, BigQuery, SQL |
-
-### 🤖 AI & Automation
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| **[n8n-automation-lab](https://github.com/makuzminets/n8n-automation-lab)** | Production-ready n8n workflows with RAG chatbots, AI agents, and booking automation | n8n, Supabase, OpenAI, Telegram |
-
 ### 🧠 Machine Learning & NLP
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| **[Fraud ML Pipeline](https://github.com/makuzminets/data-engineering-max/tree/main/fraud_ml_pipeline)** | Signup fraud detection: 40+ features, XGBoost/LightGBM, FastAPI scoring | Python, XGBoost, FastAPI, Docker |
 | **[NLTK_Text_Preprocessing_Package](https://github.com/makuzminets/NLTK_Text_Preprocessing_Package)** | Text preprocessing package for NLTK — normalization, tokenization, and text cleaning | Python, NLTK |
 | **[Gibberish-Detector](https://github.com/makuzminets/Gibberish-Detector)** | Detect gibberish text using Markov Chain probability model | Python, Markov Chain |
 
@@ -92,7 +78,20 @@
 | Project | Description | Stack |
 |---------|-------------|-------|
 | **[Email Funnel Analytics](https://github.com/makuzminets/data-engineering-max/tree/main/email_funnel_analytics)** | Email marketing funnel optimization: cohort analysis, A/B testing, segmentation, revenue insights | Python, Plotly, Pandas, Jupyter |
-| **[Stepik-ML](https://github.com/makuzminets/Stepik-ML)** | Data Science notebooks — ML algorithms, feature engineering, model evaluation | Python, Jupyter, scikit-learn |
+| **[Chargeback Dashboard](https://github.com/makuzminets/data-engineering-max/tree/main/chargeback_analytics)** | Payment fraud monitoring: Streamlit dashboard, dbt models, Visa/MC reason codes | dbt, Streamlit, Plotly, SQL |
+
+### 🔧 Data Engineering
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[Airflow Pipelines](https://github.com/makuzminets/data-engineering-max/tree/main/airflow_pipelines)** | 10 production-grade DAGs: ETL sync, GDPR anonymization, data quality, alerting | Airflow, BigQuery, PostgreSQL, ClickHouse |
+| **[dbt Fraud Analytics](https://github.com/makuzminets/data-engineering-max/tree/main/dbt_fraud_analytics)** | Fraud detection models: staging → marts, risk scoring, star schema | dbt, BigQuery, SQL |
+
+### 🤖 AI & Automation
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[n8n-automation-lab](https://github.com/makuzminets/n8n-automation-lab)** | Production-ready n8n workflows with RAG chatbots, AI agents, and booking automation | n8n, Supabase, OpenAI, Telegram |
 
 
 ## 💡 Currently Working On
