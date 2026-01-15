@@ -87,10 +87,11 @@
 | **[NLTK_Text_Preprocessing_Package](https://github.com/makuzminets/NLTK_Text_Preprocessing_Package)** | Text preprocessing package for NLTK — normalization, tokenization, and text cleaning | Python, NLTK |
 | **[Gibberish-Detector](https://github.com/makuzminets/Gibberish-Detector)** | Detect gibberish text using Markov Chain probability model | Python, Markov Chain |
 
-### 📊 Data Science
+### 📊 Data Science & Product Analytics
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| **[Email Funnel Analytics](https://github.com/makuzminets/data-engineering-max/tree/main/email_funnel_analytics)** | Email marketing funnel optimization: cohort analysis, A/B testing, segmentation, revenue insights | Python, Plotly, Pandas, Jupyter |
 | **[Stepik-ML](https://github.com/makuzminets/Stepik-ML)** | Data Science notebooks — ML algorithms, feature engineering, model evaluation | Python, Jupyter, scikit-learn |
 
 
