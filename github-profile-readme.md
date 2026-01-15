@@ -73,7 +73,7 @@
 | **[NLTK_Text_Preprocessing_Package](https://github.com/makuzminets/NLTK_Text_Preprocessing_Package)** | Text preprocessing package for NLTK — normalization, tokenization, and text cleaning | Python, NLTK |
 | **[Gibberish-Detector](https://github.com/makuzminets/Gibberish-Detector)** | Detect gibberish text using Markov Chain probability model | Python, Markov Chain |
 
-### 📊 Data Science & Product Analytics
+### 📊 Analytics & Dashboards
 
 | Project | Description | Stack |
 |---------|-------------|-------|

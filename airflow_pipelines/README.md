@@ -380,4 +380,4 @@ MIT License - feel free to use these patterns in your projects!
 
 ---
 
-Built with ❤️ by [Maksim](https://github.com/maksim) | Data Engineering Portfolio
+Built with ❤️ by [Maksim](https://github.com/makuzminets) | Data Engineering Portfolio

@@ -136,7 +136,7 @@ email_funnel_analytics/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/data-engineering-max.git
+git clone https://github.com/makuzminets/data-engineering-max.git
 cd data-engineering-max/email_funnel_analytics
 ```
 
@@ -206,7 +206,7 @@ Based on the analysis:
 
 ## Author
 
-Maksim - [GitHub Profile](https://github.com/yourusername)
+Maksim - [GitHub Profile](https://github.com/makuzminets)
 
 ## License
 
